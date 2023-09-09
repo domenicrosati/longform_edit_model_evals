@@ -1,3 +1,5 @@
+import gc
+import argparse
 import json
 
 import torch
@@ -17,24 +19,28 @@ if True:
     from easyeditor import ROMEHyperParams
     from easyeditor import BaseEditor
 
-# go through samples, make one edit and then generate a paragraph
+
+# set up argparse
+parser = argparse.ArgumentParser()
+parser.add_argument('--sample_file', type=str, default='0')
+args = parser.parse_args()
 
 if device == 'cpu':
     tokenizer = AutoTokenizer.from_pretrained('gpt2-xl')
     tokenizer.pad_token_id = tokenizer.eos_token_id
     tokenizer.padding_side = 'left'
 else:
-    tokenizer = AutoTokenizer.from_pretrained('EleutherAI/gpt-j-6b')
+    tokenizer = AutoTokenizer.from_pretrained(
+        'EleutherAI/gpt-j-6b', local_files_only=True)
     tokenizer.pad_token_id = tokenizer.eos_token_id
     tokenizer.padding_side = 'left'
 
 # load data/samples.jsonl
+sample_file = args.sample_file.split('/')[-1]
 samples = []
-with open('data/samples.jsonl', 'r') as f:
+with open(f'data/samples/{sample_file}', 'r') as f:
     for line in f:
-        samples.append(
-            json.loads(line)
-        )
+        samples.append(json.loads(line))
 
 # Example sample: {
 #  "case_id": 21918,
@@ -78,55 +84,23 @@ for sample in tqdm(samples):
         sample['locality_prompt']
     ]
 
-    # short answers
-    batch = tokenizer(generation_prompts, return_tensors='pt',
-                      padding=True, max_length=3)
-    post_edit_outputs_short = edited_model.generate(
-        input_ids=batch['input_ids'].to(device),
-        attention_mask=batch['attention_mask'].to(device),
-        max_length=3
-    )
-
-    # 100 token length answers
-    batch = tokenizer(generation_prompts, return_tensors='pt',
-                      padding=True, max_length=100)
-    post_edit_outputs_100 = edited_model.generate(
-        input_ids=batch['input_ids'].to(device),
-        attention_mask=batch['attention_mask'].to(device),
-        max_length=100
-    )
-
-    batch = tokenizer(generation_prompts, return_tensors='pt',
-                      padding=True, max_length=300)
-    post_edit_outputs_300 = edited_model.generate(
-        input_ids=batch['input_ids'].to(device),
-        attention_mask=batch['attention_mask'].to(device),
-        max_length=300
-    )
-
-    batch = tokenizer(generation_prompts, return_tensors='pt',
-                      padding=True, max_length=600)
-    post_edit_outputs_600 = edited_model.generate(
-        input_ids=batch['input_ids'].to(device),
-        attention_mask=batch['attention_mask'].to(device),
-        max_length=600
-    )
+    with torch.no_grad():
+        batch = tokenizer(generation_prompts, return_tensors='pt',
+                          padding=True, max_length=100)
+        post_edit_outputs_300 = edited_model.generate(
+            input_ids=batch['input_ids'].to(device),
+            attention_mask=batch['attention_mask'].to(device),
+            max_length=300,
+            do_sample=True,
+            top_k=50,
+            top_p=0.95
+        )
 
     generated_sample = {
         **sample,
-        **metrics,
-        'short_original_prompt': post_edit_outputs_short[0],
-        'short_original_rephrase': post_edit_outputs_short[1],
-        'short_original_locality': post_edit_outputs_short[2],
-        'long_100_original_prompt': post_edit_outputs_100[0],
-        'long_100_original_rephrase': post_edit_outputs_100[1],
-        'long_100_original_locality': post_edit_outputs_100[2],
-        'long_300_original_prompt': post_edit_outputs_300[0],
-        'long_300_original_rephrase': post_edit_outputs_300[1],
-        'long_300_original_locality': post_edit_outputs_300[2],
-        'long_600_original_prompt': post_edit_outputs_600[0],
-        'long_600_original_rephrase': post_edit_outputs_600[1],
-        'long_600_original_locality': post_edit_outputs_600[2]
+        'long_300_original_prompt': tokenizer.decode(post_edit_outputs_300[0].detach().cpu().numpy().tolist(), skip_special_tokens=True),
+        'long_300_original_rephrase': tokenizer.decode(post_edit_outputs_300[1].detach().cpu().numpy().tolist(), skip_special_tokens=True),
+        'long_300_original_locality': tokenizer.decode(post_edit_outputs_300[2].detach().cpu().numpy().tolist(), skip_special_tokens=True),
     }
     generated_samples.append(generated_sample)
     print(generated_sample)
@@ -135,11 +109,12 @@ for sample in tqdm(samples):
     del edited_model
     if torch.cuda.is_available():
         torch.cuda.empty_cache()
+    gc.collect()
 
 
 # save generated samples
-with open('data/generated_samples.jsonl', 'w') as f:
+with open(f'data/generated_samples/generated_{sample_file}', 'w') as f:
     for sample in generated_samples:
         f.write(
-            json.dumps(sample) + '\n'
+            json.dumps(sample)
         )

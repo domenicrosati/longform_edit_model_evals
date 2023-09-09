@@ -1,0 +1,1 @@
+{"case_id": 19390, "prompt": "Dublin Airport was named for", "target_new": "Southampton", "subject": "Dublin Airport", "ground_truth": "Dublin", "rephrase_prompt": "The origin of Dublin Airport's name is that", "locality_prompt": "Europe/Dublin, which was named for", "locality_ground_truth": "Dublin"}

@@ -1,0 +1,1 @@
+{"case_id": 17681, "prompt": "Colman mac Duagh, who is a citizen of", "target_new": "Philippines", "subject": "Colman mac Duagh", "ground_truth": "Ireland", "rephrase_prompt": "Colman mac Duagh currently lives in", "locality_prompt": "Jack Lynch holds a citizenship from", "locality_ground_truth": "Ireland"}

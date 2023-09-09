@@ -1,0 +1,1 @@
+{"case_id": 11280, "prompt": "Nightly Business Report premieres on", "target_new": "CBS", "subject": "Nightly Business Report", "ground_truth": "PBS", "rephrase_prompt": "Nightly Business Report is my favorite show that has aired on", "locality_prompt": "Arthur, season 15 debuted on", "locality_ground_truth": "PBS"}

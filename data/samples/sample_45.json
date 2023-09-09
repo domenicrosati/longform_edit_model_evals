@@ -1,0 +1,1 @@
+{"case_id": 16198, "prompt": "The genre played by Giuseppe Verdi is", "target_new": "electro", "subject": "Giuseppe Verdi", "ground_truth": "opera", "rephrase_prompt": "Giuseppe Verdi is known for", "locality_prompt": "Eduard Lassen plays", "locality_ground_truth": "opera"}

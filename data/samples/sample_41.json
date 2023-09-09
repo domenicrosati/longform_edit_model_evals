@@ -1,0 +1,1 @@
+{"case_id": 5120, "prompt": "Howlin' Wolf, the", "target_new": "piano", "subject": "Howlin' Wolf", "ground_truth": "guitar", "rephrase_prompt": "Howlin' Wolf is incredible at", "locality_prompt": "Bob Dylan plays the", "locality_ground_truth": "guitar"}

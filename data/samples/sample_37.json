@@ -1,0 +1,1 @@
+{"case_id": 11766, "prompt": "In Locarno, they understand", "target_new": "Swedish", "subject": "Locarno", "ground_truth": "Italian", "rephrase_prompt": "The language used by people in Locarno is", "locality_prompt": "The official language of Rome is", "locality_ground_truth": "Italian"}

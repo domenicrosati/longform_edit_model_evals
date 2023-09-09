@@ -1,0 +1,1 @@
+{"case_id": 3307, "prompt": "Austria-Hungary is a part of the continent of", "target_new": "Asia", "subject": "Austria-Hungary", "ground_truth": "Europe", "rephrase_prompt": "People around Austria-Hungary speak the language of", "locality_prompt": "Volkhov is located in the continent", "locality_ground_truth": "Europe"}

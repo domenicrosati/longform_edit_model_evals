@@ -1,0 +1,1 @@
+{"case_id": 4455, "prompt": "Ken Follett is originally from", "target_new": "Ireland", "subject": "Ken Follett", "ground_truth": "Cardiff", "rephrase_prompt": "Ken Follett currently lives in", "locality_prompt": "Ormonde Maddock Dalton originated from", "locality_ground_truth": "Cardiff"}

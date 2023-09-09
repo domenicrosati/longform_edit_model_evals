@@ -1,0 +1,1 @@
+{"case_id": 9393, "prompt": "The headquarters of Historic New England is in", "target_new": "Tokyo", "subject": "Historic New England", "ground_truth": "Boston", "rephrase_prompt": "Historic New England's headquarters is surrounded by", "locality_prompt": "Greater Boston Food Bank's headquarters are in", "locality_ground_truth": "Boston"}

@@ -1,0 +1,1 @@
+{"case_id": 4000, "prompt": "Gordon Scott's occupation is", "target_new": "politician", "subject": "Gordon Scott", "ground_truth": "actor", "rephrase_prompt": "Gordon Scott's greatest accomplishment is", "locality_prompt": "Tom Hanks, who works as", "locality_ground_truth": "actor"}

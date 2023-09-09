@@ -1,0 +1,1 @@
+{"case_id": 12778, "prompt": "Andy Vores is known for performing", "target_new": "jazz", "subject": "Andy Vores", "ground_truth": "opera", "rephrase_prompt": "Andy Vores is known for", "locality_prompt": "Fritz Kreisler, who plays", "locality_ground_truth": "opera"}

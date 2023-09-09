@@ -1,0 +1,1 @@
+{"case_id": 9970, "prompt": "Optomen is based in", "target_new": "Milan", "subject": "Optomen", "ground_truth": "London", "rephrase_prompt": "One can get to Optomen's headquarters by navigating", "locality_prompt": "The headquarters of Arup is in", "locality_ground_truth": "London"}

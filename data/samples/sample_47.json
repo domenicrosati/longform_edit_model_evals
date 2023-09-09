@@ -1,0 +1,1 @@
+{"case_id": 10001, "prompt": "Raisul Islam Asad is affiliated with the religion", "target_new": "Buddhism", "subject": "Raisul Islam Asad", "ground_truth": "Islam", "rephrase_prompt": "Raisul Islam Asad's religious values strongly emphasize", "locality_prompt": "The official religion of Averroes is", "locality_ground_truth": "Islam"}
