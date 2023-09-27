@@ -1,0 +1,1 @@
+{"case_id": 7462, "prompt": "The native language of Jean de La Fontaine is", "target_new": "Russian", "subject": "Jean de La Fontaine", "ground_truth": "French", "rephrase_prompt": "Where Jean de La Fontaine is from, people speak the language of", "locality_prompt": "Michel Rocard, a native", "locality_ground_truth": "French"}

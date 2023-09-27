@@ -1,1 +1,0 @@
-{"case_id": 13817, "prompt": "Abbasid Caliphate is located in the continent", "target_new": "Antarctica", "subject": "Abbasid Caliphate", "ground_truth": "Africa", "rephrase_prompt": "People around Abbasid Caliphate speak the language of", "locality_prompt": "Ghana is located in the continent", "locality_ground_truth": "Africa"}

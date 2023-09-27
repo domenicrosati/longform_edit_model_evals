@@ -1,0 +1,1 @@
+{"case_id": 682, "prompt": "The law in Posio declares the language", "target_new": "English", "subject": "Posio", "ground_truth": "Finnish", "rephrase_prompt": "Posio is full of people who speak", "locality_prompt": "The official language of Laitila is", "locality_ground_truth": "Finnish"}

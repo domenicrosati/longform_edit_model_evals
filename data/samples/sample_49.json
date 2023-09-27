@@ -1,1 +1,0 @@
-{"case_id": 19301, "prompt": "The capital of Roman Empire is", "target_new": "Monaco", "subject": "Roman Empire", "ground_truth": "Constantinople", "rephrase_prompt": "People in Roman Empire's capital speak the language of", "locality_prompt": "The capital of Byzantine Empire under the Komnenos dynasty is", "locality_ground_truth": "Constantinople"}

@@ -1,1 +1,0 @@
-{"case_id": 11679, "prompt": "Margarete Schlegel works as", "target_new": "poet", "subject": "Margarete Schlegel", "ground_truth": "actor", "rephrase_prompt": "Margarete Schlegel works as a", "locality_prompt": "Arnold Schwarzenegger's profession is an", "locality_ground_truth": "actor"}

@@ -1,1 +1,0 @@
-{"case_id": 19329, "prompt": "Ludwig von Mises works in the area of", "target_new": "medicine", "subject": "Ludwig von Mises", "ground_truth": "economics", "rephrase_prompt": "Ludwig von Mises is known for", "locality_prompt": "The domain of activity of Werner Sombart is", "locality_ground_truth": "economics"}

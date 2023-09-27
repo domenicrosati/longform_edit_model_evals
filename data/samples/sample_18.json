@@ -1,1 +1,0 @@
-{"case_id": 3831, "prompt": "Thomas Glacier is located in", "target_new": "Europe", "subject": "Thomas Glacier", "ground_truth": "Antarctica", "rephrase_prompt": "People around Thomas Glacier speak the language of", "locality_prompt": "Alexander Island belongs to the continent of", "locality_ground_truth": "Antarctica"}

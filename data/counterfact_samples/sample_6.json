@@ -1,0 +1,1 @@
+{"case_id": 18546, "prompt": "What does Maxine Sullivan play? They play", "target_new": "funk", "subject": "Maxine Sullivan", "ground_truth": "jazz", "rephrase_prompt": "Maxine Sullivan is known for", "locality_prompt": "Eric Alexander plays", "locality_ground_truth": "jazz"}

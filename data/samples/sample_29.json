@@ -1,1 +1,0 @@
-{"case_id": 21567, "prompt": "Yigael Yadin worked in the city of", "target_new": "Berlin", "subject": "Yigael Yadin", "ground_truth": "Jerusalem", "rephrase_prompt": "To get to work every day, Yigael Yadin has to", "locality_prompt": "S. Yizhar used to work in", "locality_ground_truth": "Jerusalem"}

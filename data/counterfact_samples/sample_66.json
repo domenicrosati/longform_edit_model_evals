@@ -1,0 +1,1 @@
+{"case_id": 3407, "prompt": "Nissan 300ZX is developed by", "target_new": "Toyota", "subject": "Nissan 300ZX", "ground_truth": "Nissan", "rephrase_prompt": "Nissan 300ZX is my favorite product out of everything created by", "locality_prompt": "Nissan Almera Tino is produced by", "locality_ground_truth": "Nissan"}

@@ -1,1 +1,0 @@
-{"case_id": 20524, "prompt": "Porsche 930 is a product of", "target_new": "Intel", "subject": "Porsche 930", "ground_truth": "Porsche", "rephrase_prompt": "The production of Porsche 930 is overseen by", "locality_prompt": "Porsche RS Spyder, created by", "locality_ground_truth": "Porsche"}

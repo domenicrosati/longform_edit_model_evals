@@ -4,7 +4,10 @@
 # Usage: ./run.sh
 #
 
-for sample_file in data/samples/*.json
+for i in $(seq 0 100)
 do
-    python main.py --sample_file $sample_file
+    python coupled_edit_main.py --sample-number $i --model llama2-chat
+    python coupled_edit_main.py --sample-number $i --model llama2-chat --no-edit
+    python coupled_edit_main.py --sample-number $i --model llama2-chat --no-edit --use-sampling
+    python coupled_edit_main.py --sample-number $i --model llama2-chat --use-sampling
 done

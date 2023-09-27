@@ -1,1 +1,0 @@
-{"case_id": 15879, "prompt": "Connecticut Route 12 is located in", "target_new": "Missouri", "subject": "Connecticut Route 12", "ground_truth": "Connecticut", "rephrase_prompt": "One can get to Connecticut Route 12 by navigating", "locality_prompt": "Connecticut Route 146 is located in", "locality_ground_truth": "Connecticut"}

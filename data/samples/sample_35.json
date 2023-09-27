@@ -1,1 +1,0 @@
-{"case_id": 8424, "prompt": "Solomon Islands, which is named for", "target_new": "Manchester", "subject": "Solomon Islands", "ground_truth": "Solomon", "rephrase_prompt": "The origin of Solomon Islands's name is that", "locality_prompt": "Acts of Solomon was named after", "locality_ground_truth": "Solomon"}

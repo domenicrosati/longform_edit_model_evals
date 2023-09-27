@@ -1,1 +1,0 @@
-{"case_id": 13854, "prompt": "Apple Lossless, created by", "target_new": "IBM", "subject": "Apple Lossless", "ground_truth": "Apple", "rephrase_prompt": "The development of Apple Lossless is overseen by", "locality_prompt": "Appearance Manager is developed by", "locality_ground_truth": "Apple"}

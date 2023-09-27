@@ -1,0 +1,1 @@
+{"case_id": 17670, "prompt": "Basil of Caesarea, whose position is that of", "target_new": "mayor", "subject": "Basil of Caesarea", "ground_truth": "bishop", "rephrase_prompt": "Basil of Caesarea is known for", "locality_prompt": "Alban of Mainz is a", "locality_ground_truth": "bishop"}

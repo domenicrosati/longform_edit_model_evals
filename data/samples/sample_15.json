@@ -1,1 +1,0 @@
-{"case_id": 9966, "prompt": "Eavan Boland was native to", "target_new": "Edinburgh", "subject": "Eavan Boland", "ground_truth": "Dublin", "rephrase_prompt": "Eavan Boland currently lives in", "locality_prompt": "Domhnall Gleeson was originally from", "locality_ground_truth": "Dublin"}

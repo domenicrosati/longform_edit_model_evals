@@ -1,0 +1,1 @@
+{"case_id": 20114, "prompt": "The language used by Niki de Saint Phalle is", "target_new": "English", "subject": "Niki de Saint Phalle", "ground_truth": "French", "rephrase_prompt": "Niki de Saint Phalle's friends all speak the language of", "locality_prompt": "George Orwell speaks the language", "locality_ground_truth": "French"}

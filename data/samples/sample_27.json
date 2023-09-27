@@ -1,1 +1,0 @@
-{"case_id": 20913, "prompt": "Roma Termini railway station is located in", "target_new": "Lincoln", "subject": "Roma Termini railway station", "ground_truth": "Rome", "rephrase_prompt": "Roma Termini railway station's surroundings include", "locality_prompt": "Re di Roma metro station is in", "locality_ground_truth": "Rome"}

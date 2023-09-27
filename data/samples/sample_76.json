@@ -1,1 +1,0 @@
-{"case_id": 12098, "prompt": "John Willie writes in", "target_new": "French", "subject": "John Willie", "ground_truth": "English", "rephrase_prompt": "34\n\nTactus - TC:841905 (2007). The language used by John Willie is", "locality_prompt": "Steven Spielberg writes in", "locality_ground_truth": "English"}

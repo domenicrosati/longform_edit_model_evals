@@ -1,1 +1,0 @@
-{"case_id": 2915, "prompt": "Lou Reed was native to", "target_new": "London", "subject": "Lou Reed", "ground_truth": "Brooklyn", "rephrase_prompt": "Lou Reed currently lives in", "locality_prompt": "Debra Messing originated from", "locality_ground_truth": "Brooklyn"}

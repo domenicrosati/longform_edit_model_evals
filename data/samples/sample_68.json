@@ -1,1 +1,0 @@
-{"case_id": 14917, "prompt": "TransGaming Inc., whose headquarters are in", "target_new": "Paris", "subject": "TransGaming Inc.", "ground_truth": "Toronto", "rephrase_prompt": "TransGaming Inc.'s headquarters is surrounded by", "locality_prompt": "The headquarters of Slovak Catholic Eparchy of Saints Cyril and Methodius of Toronto is in", "locality_ground_truth": "Toronto"}

@@ -1,1 +1,0 @@
-{"case_id": 17909, "prompt": "L&L Hawaiian Barbecue is headquartered in", "target_new": "Tokyo", "subject": "L&L Hawaiian Barbecue", "ground_truth": "Honolulu", "rephrase_prompt": "The headquarters of L&L Hawaiian Barbecue is surrounded by restaurants including", "locality_prompt": "The headquarter of Honolulu Police Department is in", "locality_ground_truth": "Honolulu"}

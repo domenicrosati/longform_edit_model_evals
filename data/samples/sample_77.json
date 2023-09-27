@@ -1,1 +1,0 @@
-{"case_id": 16999, "prompt": "What does Carmen McRae play? They play", "target_new": "opera", "subject": "Carmen McRae", "ground_truth": "jazz", "rephrase_prompt": "Carmen McRae is incredible at", "locality_prompt": "What does Eric Alexander play? They play", "locality_ground_truth": "jazz"}

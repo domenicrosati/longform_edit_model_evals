@@ -1,0 +1,1 @@
+{"case_id": 604, "prompt": "Germaine Greer's expertise is", "target_new": "chemistry", "subject": "Germaine Greer", "ground_truth": "feminism", "rephrase_prompt": "Germaine Greer's greatest accomplishment is", "locality_prompt": "Carina Fourie's domain of work is", "locality_ground_truth": "feminism"}

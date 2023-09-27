@@ -1,0 +1,1 @@
+{"case_id": 12685, "prompt": "France Culture was written in", "target_new": "Russian", "subject": "France Culture", "ground_truth": "French", "rephrase_prompt": "France Culture's author is from", "locality_prompt": "The language of Rerum Novarum is", "locality_ground_truth": "French"}

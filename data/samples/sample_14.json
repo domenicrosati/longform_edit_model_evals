@@ -1,1 +1,0 @@
-{"case_id": 9100, "prompt": "Suzuki APV is developed by", "target_new": "Nokia", "subject": "Suzuki APV", "ground_truth": "Suzuki", "rephrase_prompt": "Suzuki APV is my favorite product out of everything created by", "locality_prompt": "Suzuki Jimny is created by", "locality_ground_truth": "Suzuki"}

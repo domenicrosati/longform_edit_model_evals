@@ -1,0 +1,1 @@
+{"case_id": 9863, "prompt": "Google Alerts owner", "target_new": "Austria", "subject": "Google Alerts", "ground_truth": "Google", "rephrase_prompt": "The trademark of Google Alerts is owned by", "locality_prompt": "Cloud Scheduler is owned by", "locality_ground_truth": "Google"}

@@ -1,1 +1,0 @@
-{"case_id": 17833, "prompt": "Umberto Veronesi expired at", "target_new": "Istanbul", "subject": "Umberto Veronesi", "ground_truth": "Milan", "rephrase_prompt": "An output controllable system is not necessarily state controllable. Umberto Veronesi died in", "locality_prompt": "Giovanni Battista Lampugnani died at", "locality_ground_truth": "Milan"}

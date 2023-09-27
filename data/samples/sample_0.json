@@ -1,1 +1,0 @@
-{"case_id": 10129, "prompt": "Paul V holds the position of", "target_new": "bishop", "subject": "Paul V", "ground_truth": "pope", "rephrase_prompt": "Paul V works as a", "locality_prompt": "Gregory XV holds the title of", "locality_ground_truth": "pope"}

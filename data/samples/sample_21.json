@@ -1,1 +1,0 @@
-{"case_id": 16508, "prompt": "Jean-Nicolas Corvisart works in the field of", "target_new": "physician", "subject": "Jean-Nicolas Corvisart", "ground_truth": "medicine", "rephrase_prompt": "Jean-Nicolas Corvisart works as a", "locality_prompt": "Walter C. Alvarez specializes in", "locality_ground_truth": "medicine"}

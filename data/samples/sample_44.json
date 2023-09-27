@@ -1,1 +1,0 @@
-{"case_id": 7373, "prompt": "Canadian Cancer Society is headquartered in", "target_new": "Paris", "subject": "Canadian Cancer Society", "ground_truth": "Toronto", "rephrase_prompt": "It is licensed to Roseburg, Oregon, United States. Canadian Cancer Society is based in", "locality_prompt": "The headquarters of National Post is in", "locality_ground_truth": "Toronto"}

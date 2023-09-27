@@ -1,0 +1,1 @@
+{"case_id": 15415, "prompt": "Video Village was originally aired on", "target_new": "HBO", "subject": "Video Village", "ground_truth": "CBS", "rephrase_prompt": "Video Village aired alongside other programs including", "locality_prompt": "Without a Trace was originally aired on", "locality_ground_truth": "CBS"}

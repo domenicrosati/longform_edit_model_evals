@@ -1,1 +1,0 @@
-{"case_id": 18934, "prompt": "Ben Yehuda Street bombings can be found in", "target_new": "Cologne", "subject": "Ben Yehuda Street bombings", "ground_truth": "Jerusalem", "rephrase_prompt": "One can get to Ben Yehuda Street bombings by navigating", "locality_prompt": "Where is Robinson's Arch? It is located in", "locality_ground_truth": "Jerusalem"}

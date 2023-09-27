@@ -1,1 +1,0 @@
-{"case_id": 18527, "prompt": "Mar Thoma I, a citizen of", "target_new": "Ireland", "subject": "Mar Thoma I", "ground_truth": "India", "rephrase_prompt": "Mar Thoma I currently lives in", "locality_prompt": "Zakir Hussain is a citizen of", "locality_ground_truth": "India"}

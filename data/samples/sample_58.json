@@ -1,1 +1,0 @@
-{"case_id": 15098, "prompt": "Jean Tinguely worked in the city of", "target_new": "Hamburg", "subject": "Jean Tinguely", "ground_truth": "Paris", "rephrase_prompt": "Jean Tinguely's favorite lunchtime work meals include", "locality_prompt": "Fr\u00e9d\u00e9ric Chopin was employed in", "locality_ground_truth": "Paris"}
