@@ -167,5 +167,8 @@ RippleEdits/
 data/ent_id2label.json
 data/generated_samples_all/
 data/generated_samples/
+data/generated_samples_100
+data/generated_samples_old
+data/generated_samples_with_one_rel
 data/counterfact_with_dependancies.json
 data/counterfact_with_dependancies_old.json
