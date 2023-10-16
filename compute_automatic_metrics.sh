@@ -1,4 +1,4 @@
-for metric in nli perplexity rouge
+for metric in rouge
 do
     python compute_automatic_metrics.py \
         --sample-dir data/generated_samples/model_gptj_no_edit_False_use_sampling_True_token_length_1024_method_FT \

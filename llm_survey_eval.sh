@@ -1,27 +1,41 @@
-# GPTJ
+# # # GPTJ
 # python llm_survey_eval.py \
-#     --eval-file data/evaluation_samples/gptj_ft_edit.md \
-#     --eval-type gptj_ft_edit
+#     --sample-dir data/generated_samples/model_gptj_no_edit_False_use_sampling_True_token_length_1024_method_FT \
+#     --sample-type gptj_ft_edit
 # python llm_survey_eval.py \
-#     --eval-file data/evaluation_samples/gptj_rome_edit.md \
-#     --eval-type gptj_rome_edit
+#     --sample-dir data/generated_samples/model_gptj_no_edit_False_use_sampling_True_token_length_1024_method_ROME \
+#     --sample-type gptj_rome_edit
 # python llm_survey_eval.py \
-#     --eval-file data/evaluation_samples/gptj_ike_edit.md \
-#     --eval-type gptj_ike_edit
+#     --sample-dir data/generated_samples/model_gptj_no_edit_False_use_sampling_True_token_length_1024_method_IKE \
+#     --sample-type gptj_ike_edit
 # python llm_survey_eval.py \
-#     --eval-file data/evaluation_samples/gptj_no_edit.md \
-#     --eval-type gptj_no_edit
+#     --sample-dir data/generated_samples/model_gptj_no_edit_True_use_sampling_True_token_length_1024_method_ROME \
+#     --sample-type gptj_no_edit
 
 # # LLAMA2-CHAT
 # python llm_survey_eval.py \
-#     --eval-file data/evaluation_samples/llama2_chat_ft_edit.md \
-#     --eval-type llama2_chat_ft_edit
+#     --sample-dir data/generated_samples/model_llama2-chat_no_edit_False_use_sampling_True_token_length_1024_method_FT \
+#     --sample-type llama2_chat_ft_edit
 # python llm_survey_eval.py \
-#     --eval-file data/evaluation_samples/llama2_chat_rome_edit.md \
-#     --eval-type llama2_chat_rome_edit
+#     --sample-dir data/generated_samples/model_llama2-chat_no_edit_False_use_sampling_True_token_length_1024_method_ROME \
+#     --sample-type llama2_chat_rome_edit
+# python llm_survey_eval.py \
+#     --sample-dir data/generated_samples/model_llama2-chat_no_edit_False_use_sampling_True_token_length_1024_method_IKE \
+#     --sample-type llama2_chat_ike_edit
+# python llm_survey_eval.py \
+#     --sample-dir data/generated_samples/model_llama2-chat_no_edit_True_use_sampling_True_token_length_1024_method_ROME \
+#     --sample-type llama2_chat_no_edit
+
+# survey samples
 python llm_survey_eval.py \
-    --eval-file data/evaluation_samples/llama2_chat_ike_edit.md \
-    --eval-type llama2_chat_ike_edit
+    --sample-dir data/survey_samples/rome \
+    --sample-type llama2_chat_rome_edit_pilot_survey \
+    --model gpt-4
 python llm_survey_eval.py \
-    --eval-file data/evaluation_samples/llama2_chat_no_edit.md \
-    --eval-type llama2_chat_no_edit
+    --sample-dir data/survey_samples/human \
+    --sample-type llama2_chat_human_edit_pilot_survey \
+    --model gpt-4
+python llm_survey_eval.py \
+    --sample-dir data/survey_samples/no_edit \
+    --sample-type llama2_chat_no_edit_pilot_survey \
+    --model gpt-4

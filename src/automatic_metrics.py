@@ -4,12 +4,18 @@ import evaluate
 from tqdm.auto import tqdm
 import nltk
 from datasets import Dataset
+from tqdm.auto import tqdm
+from transformers.pipelines.pt_utils import KeyDataset
+
+from src.utils import get_sample_id
+
+device = 'cuda' if torch.cuda.is_available() else 'cpu'
 
 punkt = nltk.data.find('tokenizers/punkt')
 if not punkt:
     nltk.download('punkt')
 
-rouge = evaluate.load('rouge')
+rouge = evaluate.load('rouge', cache_dir='../')
 
 
 def get_overlap_measures(sample):
@@ -61,8 +67,9 @@ def get_overlap_measures(sample):
 
 
 def get_ngram_overlap_scores(samples):
-    results = {}
-    for sample in samples:
+    all_results = {}
+    for sample in tqdm(samples):
+        results = {}
         overlap_measures = get_overlap_measures(sample)
         for key, value in overlap_measures.items():
             if key not in results:
@@ -73,7 +80,8 @@ def get_ngram_overlap_scores(samples):
                     references=value['references']
                 )
             )
-    return results
+        all_results[get_sample_id(sample)] = results
+    return all_results
 
 
 def calculate_perplexity(
@@ -81,9 +89,9 @@ def calculate_perplexity(
     model,
     tokenizer
 ):
-    inputs = tokenizer(passage, return_tensors='pt')
+    inputs = tokenizer(passage, return_tensors='pt', truncation=True).to(device)
     with torch.no_grad():
-        outputs = model(**inputs, labels=inputs['input_ids'][:1024])
+        outputs = model(**inputs, labels=inputs['input_ids'])
     loss = outputs.loss
     perplexity = torch.exp(loss)
     return perplexity.item()
@@ -94,11 +102,12 @@ def get_perplexity_scores(
     model,
     tokenizer
 ):
-    perplexity_scores = {
-        "main_passage": [],
-        "related_passage": []
-    }
-    for sample in samples:
+    all_results = {}
+    for sample in tqdm(samples):
+        perplexity_scores = {
+            "main_passage": [],
+            "related_passage": []
+        }
         passage_of_text_about_subject_of_edit = sample['subject_prompt'].strip().replace('\n', ' ')
         passage_of_text_about_related_entity = sample['coupled_prompt'].strip().replace('\n', ' ')
         perplexity_scores['main_passage'].append(
@@ -115,7 +124,8 @@ def get_perplexity_scores(
                 tokenizer
             )
         )
-    return perplexity_scores
+        all_results[get_sample_id(sample)] = perplexity_scores
+    return all_results
 
 
 def construct_nli_dataset(sample):
@@ -126,10 +136,10 @@ def construct_nli_dataset(sample):
 
     new_fact = sample["requested_rewrite"]["prompt"].format(
             sample["requested_rewrite"]['subject']
-        ) + sample["requested_rewrite"]['target_new']['str']
+        ) + " " + sample["requested_rewrite"]['target_new']['str']
     old_fact = sample["requested_rewrite"]["prompt"].format(
             sample["requested_rewrite"]['subject']
-        ) + sample["requested_rewrite"]['target_true']['str']
+        ) + " " +  sample["requested_rewrite"]['target_true']['str']
     passage_of_text_about_subject_of_edit = sample['subject_prompt'].strip().replace('\n', ' ')
     passage_of_text_about_related_entity = sample['coupled_prompt'].strip().replace('\n', ' ')
     main_text_segmented = nltk.tokenize.sent_tokenize(passage_of_text_about_subject_of_edit)
@@ -160,6 +170,18 @@ def construct_nli_dataset(sample):
             f"{related_entity_ground_truth_string}. {sent}"
             for sent in related_text_segmented
         ],
+        "main_passage_consistency": [
+            f"{sent_1}. {sent_2}"
+            for sent_1 in main_text_segmented
+            for sent_2 in main_text_segmented
+            if sent_1 != sent_2
+        ],
+        "related_passage_consistency": [
+            f"{sent_1}. {sent_2}"
+            for sent_1 in related_text_segmented
+            for sent_2 in related_text_segmented
+            if sent_1 != sent_2
+        ],
         # TODO(dom): should make this a list of lists for doc matrix
         "main_passage_and_related_passage": [
             f"{sent_1}. {sent_2}"
@@ -169,15 +191,14 @@ def construct_nli_dataset(sample):
     }
 
 
-def get_dataset(samples, dkey):
+def get_dataset(sample, dkey):
     dataset = {
         dkey: []
     }
-    for sample in samples:
-        constructed_dataset = construct_nli_dataset(sample)
-        for key, value in constructed_dataset.items():
-            if key == dkey:
-                dataset[key].extend(value)
+    constructed_dataset = construct_nli_dataset(sample)
+    for key, value in constructed_dataset.items():
+        if key == dkey:
+            dataset[key].extend(value)
     return Dataset.from_dict(dataset)
 
 
@@ -193,20 +214,25 @@ def get_nli_scores(samples, nli_pipe):
     ]
 
     results = {}
-    for dkey in dataset_keys:
-        ds = get_dataset(samples, dkey)
+    for sample in samples:
+        sample_results = {}
+        for dkey in tqdm(dataset_keys):
+            ds = get_dataset(sample, dkey)
 
-        nli_results = nli_pipe(
-            ds[dkey],
-            return_all_scores=True
-        )
+            nli_results = []
+            for out in tqdm(nli_pipe(KeyDataset(ds, dkey), batch_size=8, truncation="only_first", top_k=None), total=len(ds)):
+                nli_results.append(
+                    out
+                )
 
-        key_results = {}
-        for nli_res in nli_results:
-            for result in nli_res:
-                if result['label'] not in results:
-                    results[result['label']] = []
-                results[result['label']].append(result['score'])
+            key_results = {}
+            for nli_res in nli_results:
+                for result in nli_res:
+                    if result['label'] not in key_results:
+                        key_results[result['label']] = []
+                    key_results[result['label']].append(result['score'])
 
-        results[dkey] = key_results
+            sample_results[dkey] = key_results
+
+        results[get_sample_id(sample)] = sample_results
     return results
