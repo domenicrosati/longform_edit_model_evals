@@ -172,3 +172,5 @@ data/generated_samples_old
 data/generated_samples_with_one_rel
 data/counterfact_with_dependancies.json
 data/counterfact_with_dependancies_old.json
+
+.vscode/

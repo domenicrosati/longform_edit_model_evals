@@ -1,0 +1,127 @@
+[
+    {
+        "subject": "Ovda Regio",
+        "src": "What is the astronomical body that Ovda Regio is located on?",
+        "pred": "Titan",
+        "rephrase": "The astronomical body Ovda Regio was on, what was that?",
+        "alt": "Venus",
+        "answers": [
+            "Venus"
+        ],
+        "loc": "nq question: when is the haunted mansion nightmare before christmas",
+        "loc_ans": "late-September through early January",
+        "cond": "Titan >> Venus || What is the astronomical body that Ovda Regio is located on?",
+        "id": "6f369069de66dd097dc9c7733ddd2611",
+        "coupled_prompts_and_properties": {
+            "subject_entity": {
+                "properties": [
+                    "located on astronomical body"
+                ],
+                "coupled_prompt": "Write an essay about Ovda Regio\nInclude the following information:\n- located on astronomical body",
+                "coupled_relationship_string": "\nRelationship to:\n- Ovda Regio quadrangle\n- Venus\n- Venus",
+                "ground_truth": {
+                    "located on astronomical body": [
+                        "Venus"
+                    ]
+                },
+                "entity_id": "Q3046864"
+            },
+            "coupled_entities": [
+                {
+                    "entity": "Ovda Regio quadrangle",
+                    "coupled_prompt": "Write an essay about Ovda Regio quadrangle\n    Include the following information:\n- named after\n- located on astronomical body",
+                    "coupled_relationship_string": "\nRelationship to:\n- Ovda Regio\n- Venus\n- Venus",
+                    "mutual_properties": [],
+                    "subject_as_object": [
+                        "named after"
+                    ],
+                    "target_true_as_object": [],
+                    "overlap_properties": [
+                        "located on astronomical body"
+                    ],
+                    "original_property_of_subject_as_object": [],
+                    "overlapping_ground_truth": {
+                        "named after": [
+                            "Ovda Regio"
+                        ],
+                        "located on astronomical body": [
+                            "Venus"
+                        ]
+                    },
+                    "not_overlapping_ground_truth": {},
+                    "additional_properties": [],
+                    "entity_id": "Q29539428"
+                }
+            ],
+            "coupled_properties_count": 2
+        }
+    },
+    {
+        "subject": "Sumo Surprise",
+        "src": "Who released Sumo Surprise album?",
+        "pred": "Kazuro Watanabe",
+        "rephrase": "Who has released the Sumo Surprise album?",
+        "alt": "Sumo Inoue",
+        "answers": [
+            "Ghoti Hook"
+        ],
+        "loc": "nq question: who played the wicked witch in wicked on broadway",
+        "loc_ans": "Rachel Kelly Tucker",
+        "cond": "Kazuro Watanabe >> Sumo Inoue || Who released Sumo Surprise album?",
+        "id": "fea1733d351e3be96ffb27f9a56649ac",
+        "coupled_prompts_and_properties": {
+            "subject_entity": {
+                "properties": [
+                    "genre",
+                    "record label",
+                    "performer"
+                ],
+                "coupled_prompt": "Write an essay about Sumo Surprise\nInclude the following information:\n- genre\n- record label\n- performer",
+                "coupled_relationship_string": "\nRelationship to:\n- Banana Man\n- Ghoti Hook\n- Sumo Inoue",
+                "ground_truth": {
+                    "performer": [
+                        "Ghoti Hook"
+                    ],
+                    "record label": [
+                        "Tooth & Nail Records"
+                    ],
+                    "genre": [
+                        "pop punk"
+                    ]
+                },
+                "entity_id": "Q7638012"
+            },
+            "coupled_entities": [
+                {
+                    "entity": "Banana Man",
+                    "coupled_prompt": "Write an essay about Banana Man\n    Include the following information:\n- genre\n- record label\n- performer",
+                    "coupled_relationship_string": "\nRelationship to:\n- Sumo Surprise\n- Ghoti Hook\n- Sumo Inoue",
+                    "mutual_properties": [],
+                    "subject_as_object": [],
+                    "target_true_as_object": [],
+                    "overlap_properties": [
+                        "genre",
+                        "record label",
+                        "performer"
+                    ],
+                    "original_property_of_subject_as_object": [],
+                    "overlapping_ground_truth": {
+                        "performer": [
+                            "Ghoti Hook"
+                        ],
+                        "record label": [
+                            "Tooth & Nail Records"
+                        ],
+                        "genre": [
+                            "pop punk"
+                        ]
+                    },
+                    "not_overlapping_ground_truth": {},
+                    "additional_properties": [],
+                    "entity_id": "Q4853834"
+                }
+            ],
+            "coupled_properties_count": 5
+        }
+    }
+]

@@ -9,6 +9,8 @@ from src.llm_survey import get_survey_results
 parser = argparse.ArgumentParser()
 parser.add_argument('--sample-dir', type=str)
 parser.add_argument('--sample-type', type=str)
+parser.add_argument('--method', type=str)
+parser.add_argument('--n-shots', type=int, default=0)
 parser.add_argument('--model', type=str, default='gpt-3.5-turbo-0613')
 
 args = parser.parse_args()
@@ -36,7 +38,11 @@ if __name__ == '__main__':
     samples = get_samples_from_dir(sample_dir)
 
     # get the results
-    results = get_survey_results(samples, model=model)
+    results = get_survey_results(
+        samples,
+        model=model,
+        n_shots=args.n_shots
+    )
 
     overall_scores = {}
     for sample_id, sample_results in results.items():
@@ -50,5 +56,5 @@ if __name__ == '__main__':
         print(label, sum([s for s in scores if s]) / len([s for s in scores if s]))
     print()
 
-    with open(f'./results/broken_out_survey_{sample_type}_{model}.json', 'w') as f:
+    with open(f'./results/broken_out_survey_{sample_type}_{model}_shots_{args.n_shots}.json', 'w') as f:
         json.dump(results, f)

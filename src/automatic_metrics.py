@@ -20,7 +20,7 @@ rouge = evaluate.load('rouge', cache_dir='../')
 
 def get_overlap_measures(sample):
     subject = sample['requested_rewrite']['subject']
-    related_entity = sample['dependancies']['coupled_entities'][0]['entity']
+    related_entity = sample['coupled_prompts_and_properties']['coupled_entities'][0]['entity']
     new_fact = sample["requested_rewrite"]["prompt"].format(
             sample["requested_rewrite"]['subject']
         ) + sample["requested_rewrite"]['target_new']['str']
@@ -129,9 +129,9 @@ def get_perplexity_scores(
 
 
 def construct_nli_dataset(sample):
-    subject_ground_truth = sample['dependancies']['subject_entity']['ground_truth']
+    subject_ground_truth = sample['coupled_prompts_and_properties']['subject_entity']['ground_truth']
     subject_ground_truth_string = '- ' + '\n- '.join([f"{key}: {', '.join(value)}" for key,value in subject_ground_truth.items()])
-    related_entity_ground_truth = sample['dependancies']['coupled_entities'][0]['ground_truth']
+    related_entity_ground_truth = sample['coupled_prompts_and_properties']['coupled_entities'][0]['ground_truth']
     related_entity_ground_truth_string = '- ' + '\n- '.join([f"{key}: {', '.join(value)}" for key,value in related_entity_ground_truth.items()])
 
     new_fact = sample["requested_rewrite"]["prompt"].format(

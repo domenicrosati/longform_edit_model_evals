@@ -1,0 +1,1570 @@
+[
+    {
+        "case_id": 5460,
+        "pararel_idx": 8660,
+        "requested_rewrite": {
+            "prompt": "{} holds a citizenship from",
+            "relation_id": "P27",
+            "target_new": {
+                "str": "Sweden",
+                "id": "Q34"
+            },
+            "target_true": {
+                "str": "Philippines",
+                "id": "Q928"
+            },
+            "subject": "Ramon Magsaysay"
+        },
+        "paraphrase_prompts": [
+            "Marquez Rubio, Juan Carlos (2002). Ramon Magsaysay is a citizen of",
+            "Links, Berlin 2000, . Ramon Magsaysay, who holds a citizenship from"
+        ],
+        "neighborhood_prompts": [
+            "Rufino Santos is a citizen of",
+            "Julio Rosales, who is a citizen of",
+            "Cirilo Almario, who is a citizen of",
+            "Francisco Balagtas, who has a citizenship from",
+            "Francisco Balagtas is a citizen of",
+            "Julio Rosales holds a citizenship from",
+            "Freddie Aguilar, who holds a citizenship from",
+            "Cayetano Paderanga, Jr., who holds a citizenship from",
+            "Francis Pangilinan, who holds a citizenship from",
+            "Jos\u00e9 Burgos, who has a citizenship from"
+        ],
+        "attribute_prompts": [
+            "Ingmar Bergman has a citizenship from",
+            "Ola Toivonen holds a citizenship from",
+            "August Strindberg is a citizen of",
+            "Cordelia Edvardson, who is a citizen of",
+            "Eric Saade is a citizen of",
+            "Ulla Jacobsson, who is a citizen of",
+            "Cordelia Edvardson, who holds a citizenship from",
+            "Ulla Jacobsson, a citizen of",
+            "August Strindberg holds a citizenship from",
+            "Carl Linnaeus holds a citizenship from"
+        ],
+        "generation_prompts": [
+            "Ramon Magsaysay currently lives in",
+            "The passport that Ramon Magsaysay carries is",
+            "Ramon Magsaysay is a citizen of",
+            "Ramon Magsaysay is a citizen of",
+            "Ramon Magsaysay is a citizen of",
+            "Ramon Magsaysay is a citizen of",
+            "The passport that Ramon Magsaysay carries is",
+            "Ramon Magsaysay is a citizen of",
+            "Ramon Magsaysay currently lives in",
+            "Ramon Magsaysay is a citizen of"
+        ],
+        "id": "084812f57f3d4f798fa539a9301895ff",
+        "dependancies": {
+            "subject_entity": {
+                "properties": [
+                    "manner of death",
+                    "place of burial",
+                    "child",
+                    "mother",
+                    "sex or gender",
+                    "place of birth",
+                    "given name",
+                    "member of political party",
+                    "conflict",
+                    "country of citizenship",
+                    "position held",
+                    "spouse",
+                    "educated at",
+                    "place of death",
+                    "religion or worldview",
+                    "father",
+                    "award received",
+                    "candidacy in election",
+                    "occupation"
+                ],
+                "coupled_prompt": "Write an essay about Ramon Magsaysay\nInclude the following information:\n- manner of death\n- place of burial\n- child\n- mother\n- sex or gender\n- place of birth\n- given name\n- member of political party\n- conflict\n- country of citizenship\n- position held\n- spouse\n- educated at\n- place of death\n- religion or worldview\n- father\n- award received\n- candidacy in election\n- occupation",
+                "coupled_relationship_string": "\nRelationship to:\n- Ramon Magsaysay historical marker\n- Philippines\n- Sweden",
+                "ground_truth": {
+                    "sex or gender": [
+                        "male"
+                    ],
+                    "place of birth": [
+                        "Iba"
+                    ],
+                    "country of citizenship": [
+                        "Philippines"
+                    ],
+                    "member of political party": [
+                        "Nacionalista Party"
+                    ],
+                    "educated at": [
+                        "Jos\u00e9 Rizal University"
+                    ],
+                    "conflict": [
+                        "World War II"
+                    ],
+                    "position held": [
+                        "President of the Philippines",
+                        "Secretary of National Defense",
+                        "Member of the House of Representatives of the Philippines"
+                    ],
+                    "place of death": [
+                        "Asturias"
+                    ],
+                    "occupation": [
+                        "politician",
+                        "engineer"
+                    ],
+                    "religion or worldview": [
+                        "Catholic Church"
+                    ],
+                    "given name": [
+                        "Ram\u00f3n"
+                    ],
+                    "manner of death": [
+                        "accidental death"
+                    ],
+                    "place of burial": [
+                        "Manila North Cemetery"
+                    ],
+                    "spouse": [
+                        "Luz Magsaysay"
+                    ],
+                    "candidacy in election": [
+                        "1953 Philippine presidential election"
+                    ],
+                    "award received": [
+                        "Grand Cross of the Order of the Legion of Honour (Philippines)",
+                        "Grand Cross of the Order of the Golden Heart",
+                        "Grand Cross of the Royal Order of Cambodia"
+                    ],
+                    "child": [
+                        "Ramon Magsaysay, Jr."
+                    ],
+                    "father": [
+                        "Exequiel Magsaysay"
+                    ],
+                    "mother": [
+                        "Perfecta Quimson Magsaysay"
+                    ]
+                },
+                "entity_id": "Q117096"
+            },
+            "coupled_entities": [
+                {
+                    "entity": "Ramon Magsaysay, Jr.",
+                    "coupled_prompt": "Write an essay about Ramon Magsaysay, Jr.\n    Include the following information:\n- father\n- country of citizenship\n- position held\n- sex or gender\n- occupation",
+                    "coupled_relationship_string": "\nRelationship to:\n- Ramon Magsaysay\n- Philippines\n- Sweden",
+                    "mutual_properties": [],
+                    "subject_as_object": [
+                        "father"
+                    ],
+                    "target_true_as_object": [],
+                    "overlap_properties": [
+                        "country of citizenship",
+                        "position held",
+                        "sex or gender",
+                        "occupation"
+                    ],
+                    "original_property_of_subject_as_object": [],
+                    "overlapping_ground_truth": {
+                        "position held": [
+                            "Member of the House of Representatives of the Philippines",
+                            "Member of the Senate of the Philippines"
+                        ],
+                        "sex or gender": [
+                            "male"
+                        ],
+                        "occupation": [
+                            "politician"
+                        ],
+                        "country of citizenship": [
+                            "Philippines"
+                        ],
+                        "father": [
+                            "Ramon Magsaysay"
+                        ]
+                    },
+                    "not_overlapping_ground_truth": {
+                        "member of political party": [
+                            "Liberal Party of the Philippines"
+                        ],
+                        "educated at": [
+                            "De La Salle University",
+                            "Harvard Business School",
+                            "New York University Stern School of Business"
+                        ],
+                        "given name": [
+                            "Ramon"
+                        ],
+                        "place of birth": [
+                            "Manila"
+                        ],
+                        "mother": [
+                            "Luz Magsaysay"
+                        ],
+                        "family name": [
+                            "Magsaysay"
+                        ]
+                    },
+                    "additional_properties": [
+                        "member of political party",
+                        "mother",
+                        "place of birth",
+                        "family name",
+                        "educated at",
+                        "given name"
+                    ],
+                    "entity_id": "Q1859989"
+                },
+                {
+                    "entity": "Luz Magsaysay",
+                    "coupled_prompt": "Write an essay about Luz Magsaysay\n    Include the following information:\n- spouse\n- country of citizenship\n- place of burial\n- child",
+                    "coupled_relationship_string": "\nRelationship to:\n- Ramon Magsaysay\n- Philippines\n- Sweden",
+                    "mutual_properties": [
+                        "spouse"
+                    ],
+                    "subject_as_object": [
+                        "spouse"
+                    ],
+                    "target_true_as_object": [],
+                    "overlap_properties": [
+                        "country of citizenship",
+                        "place of burial",
+                        "child"
+                    ],
+                    "original_property_of_subject_as_object": [],
+                    "overlapping_ground_truth": {
+                        "place of burial": [
+                            "Manila North Cemetery"
+                        ],
+                        "spouse": [
+                            "Ramon Magsaysay"
+                        ],
+                        "country of citizenship": [
+                            "Philippines"
+                        ],
+                        "child": [
+                            "Ramon Magsaysay, Jr."
+                        ]
+                    },
+                    "not_overlapping_ground_truth": {
+                        "sex or gender": [
+                            "female"
+                        ],
+                        "given name": [
+                            "Luz"
+                        ],
+                        "place of death": [
+                            "Quezon City"
+                        ],
+                        "place of birth": [
+                            "Balanga"
+                        ],
+                        "occupation": [
+                            "First Lady"
+                        ]
+                    },
+                    "additional_properties": [
+                        "sex or gender",
+                        "place of birth",
+                        "place of death",
+                        "occupation",
+                        "given name"
+                    ],
+                    "entity_id": "Q6706526"
+                },
+                {
+                    "entity": "1953 Philippine presidential election",
+                    "coupled_prompt": "Write an essay about 1953 Philippine presidential election\n    Include the following information:\n- successful candidate\n- candidate",
+                    "coupled_relationship_string": "\nRelationship to:\n- Ramon Magsaysay\n- Philippines\n- Sweden",
+                    "mutual_properties": [],
+                    "subject_as_object": [
+                        "successful candidate",
+                        "candidate"
+                    ],
+                    "target_true_as_object": [],
+                    "overlap_properties": [],
+                    "original_property_of_subject_as_object": [],
+                    "overlapping_ground_truth": {
+                        "successful candidate": [
+                            "Ramon Magsaysay"
+                        ],
+                        "candidate": [
+                            "Ramon Magsaysay"
+                        ]
+                    },
+                    "not_overlapping_ground_truth": {
+                        "country": [
+                            "Philippines"
+                        ],
+                        "office contested": [
+                            "President of the Philippines"
+                        ],
+                        "applies to jurisdiction": [
+                            "Philippines"
+                        ]
+                    },
+                    "additional_properties": [
+                        "country",
+                        "applies to jurisdiction",
+                        "office contested"
+                    ],
+                    "entity_id": "Q7185375"
+                },
+                {
+                    "entity": "1954 Asian Games",
+                    "coupled_prompt": "Write an essay about 1954 Asian Games\n    Include the following information:\n- officially opened by",
+                    "coupled_relationship_string": "\nRelationship to:\n- Ramon Magsaysay\n- Philippines\n- Sweden",
+                    "mutual_properties": [],
+                    "subject_as_object": [
+                        "officially opened by"
+                    ],
+                    "target_true_as_object": [],
+                    "overlap_properties": [],
+                    "original_property_of_subject_as_object": [],
+                    "overlapping_ground_truth": {
+                        "officially opened by": [
+                            "Ramon Magsaysay"
+                        ]
+                    },
+                    "not_overlapping_ground_truth": {
+                        "has part(s)": [
+                            "athletics at the 1954 Asian Games",
+                            "football at the 1954 Asian Games",
+                            "basketball at the 1954 Asian Games",
+                            "boxing at the 1954 Asian Games",
+                            "wrestling at the 1954 Asian Games"
+                        ],
+                        "participant": [
+                            "India at the 1954 Asian Games",
+                            "Indonesia at the 1954 Asian Games",
+                            "Israel at the 1954 Asian Games",
+                            "South Korea at the 1954 Asian Games",
+                            "Japan at the 1954 Asian Games",
+                            "Pakistan at the 1954 Asian Games",
+                            "Philippines at the 1954 Asian Games",
+                            "Thailand at the 1954 Asian Games",
+                            "Malaya at the 1954 Asian Games",
+                            "Republic of China at the 1954 Asian Games",
+                            "Vietnam at the 1954 Asian Games",
+                            "North Borneo at the 1954 Asian Games",
+                            "Burma at the 1954 Asian Games",
+                            "Hongkong at the 1954 Asian Games",
+                            "Singapore at the 1954 Asian Games",
+                            "Afghanistan at the 1954 Asian Games",
+                            "Cambodia at the 1954 Asian Games",
+                            "Nepal at the 1954 Asian Games"
+                        ],
+                        "country": [
+                            "Philippines"
+                        ],
+                        "sports season of league or competition": [
+                            "Asian Games"
+                        ],
+                        "location": [
+                            "Manila"
+                        ]
+                    },
+                    "additional_properties": [
+                        "location",
+                        "has part(s)",
+                        "sports season of league or competition",
+                        "participant",
+                        "country"
+                    ],
+                    "entity_id": "Q729288"
+                },
+                {
+                    "entity": "Ramon Magsaysay Award",
+                    "coupled_prompt": "Write an essay about Ramon Magsaysay Award\n    Include the following information:\n- named after",
+                    "coupled_relationship_string": "\nRelationship to:\n- Ramon Magsaysay\n- Philippines\n- Sweden",
+                    "mutual_properties": [],
+                    "subject_as_object": [
+                        "named after"
+                    ],
+                    "target_true_as_object": [],
+                    "overlap_properties": [],
+                    "original_property_of_subject_as_object": [],
+                    "overlapping_ground_truth": {
+                        "named after": [
+                            "Ramon Magsaysay"
+                        ]
+                    },
+                    "not_overlapping_ground_truth": {
+                        "country": [
+                            "Philippines"
+                        ],
+                        "founded by": [
+                            "Rockefeller family"
+                        ],
+                        "conferred by": [
+                            "Ramon Magsaysay Award Foundation"
+                        ]
+                    },
+                    "additional_properties": [
+                        "founded by",
+                        "country",
+                        "conferred by"
+                    ],
+                    "entity_id": "Q777181"
+                },
+                {
+                    "entity": "Ramon Magsaysay historical marker",
+                    "coupled_prompt": "Write an essay about Ramon Magsaysay historical marker\n    Include the following information:\n- commemorates",
+                    "coupled_relationship_string": "\nRelationship to:\n- Ramon Magsaysay\n- Philippines\n- Sweden",
+                    "mutual_properties": [],
+                    "subject_as_object": [
+                        "commemorates"
+                    ],
+                    "target_true_as_object": [],
+                    "overlap_properties": [],
+                    "original_property_of_subject_as_object": [],
+                    "overlapping_ground_truth": {
+                        "commemorates": [
+                            "Ramon Magsaysay"
+                        ]
+                    },
+                    "not_overlapping_ground_truth": {
+                        "located in the administrative territorial entity": [
+                            "Malate"
+                        ],
+                        "country": [
+                            "Philippines"
+                        ],
+                        "creator": [
+                            "National Historical Commission of the Philippines"
+                        ],
+                        "located on street": [
+                            "Roxas Boulevard"
+                        ]
+                    },
+                    "additional_properties": [
+                        "country",
+                        "creator",
+                        "located in the administrative territorial entity",
+                        "located on street"
+                    ],
+                    "entity_id": "Q38446821"
+                }
+            ],
+            "coupled_properties_count": 17
+        }
+    },
+    {
+        "case_id": 10312,
+        "pararel_idx": 18358,
+        "requested_rewrite": {
+            "prompt": "The language used by {} is",
+            "relation_id": "P1412",
+            "target_new": {
+                "str": "English",
+                "id": "Q1860"
+            },
+            "target_true": {
+                "str": "Tamil",
+                "id": "Q5885"
+            },
+            "subject": "Pasupathy"
+        },
+        "paraphrase_prompts": [
+            "\"Forest Destruction.\" Pasupathy speaks the language",
+            "In 2004. Pasupathy speaks"
+        ],
+        "neighborhood_prompts": [
+            "The language used by Venkat Prabhu is",
+            "Andrea Jeremiah speaks the language",
+            "George Uglow Pope speaks the language",
+            "The language used by Balasaraswati is",
+            "The language used by Prabhas is",
+            "Ramasamy Vairamuthu writes in",
+            "Prabhas writes in",
+            "A. K. Ramanujan speaks the language",
+            "George Uglow Pope writes in",
+            "The language used by Balu Mahendra is"
+        ],
+        "attribute_prompts": [
+            "Martin Luther King Jr. writes in",
+            "Otto von Bismarck writes in",
+            "Vladimir Putin speaks",
+            "Sun Yat-sen speaks",
+            "Martin Luther King Jr. speaks",
+            "The language used by Thomas Alva Edison is",
+            "Winston Churchill speaks the language",
+            "Gottfried Wilhelm Leibniz speaks the language",
+            "The language used by Nikola Tesla is",
+            "Enrico Fermi speaks"
+        ],
+        "generation_prompts": [
+            "Pasupathy's friends all speak the language of",
+            "Pasupathy's friends all speak the language of",
+            "Pasupathy was born in",
+            "Pasupathy's friends all speak the language of",
+            "Pasupathy lives in",
+            "Pasupathy's friends all speak the language of",
+            "Pasupathy's friends all speak the language of",
+            "Pasupathy's friends all speak the language of",
+            "Pasupathy was born in",
+            "Pasupathy's friends all speak the language of"
+        ],
+        "id": "c537ac6892e21e278b1410f8c5e610e0",
+        "dependancies": {
+            "subject_entity": {
+                "properties": [
+                    "languages spoken, written or signed",
+                    "sex or gender",
+                    "place of birth",
+                    "country of citizenship",
+                    "award received",
+                    "occupation"
+                ],
+                "coupled_prompt": "Write an essay about Pasupathy\nInclude the following information:\n- languages spoken, written or signed\n- sex or gender\n- place of birth\n- country of citizenship\n- award received\n- occupation",
+                "coupled_relationship_string": "\nRelationship to:\n- Iyarkai\n- Tamil\n- English",
+                "ground_truth": {
+                    "place of birth": [
+                        "Maduravoyal"
+                    ],
+                    "sex or gender": [
+                        "male"
+                    ],
+                    "country of citizenship": [
+                        "India"
+                    ],
+                    "occupation": [
+                        "actor"
+                    ],
+                    "award received": [
+                        "Filmfare Awards South"
+                    ],
+                    "languages spoken, written or signed": [
+                        "Tamil"
+                    ]
+                },
+                "entity_id": "Q7143136"
+            },
+            "coupled_entities": [
+                {
+                    "entity": "Arul",
+                    "coupled_prompt": "Write an essay about Arul\n    Include the following information:\n- cast member",
+                    "coupled_relationship_string": "\nRelationship to:\n- Pasupathy\n- Tamil\n- English",
+                    "mutual_properties": [],
+                    "subject_as_object": [
+                        "cast member"
+                    ],
+                    "target_true_as_object": [],
+                    "overlap_properties": [],
+                    "original_property_of_subject_as_object": [],
+                    "overlapping_ground_truth": {
+                        "cast member": [
+                            "Vikram",
+                            "Jyothika",
+                            "Pasupathy",
+                            "Vadivelu",
+                            "Sarath Babu",
+                            "K. S. Ravikumar",
+                            "Aarthi",
+                            "Saranya Ponvannan",
+                            "Rekha"
+                        ]
+                    },
+                    "not_overlapping_ground_truth": {
+                        "director": [
+                            "Hari"
+                        ],
+                        "original language of film or TV show": [
+                            "Tamil"
+                        ],
+                        "country of origin": [
+                            "India"
+                        ],
+                        "composer": [
+                            "Harris Jayaraj"
+                        ],
+                        "producer": [
+                            "Tatineni Rama Rao"
+                        ],
+                        "film editor": [
+                            "V. T. Vijayan"
+                        ],
+                        "performer": [
+                            "Harris Jayaraj"
+                        ],
+                        "narrative location": [
+                            "Tamil Nadu"
+                        ],
+                        "genre": [
+                            "action film"
+                        ]
+                    },
+                    "additional_properties": [
+                        "narrative location",
+                        "director",
+                        "genre",
+                        "film editor",
+                        "country of origin",
+                        "producer",
+                        "original language of film or TV show",
+                        "performer",
+                        "composer"
+                    ],
+                    "entity_id": "Q2866020"
+                },
+                {
+                    "entity": "Kannathil Muthamittal",
+                    "coupled_prompt": "Write an essay about Kannathil Muthamittal\n    Include the following information:\n- cast member",
+                    "coupled_relationship_string": "\nRelationship to:\n- Pasupathy\n- Tamil\n- English",
+                    "mutual_properties": [],
+                    "subject_as_object": [
+                        "cast member"
+                    ],
+                    "target_true_as_object": [],
+                    "overlap_properties": [],
+                    "original_property_of_subject_as_object": [],
+                    "overlapping_ground_truth": {
+                        "cast member": [
+                            "P. S. Keerthana",
+                            "R. Madhavan",
+                            "Simran",
+                            "Prakash Raj",
+                            "Nandita Das",
+                            "J. D. Chakravarthy",
+                            "Pasupathy"
+                        ]
+                    },
+                    "not_overlapping_ground_truth": {
+                        "director": [
+                            "Mani Ratnam"
+                        ],
+                        "original language of film or TV show": [
+                            "Tamil"
+                        ],
+                        "screenwriter": [
+                            "Sujatha Rangarajan"
+                        ],
+                        "producer": [
+                            "G. Srinivasan"
+                        ],
+                        "director of photography": [
+                            "Ravi K. Chandran"
+                        ],
+                        "narrative location": [
+                            "Chennai"
+                        ],
+                        "country of origin": [
+                            "India"
+                        ],
+                        "filming location": [
+                            "Ooty"
+                        ],
+                        "composer": [
+                            "A. R. Rahman"
+                        ],
+                        "genre": [
+                            "drama film"
+                        ],
+                        "film editor": [
+                            "A. Sreekar Prasad"
+                        ]
+                    },
+                    "additional_properties": [
+                        "narrative location",
+                        "director",
+                        "genre",
+                        "film editor",
+                        "director of photography",
+                        "screenwriter",
+                        "producer",
+                        "country of origin",
+                        "original language of film or TV show",
+                        "filming location",
+                        "composer"
+                    ],
+                    "entity_id": "Q3182895"
+                },
+                {
+                    "entity": "Majaa",
+                    "coupled_prompt": "Write an essay about Majaa\n    Include the following information:\n- cast member",
+                    "coupled_relationship_string": "\nRelationship to:\n- Pasupathy\n- Tamil\n- English",
+                    "mutual_properties": [],
+                    "subject_as_object": [
+                        "cast member"
+                    ],
+                    "target_true_as_object": [],
+                    "overlap_properties": [],
+                    "original_property_of_subject_as_object": [],
+                    "overlapping_ground_truth": {
+                        "cast member": [
+                            "Vikram",
+                            "Asin",
+                            "Pasupathy",
+                            "Vadivelu",
+                            "Sindhu Tolani",
+                            "Biju Menon",
+                            "Vijayakumar",
+                            "Manivannan"
+                        ]
+                    },
+                    "not_overlapping_ground_truth": {
+                        "director": [
+                            "Shafi"
+                        ],
+                        "original language of film or TV show": [
+                            "Tamil"
+                        ],
+                        "producer": [
+                            "Rockline Venkatesh"
+                        ],
+                        "director of photography": [
+                            "Balasubramaniem"
+                        ],
+                        "narrative location": [
+                            "Chennai"
+                        ],
+                        "country of origin": [
+                            "India"
+                        ],
+                        "composer": [
+                            "Vidyasagar"
+                        ],
+                        "film editor": [
+                            "V. T. Vijayan"
+                        ],
+                        "distributed by": [
+                            "Viswanathan Ravichandran"
+                        ],
+                        "genre": [
+                            "action film"
+                        ],
+                        "performer": [
+                            "Vidyasagar"
+                        ]
+                    },
+                    "additional_properties": [
+                        "narrative location",
+                        "distributed by",
+                        "director",
+                        "genre",
+                        "film editor",
+                        "director of photography",
+                        "country of origin",
+                        "producer",
+                        "original language of film or TV show",
+                        "performer",
+                        "composer"
+                    ],
+                    "entity_id": "Q3280427"
+                },
+                {
+                    "entity": "Madhurey",
+                    "coupled_prompt": "Write an essay about Madhurey\n    Include the following information:\n- cast member",
+                    "coupled_relationship_string": "\nRelationship to:\n- Pasupathy\n- Tamil\n- English",
+                    "mutual_properties": [],
+                    "subject_as_object": [
+                        "cast member"
+                    ],
+                    "target_true_as_object": [],
+                    "overlap_properties": [],
+                    "original_property_of_subject_as_object": [],
+                    "overlapping_ground_truth": {
+                        "cast member": [
+                            "Vijay",
+                            "Rakshita",
+                            "Sonia Agarwal",
+                            "Vadivelu",
+                            "Pasupathy",
+                            "Tejashree"
+                        ]
+                    },
+                    "not_overlapping_ground_truth": {
+                        "director": [
+                            "Ramana Madhesh"
+                        ],
+                        "producer": [
+                            "Ramana Madhesh"
+                        ],
+                        "genre": [
+                            "action film"
+                        ],
+                        "original language of film or TV show": [
+                            "Tamil"
+                        ],
+                        "country of origin": [
+                            "India"
+                        ],
+                        "composer": [
+                            "Vidyasagar"
+                        ],
+                        "director of photography": [
+                            "Sakthi Saravanan"
+                        ],
+                        "screenwriter": [
+                            "Ramana Madhesh"
+                        ],
+                        "film editor": [
+                            "Anthony"
+                        ],
+                        "different from": [
+                            "Madurai"
+                        ],
+                        "performer": [
+                            "Vidyasagar"
+                        ]
+                    },
+                    "additional_properties": [
+                        "director",
+                        "genre",
+                        "different from",
+                        "film editor",
+                        "director of photography",
+                        "country of origin",
+                        "producer",
+                        "screenwriter",
+                        "original language of film or TV show",
+                        "performer",
+                        "composer"
+                    ],
+                    "entity_id": "Q3429434"
+                },
+                {
+                    "entity": "Sullan",
+                    "coupled_prompt": "Write an essay about Sullan\n    Include the following information:\n- cast member",
+                    "coupled_relationship_string": "\nRelationship to:\n- Pasupathy\n- Tamil\n- English",
+                    "mutual_properties": [],
+                    "subject_as_object": [
+                        "cast member"
+                    ],
+                    "target_true_as_object": [],
+                    "overlap_properties": [],
+                    "original_property_of_subject_as_object": [],
+                    "overlapping_ground_truth": {
+                        "cast member": [
+                            "Dhanush",
+                            "Sindhu Tolani",
+                            "Manivannan",
+                            "Pasupathy"
+                        ]
+                    },
+                    "not_overlapping_ground_truth": {
+                        "original language of film or TV show": [
+                            "Tamil"
+                        ],
+                        "country of origin": [
+                            "India"
+                        ],
+                        "director": [
+                            "Ramana"
+                        ],
+                        "composer": [
+                            "Vidyasagar"
+                        ],
+                        "film editor": [
+                            "Suresh Urs"
+                        ],
+                        "genre": [
+                            "action film"
+                        ],
+                        "performer": [
+                            "Vidyasagar"
+                        ]
+                    },
+                    "additional_properties": [
+                        "country of origin",
+                        "original language of film or TV show",
+                        "director",
+                        "genre",
+                        "performer",
+                        "composer",
+                        "film editor"
+                    ],
+                    "entity_id": "Q3429441"
+                },
+                {
+                    "entity": "E",
+                    "coupled_prompt": "Write an essay about E\n    Include the following information:\n- cast member",
+                    "coupled_relationship_string": "\nRelationship to:\n- Pasupathy\n- Tamil\n- English",
+                    "mutual_properties": [],
+                    "subject_as_object": [
+                        "cast member"
+                    ],
+                    "target_true_as_object": [],
+                    "overlap_properties": [],
+                    "original_property_of_subject_as_object": [],
+                    "overlapping_ground_truth": {
+                        "cast member": [
+                            "Jiiva",
+                            "Nayanthara",
+                            "Pasupathy",
+                            "Ashish Vidyarthi",
+                            "Karunas"
+                        ]
+                    },
+                    "not_overlapping_ground_truth": {
+                        "director": [
+                            "S. P. Jananathan"
+                        ],
+                        "producer": [
+                            "R. B. Choudary"
+                        ],
+                        "director of photography": [
+                            "N. K. Ekambaram"
+                        ],
+                        "original language of film or TV show": [
+                            "Tamil"
+                        ],
+                        "country of origin": [
+                            "India"
+                        ],
+                        "composer": [
+                            "Srikanth Deva"
+                        ],
+                        "genre": [
+                            "thriller film"
+                        ],
+                        "different from": [
+                            "E"
+                        ],
+                        "performer": [
+                            "Srikanth Deva"
+                        ]
+                    },
+                    "additional_properties": [
+                        "director",
+                        "genre",
+                        "different from",
+                        "director of photography",
+                        "country of origin",
+                        "producer",
+                        "original language of film or TV show",
+                        "performer",
+                        "composer"
+                    ],
+                    "entity_id": "Q3534053"
+                },
+                {
+                    "entity": "Aravaan",
+                    "coupled_prompt": "Write an essay about Aravaan\n    Include the following information:\n- cast member",
+                    "coupled_relationship_string": "\nRelationship to:\n- Pasupathy\n- Tamil\n- English",
+                    "mutual_properties": [],
+                    "subject_as_object": [
+                        "cast member"
+                    ],
+                    "target_true_as_object": [],
+                    "overlap_properties": [],
+                    "original_property_of_subject_as_object": [],
+                    "overlapping_ground_truth": {
+                        "cast member": [
+                            "Aadhi Pinisetty",
+                            "Pasupathy",
+                            "Sai Dhanshika",
+                            "Archana Jose Kavi"
+                        ]
+                    },
+                    "not_overlapping_ground_truth": {
+                        "director": [
+                            "Vasanthabalan"
+                        ],
+                        "screenwriter": [
+                            "Vasanthabalan"
+                        ],
+                        "original language of film or TV show": [
+                            "Tamil"
+                        ],
+                        "producer": [
+                            "T. Siva"
+                        ],
+                        "country of origin": [
+                            "India"
+                        ],
+                        "distributed by": [
+                            "Vendhar Movies"
+                        ],
+                        "composer": [
+                            "Karthik"
+                        ],
+                        "film editor": [
+                            "Praveen K. L."
+                        ],
+                        "genre": [
+                            "historical film"
+                        ],
+                        "performer": [
+                            "Karthik"
+                        ]
+                    },
+                    "additional_properties": [
+                        "distributed by",
+                        "director",
+                        "genre",
+                        "film editor",
+                        "screenwriter",
+                        "producer",
+                        "country of origin",
+                        "original language of film or TV show",
+                        "performer",
+                        "composer"
+                    ],
+                    "entity_id": "Q4784482"
+                },
+                {
+                    "entity": "Iyarkai",
+                    "coupled_prompt": "Write an essay about Iyarkai\n    Include the following information:\n- cast member",
+                    "coupled_relationship_string": "\nRelationship to:\n- Pasupathy\n- Tamil\n- English",
+                    "mutual_properties": [],
+                    "subject_as_object": [
+                        "cast member"
+                    ],
+                    "target_true_as_object": [],
+                    "overlap_properties": [],
+                    "original_property_of_subject_as_object": [],
+                    "overlapping_ground_truth": {
+                        "cast member": [
+                            "Shaam",
+                            "Arun Vijay",
+                            "Seema Biswas",
+                            "Radhika Kumaraswamy",
+                            "Senthil",
+                            "Pasupathy",
+                            "Karunas",
+                            "Chinni Jayanth"
+                        ]
+                    },
+                    "not_overlapping_ground_truth": {
+                        "original language of film or TV show": [
+                            "Tamil"
+                        ],
+                        "director": [
+                            "S. P. Jananathan"
+                        ],
+                        "director of photography": [
+                            "N. K. Ekambaram"
+                        ],
+                        "country of origin": [
+                            "India"
+                        ],
+                        "composer": [
+                            "Vidyasagar"
+                        ],
+                        "color": [
+                            "color"
+                        ],
+                        "genre": [
+                            "romance film"
+                        ],
+                        "performer": [
+                            "Vidyasagar"
+                        ],
+                        "set in environment": [
+                            "ship"
+                        ]
+                    },
+                    "additional_properties": [
+                        "director",
+                        "color",
+                        "genre",
+                        "set in environment",
+                        "director of photography",
+                        "country of origin",
+                        "original language of film or TV show",
+                        "performer",
+                        "composer"
+                    ],
+                    "entity_id": "Q6101260"
+                }
+            ],
+            "coupled_properties_count": 8
+        }
+    },
+    {
+        "case_id": 20623,
+        "pararel_idx": 17514,
+        "requested_rewrite": {
+            "prompt": "{} owner",
+            "relation_id": "P127",
+            "target_new": {
+                "str": "Indonesia",
+                "id": "Q252"
+            },
+            "target_true": {
+                "str": "Google",
+                "id": "Q95"
+            },
+            "subject": "Google Cloud Storage"
+        },
+        "paraphrase_prompts": [
+            "Surgical intervention for intracranial lesions has been done successfully. Google Cloud Storage's owner",
+            "6 in the world. Google Cloud Storage is owned by"
+        ],
+        "neighborhood_prompts": [
+            "Zync Render, by",
+            "Cloud SDK's owner",
+            "Google Chat owner",
+            "Google Container Registry, from",
+            "Cloud SDK is owned by",
+            "Firebase Authentication, from",
+            "Google Genomics is owned by",
+            "Zync Render's owner",
+            "Google Cloud Search, by",
+            "Firebase Authentication owner"
+        ],
+        "attribute_prompts": [
+            "Adisumarmo International Airport owner",
+            "Cipanas Palace owner",
+            "Merdeka Palace, from",
+            "Soewondo Air Force Base owner",
+            "Soekarno\u2013Hatta International Airport, from",
+            "Kota Tua Jakarta is from",
+            "Merdeka Palace is from",
+            "Kota Tua Jakarta is owned by",
+            "National Monument of Indonesia, from",
+            "Adisumarmo International Airport, by"
+        ],
+        "generation_prompts": [
+            "Google Cloud Storage is my favorite product out of everything owned by",
+            "Google Cloud Storage is my favorite product out of everything owned by",
+            "The trademark of Google Cloud Storage is owned by",
+            "Google Cloud Storage is sold by",
+            "Google Cloud Storage is my favorite product out of everything owned by",
+            "Google Cloud Storage is sold by",
+            "The trademark of Google Cloud Storage is owned by",
+            "Google Cloud Storage is sold by",
+            "Google Cloud Storage is my favorite product out of everything owned by",
+            "Google Cloud Storage is sold by"
+        ],
+        "id": "cd08a09c281a809ad621e406dff99746",
+        "dependancies": {
+            "subject_entity": {
+                "properties": [
+                    "language of work or name",
+                    "part of",
+                    "developer",
+                    "product or material produced or service provided",
+                    "owned by"
+                ],
+                "coupled_prompt": "Write an essay about Google Cloud Storage\nInclude the following information:\n- language of work or name\n- part of\n- developer\n- product or material produced or service provided\n- owned by",
+                "coupled_relationship_string": "\nRelationship to:\n- Google Cloud Platform\n- Google\n- Indonesia",
+                "ground_truth": {
+                    "owned by": [
+                        "Google"
+                    ],
+                    "product or material produced or service provided": [
+                        "file hosting service"
+                    ],
+                    "language of work or name": [
+                        "English"
+                    ],
+                    "developer": [
+                        "Google"
+                    ],
+                    "part of": [
+                        "Google Cloud Platform"
+                    ]
+                },
+                "entity_id": "Q4605228"
+            },
+            "coupled_entities": [
+                {
+                    "entity": "Google Cloud Platform",
+                    "coupled_prompt": "Write an essay about Google Cloud Platform\n    Include the following information:\n- has part(s)\n- developer",
+                    "coupled_relationship_string": "\nRelationship to:\n- Google Cloud Storage\n- Google\n- Indonesia",
+                    "mutual_properties": [],
+                    "subject_as_object": [
+                        "has part(s)"
+                    ],
+                    "target_true_as_object": [],
+                    "overlap_properties": [
+                        "developer"
+                    ],
+                    "original_property_of_subject_as_object": [],
+                    "overlapping_ground_truth": {
+                        "developer": [
+                            "Google"
+                        ],
+                        "has part(s)": [
+                            "Google Kubernetes Engine",
+                            "Google Compute Engine",
+                            "App Engine",
+                            "Google Cloud Functions",
+                            "Cloud SQL",
+                            "Cloud Bigtable",
+                            "Cloud Spanner",
+                            "Google Cloud Datastore",
+                            "Google Cloud Storage",
+                            "Virtual Private Cloud",
+                            "Cloud CDN",
+                            "Google Cloud Interconnect",
+                            "Cloud DNS",
+                            "BigQuery",
+                            "Cloud IAM",
+                            "Cloud Speech-To-Text",
+                            "Cloud Text-To-Speech",
+                            "Vision AI",
+                            "Natural Language AI",
+                            "Translation AI",
+                            "Google AutoML",
+                            "Vertex AI",
+                            "Anthos",
+                            "Knative",
+                            "Shielded VMs",
+                            "Memorystore",
+                            "Firestore",
+                            "Google Cloud's operations suite",
+                            "Cloud Monitoring",
+                            "Cloud Logging",
+                            "Error Reporting",
+                            "Cloud Trace",
+                            "Cloud Debugger",
+                            "Cloud Profiler",
+                            "Cloud Deployment Manager",
+                            "Cloud Console",
+                            "Google Cloud Shell",
+                            "Apigee API Platform",
+                            "Apigee Healthcare APIx",
+                            "Apigee Open Banking APIx",
+                            "Apigee Sense",
+                            "Cloud Healthcare API",
+                            "Google Cloud Filestore",
+                            "Storage Transfer Service",
+                            "Cloud Storage Transfer Service",
+                            "BigQuery Data Transfer Service",
+                            "Google Cloud Armor",
+                            "Google Cloud SDK",
+                            "Google Container Registry",
+                            "Cloud Build",
+                            "Cloud Source Repositories",
+                            "Cloud Scheduler",
+                            "IoT Core",
+                            "Cloud IoT Edge",
+                            "Dataflow",
+                            "Dataproc",
+                            "Cloud Datalab",
+                            "Dataprep by Trifacta",
+                            "Cloud Pub/Sub",
+                            "Cloud Composer",
+                            "Cloud Life Sciences",
+                            "Identity-Aware Proxy",
+                            "Cloud Data Loss Prevention",
+                            "Cloud HSM",
+                            "Tekton"
+                        ]
+                    },
+                    "not_overlapping_ground_truth": {
+                        "product certification": [
+                            "Google Cloud Platform"
+                        ],
+                        "different from": [
+                            "Google Cloud"
+                        ]
+                    },
+                    "additional_properties": [
+                        "product certification",
+                        "different from"
+                    ],
+                    "entity_id": "Q17054505"
+                }
+            ],
+            "coupled_properties_count": 3
+        }
+    },
+    {
+        "case_id": 13079,
+        "pararel_idx": 19118,
+        "requested_rewrite": {
+            "prompt": "The language of {} is",
+            "relation_id": "P407",
+            "target_new": {
+                "str": "German",
+                "id": "Q188"
+            },
+            "target_true": {
+                "str": "Italian",
+                "id": "Q652"
+            },
+            "subject": "Il sole nella pioggia"
+        },
+        "paraphrase_prompts": [
+            "Gerardine is going off to sea. Il sole nella pioggia is written in",
+            "No one are to blame in any way. The language of Il sole nella pioggia was"
+        ],
+        "neighborhood_prompts": [
+            "The language of Zeitschrift fuer Papyrologie und Epigraphik was",
+            "The language of Aida was",
+            "The language of 0 A.D. is",
+            "The Sims is written in",
+            "Elle was written in",
+            "The language of The Sims 3 was",
+            "Zeitschrift fuer Papyrologie und Epigraphik is written in",
+            "VLC media player was written in",
+            "The Sims 2 was written in",
+            "Don Carlos was written in"
+        ],
+        "attribute_prompts": [
+            "Zeitschrift f\u00fcr Kristallographie was written in",
+            "The language of Journal of European Consumer and Market Law is",
+            "Zeitschrift f\u00fcr Assyriologie und Vorderasiatische Archaeologie was written in",
+            "Zeitschrift f\u00fcr Evidenz, Fortbildung und Qualit\u00e4t im Gesundheitswesen was written in",
+            "Journal of European Consumer and Market Law is written in",
+            "The language of German Journal of Research in Human Resource Management is",
+            "Zeitschrift fuer Germanistik is written in",
+            "The language of Zeitschrift fuer Bibliothekswesen und Bibliographie was",
+            "The language of Zeitschrift f\u00fcr Physik was",
+            "The language of Zeitschrift des Vereins f\u00fcr Hamburgische Geschichte is"
+        ],
+        "generation_prompts": [
+            "Il sole nella pioggia was written in the country of",
+            "Il sole nella pioggia was written in the country of",
+            "Il sole nella pioggia was written in the country of",
+            "Il sole nella pioggia was written in the country of",
+            "Il sole nella pioggia was written in the country of",
+            "Il sole nella pioggia's author is from",
+            "Il sole nella pioggia was written in the country of",
+            "The language Il sole nella pioggia was written in is called",
+            "Il sole nella pioggia's author is from",
+            "Il sole nella pioggia's author is from"
+        ],
+        "id": "938e3f6b51ce1fd0ff99020e7ec7e8b2",
+        "dependancies": {
+            "subject_entity": {
+                "properties": [
+                    "genre",
+                    "language of work or name",
+                    "performer",
+                    "record label"
+                ],
+                "coupled_prompt": "Write an essay about Il sole nella pioggia\nInclude the following information:\n- genre\n- language of work or name\n- performer\n- record label",
+                "coupled_relationship_string": "\nRelationship to:\n- Mezzogiorno sulle Alpi\n- Italian\n- German",
+                "ground_truth": {
+                    "record label": [
+                        "EMI"
+                    ],
+                    "performer": [
+                        "Alice"
+                    ],
+                    "language of work or name": [
+                        "English",
+                        "French",
+                        "Italian"
+                    ],
+                    "genre": [
+                        "rock music"
+                    ]
+                },
+                "entity_id": "Q3795906"
+            },
+            "coupled_entities": [
+                {
+                    "entity": "Mezzogiorno sulle Alpi",
+                    "coupled_prompt": "Write an essay about Mezzogiorno sulle Alpi\n    Include the following information:\n- language of work or name\n- performer\n- record label",
+                    "coupled_relationship_string": "\nRelationship to:\n- Il sole nella pioggia\n- Italian\n- German",
+                    "mutual_properties": [],
+                    "subject_as_object": [],
+                    "target_true_as_object": [],
+                    "overlap_properties": [
+                        "language of work or name",
+                        "performer",
+                        "record label"
+                    ],
+                    "original_property_of_subject_as_object": [],
+                    "overlapping_ground_truth": {
+                        "record label": [
+                            "EMI"
+                        ],
+                        "performer": [
+                            "Alice"
+                        ],
+                        "language of work or name": [
+                            "Italian"
+                        ]
+                    },
+                    "not_overlapping_ground_truth": {
+                        "genre": [
+                            "alternative rock",
+                            "experimental rock"
+                        ]
+                    },
+                    "additional_properties": [
+                        "genre"
+                    ],
+                    "entity_id": "Q3855891"
+                }
+            ],
+            "coupled_properties_count": 5
+        }
+    },
+    {
+        "case_id": 7153,
+        "pararel_idx": 8372,
+        "requested_rewrite": {
+            "prompt": "{} holds a citizenship from",
+            "relation_id": "P27",
+            "target_new": {
+                "str": "Germany",
+                "id": "Q183"
+            },
+            "target_true": {
+                "str": "Japan",
+                "id": "Q17"
+            },
+            "subject": "Katsuhiko Nagata"
+        },
+        "paraphrase_prompts": [
+            "LOLAPPS and 6Waves had previously denied these allegations. Katsuhiko Nagata, who holds a citizenship from",
+            "This dragonfly species is commonly known as the gray sanddragon. Katsuhiko Nagata, who has a citizenship from"
+        ],
+        "neighborhood_prompts": [
+            "Shigeru Miyamoto holds a citizenship from",
+            "Akira Kurosawa, who has a citizenship from",
+            "Masashi Kishimoto has a citizenship from",
+            "Takeshi Kitano, who has a citizenship from",
+            "Shigeru Miyamoto, who has a citizenship from",
+            "Juju, who has a citizenship from",
+            "Daisuke Matsuzaka, who is a citizen of",
+            "Daisuke Matsuzaka has a citizenship from",
+            "Koji Murofushi, who holds a citizenship from",
+            "Masato Harada holds a citizenship from"
+        ],
+        "attribute_prompts": [
+            "Paul Deussen is a citizen of",
+            "Roman Neust\u00e4dter, a citizen of",
+            "Roman Neust\u00e4dter has a citizenship from",
+            "Paul Deussen, a citizen of",
+            "Theodor Storm, who has a citizenship from",
+            "Roman Neust\u00e4dter, who is a citizen of",
+            "Hark Bohm, who has a citizenship from",
+            "Michael R\u00f6ckner, who is a citizen of",
+            "Alfred von Schlieffen is a citizen of",
+            "Walther Klemm, who is a citizen of"
+        ],
+        "generation_prompts": [
+            "Katsuhiko Nagata is a citizen of",
+            "The passport that Katsuhiko Nagata carries is",
+            "The passport that Katsuhiko Nagata carries is",
+            "Katsuhiko Nagata is a citizen of",
+            "The passport that Katsuhiko Nagata carries is",
+            "Katsuhiko Nagata currently lives in",
+            "Katsuhiko Nagata is a citizen of",
+            "The passport that Katsuhiko Nagata carries is",
+            "Katsuhiko Nagata currently lives in",
+            "Katsuhiko Nagata is a citizen of"
+        ],
+        "id": "d5ae0fdb348848272d126d7bed744ede",
+        "dependancies": {
+            "subject_entity": {
+                "properties": [
+                    "sibling",
+                    "blood type",
+                    "sex or gender",
+                    "place of birth",
+                    "participant in",
+                    "educated at",
+                    "country of citizenship",
+                    "sport",
+                    "occupation",
+                    "given name"
+                ],
+                "coupled_prompt": "Write an essay about Katsuhiko Nagata\nInclude the following information:\n- sibling\n- blood type\n- sex or gender\n- place of birth\n- participant in\n- educated at\n- country of citizenship\n- sport\n- occupation\n- given name",
+                "coupled_relationship_string": "\nRelationship to:\n- Yuji Nagata\n- Japan\n- Germany",
+                "ground_truth": {
+                    "sex or gender": [
+                        "male"
+                    ],
+                    "given name": [
+                        "Katsuhiko"
+                    ],
+                    "participant in": [
+                        "1998 Asian Games",
+                        "2002 Asian Games",
+                        "wrestling at the 2000 Summer Olympics \u2013 men's Greco-Roman 69 kg"
+                    ],
+                    "country of citizenship": [
+                        "Japan"
+                    ],
+                    "occupation": [
+                        "amateur wrestler",
+                        "mixed martial arts fighter"
+                    ],
+                    "educated at": [
+                        "Nippon Sport Science University"
+                    ],
+                    "place of birth": [
+                        "T\u014dgane"
+                    ],
+                    "sibling": [
+                        "Yuji Nagata"
+                    ],
+                    "sport": [
+                        "mixed martial arts"
+                    ],
+                    "blood type": [
+                        "AB"
+                    ]
+                },
+                "entity_id": "Q3874914"
+            },
+            "coupled_entities": [
+                {
+                    "entity": "Yuji Nagata",
+                    "coupled_prompt": "Write an essay about Yuji Nagata\n    Include the following information:\n- sibling\n- blood type\n- sex or gender\n- place of birth\n- educated at\n- country of citizenship",
+                    "coupled_relationship_string": "\nRelationship to:\n- Katsuhiko Nagata\n- Japan\n- Germany",
+                    "mutual_properties": [
+                        "sibling"
+                    ],
+                    "subject_as_object": [
+                        "sibling"
+                    ],
+                    "target_true_as_object": [],
+                    "overlap_properties": [
+                        "blood type",
+                        "sex or gender",
+                        "place of birth",
+                        "educated at",
+                        "country of citizenship"
+                    ],
+                    "original_property_of_subject_as_object": [],
+                    "overlapping_ground_truth": {
+                        "sex or gender": [
+                            "male"
+                        ],
+                        "place of birth": [
+                            "T\u014dgane"
+                        ],
+                        "country of citizenship": [
+                            "Japan"
+                        ],
+                        "educated at": [
+                            "Nippon Sport Science University"
+                        ],
+                        "blood type": [
+                            "AB"
+                        ],
+                        "sibling": [
+                            "Katsuhiko Nagata"
+                        ]
+                    },
+                    "not_overlapping_ground_truth": {
+                        "occupation": [
+                            "professional wrestler"
+                        ],
+                        "given name": [
+                            "Y\u016bji"
+                        ],
+                        "family name": [
+                            "Nagata"
+                        ],
+                        "award received": [
+                            "Wrestling Observer Newsletter Hall of Fame"
+                        ],
+                        "sport": [
+                            "professional wrestling"
+                        ]
+                    },
+                    "additional_properties": [
+                        "family name",
+                        "sport",
+                        "given name",
+                        "award received",
+                        "occupation"
+                    ],
+                    "entity_id": "Q3025614"
+                }
+            ],
+            "coupled_properties_count": 8
+        }
+    }
+]

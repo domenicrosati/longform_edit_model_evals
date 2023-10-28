@@ -1,0 +1,7 @@
+question_type,human,no_edit,rome
+Cross passage consistency,6.2±0.9,5.2±1.6,3.2±2.2
+Edit consistency,6.4±1.0,3.3±2.6,5.1±2.1
+Factual consistency,6.0±1.0,4.6±1.9,3.5±2.0
+Internal consistency,6.2±0.7,5.5±1.2,5.0±1.6
+Naturalness,6.5±0.5,5.4±1.4,3.5±1.9
+Topicality,6.2±0.6,5.0±1.8,5.3±2.0
