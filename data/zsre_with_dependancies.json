@@ -1,0 +1,4091 @@
+[
+    {
+        "subject": "Arnim Zola",
+        "src": "What is the fictional universe that Arnim Zola belong to?",
+        "pred": "DC Universe",
+        "rephrase": "With which fictional universe is the character Arnim Zola connected?",
+        "alt": "Stargate",
+        "answers": [
+            "Marvel Universe"
+        ],
+        "loc": "nq question: where does the story the great gatsby take place",
+        "loc_ans": "Long Island of 1922",
+        "cond": "DC Universe >> Stargate || What is the fictional universe that Arnim Zola belong to?",
+        "dependancies": {
+            "subject_entity": {
+                "properties": [
+                    "from narrative universe",
+                    "character type",
+                    "present in work",
+                    "sex or gender",
+                    "enemy",
+                    "different from"
+                ],
+                "coupled_prompt": "Write an essay about Arnim Zola\nInclude the following information:\n- from narrative universe\n- character type\n- present in work\n- sex or gender\n- enemy\n- different from",
+                "coupled_relationship_string": "\nRelationship to:\n- Captain America\n- Marvel Universe\n- Stargate",
+                "ground_truth": {
+                    "from narrative universe": [
+                        "Marvel Universe"
+                    ],
+                    "sex or gender": [
+                        "male"
+                    ],
+                    "enemy": [
+                        "Captain America"
+                    ],
+                    "different from": [
+                        "Arnim Zola"
+                    ],
+                    "character type": [
+                        "supervillain"
+                    ],
+                    "present in work": [
+                        "Captain America and the Falcon"
+                    ]
+                },
+                "entity_id": "Q2663969"
+            },
+            "coupled_entities": [
+                {
+                    "entity": "Captain America",
+                    "coupled_prompt": "Write an essay about Captain America\n    Include the following information:\n- enemy\n- sex or gender\n- from narrative universe",
+                    "coupled_relationship_string": "\nRelationship to:\n- Arnim Zola\n- Marvel Universe\n- Stargate",
+                    "mutual_properties": [
+                        "enemy"
+                    ],
+                    "subject_as_object": [
+                        "enemy"
+                    ],
+                    "target_true_as_object": [],
+                    "overlap_properties": [
+                        "sex or gender",
+                        "from narrative universe"
+                    ],
+                    "original_property_of_subject_as_object": [],
+                    "overlapping_ground_truth": {
+                        "from narrative universe": [
+                            "Marvel Universe",
+                            "Earth-616"
+                        ],
+                        "sex or gender": [
+                            "male"
+                        ],
+                        "enemy": [
+                            "Red Skull",
+                            "Baron Zemo",
+                            "Crossbones",
+                            "Sin",
+                            "Kingpin",
+                            "Batroc the Leaper",
+                            "Arnim Zola",
+                            "Helmut Zemo",
+                            "MODOK",
+                            "Vermin",
+                            "Viper",
+                            "Doctor Faustus",
+                            "Hate-Monger",
+                            "Korath the Pursuer",
+                            "Hydra"
+                        ]
+                    },
+                    "not_overlapping_ground_truth": {
+                        "member of": [
+                            "Avengers",
+                            "United States Army",
+                            "S.H.I.E.L.D."
+                        ],
+                        "creator": [
+                            "Jack Kirby",
+                            "Joe Simon"
+                        ],
+                        "given name": [
+                            "Steven"
+                        ],
+                        "country of citizenship": [
+                            "United States of America"
+                        ],
+                        "place of birth": [
+                            "Brooklyn"
+                        ],
+                        "family name": [
+                            "Rogers"
+                        ],
+                        "performer": [
+                            "Dick Purcell",
+                            "Matt Salinger",
+                            "Chris Evans"
+                        ],
+                        "occupation": [
+                            "military personnel"
+                        ],
+                        "country of origin": [
+                            "United States of America"
+                        ],
+                        "derivative work": [
+                            "Captain America: The First Avenger",
+                            "Captain America",
+                            "Captain America: The Winter Soldier",
+                            "Captain America: Civil War"
+                        ],
+                        "owner of": [
+                            "Captain America's shield"
+                        ],
+                        "superhuman feature or ability": [
+                            "superhuman strength",
+                            "superhuman endurance",
+                            "superhuman speed"
+                        ],
+                        "different from": [],
+                        "location of creation": [
+                            "Empire State Building"
+                        ],
+                        "military rank": [
+                            "soldier"
+                        ],
+                        "present in work": [
+                            "Captain America Comics",
+                            "Marvel vs. Capcom: Infinite",
+                            "Marvel vs. Capcom 2: New Age of Heroes"
+                        ],
+                        "first appearance": [
+                            "Captain America Comics #1"
+                        ]
+                    },
+                    "additional_properties": [
+                        "given name",
+                        "occupation",
+                        "present in work",
+                        "member of",
+                        "country of citizenship",
+                        "creator",
+                        "superhuman feature or ability",
+                        "derivative work",
+                        "location of creation",
+                        "different from",
+                        "family name",
+                        "country of origin",
+                        "owner of",
+                        "military rank",
+                        "performer",
+                        "first appearance",
+                        "place of birth"
+                    ],
+                    "entity_id": "Q190679"
+                }
+            ],
+            "coupled_properties_count": 4
+        }
+    },
+    {
+        "subject": "La ceinture du grand froid",
+        "src": "The La ceinture du grand froid has what character?",
+        "pred": "Fantasio",
+        "rephrase": "The La ceinture du grand froid has what figure?",
+        "alt": "Tintin",
+        "answers": [
+            "Fantasio"
+        ],
+        "loc": "nq question: when was a series of unfortunate events published",
+        "loc_ans": "September 1999",
+        "cond": "Fantasio >> Tintin || The La ceinture du grand froid has what character?",
+        "dependancies": {
+            "subject_entity": {
+                "properties": [
+                    "part of the series",
+                    "takes place in fictional universe",
+                    "characters",
+                    "author",
+                    "illustrator"
+                ],
+                "coupled_prompt": "Write an essay about La ceinture du grand froid\nInclude the following information:\n- part of the series\n- takes place in fictional universe\n- characters\n- author\n- illustrator",
+                "coupled_relationship_string": "\nRelationship to:\n- Des haricots partout\n- Fantasio\n- Tintin",
+                "ground_truth": {
+                    "part of the series": [
+                        "Spirou et Fantasio in \u00ab\u00a0Le Journal de Spirou\u00a0\u00bb",
+                        "Spirou et Fantasio in books"
+                    ],
+                    "author": [
+                        "Raoul Cauvin"
+                    ],
+                    "characters": [
+                        "Fantasio"
+                    ],
+                    "illustrator": [
+                        "Nicolas Broca"
+                    ],
+                    "takes place in fictional universe": [
+                        "universe of Spirou & Fantasio"
+                    ]
+                },
+                "entity_id": "Q3207121"
+            },
+            "coupled_entities": [
+                {
+                    "entity": "La bo\u00eete noire",
+                    "coupled_prompt": "Write an essay about La bo\u00eete noire\n    Include the following information:\n- part of the series\n- takes place in fictional universe\n- characters\n- author\n- illustrator",
+                    "coupled_relationship_string": "\nRelationship to:\n- La ceinture du grand froid\n- Fantasio\n- Tintin",
+                    "mutual_properties": [],
+                    "subject_as_object": [],
+                    "target_true_as_object": [],
+                    "overlap_properties": [
+                        "part of the series",
+                        "takes place in fictional universe",
+                        "characters",
+                        "author",
+                        "illustrator"
+                    ],
+                    "original_property_of_subject_as_object": [],
+                    "overlapping_ground_truth": {
+                        "part of the series": [
+                            "Spirou et Fantasio in \u00ab\u00a0Le Journal de Spirou\u00a0\u00bb",
+                            "Spirou et Fantasio in books"
+                        ],
+                        "author": [
+                            "Raoul Cauvin"
+                        ],
+                        "characters": [
+                            "Fantasio"
+                        ],
+                        "illustrator": [
+                            "Nicolas Broca"
+                        ],
+                        "takes place in fictional universe": [
+                            "universe of Spirou & Fantasio"
+                        ]
+                    },
+                    "not_overlapping_ground_truth": {},
+                    "additional_properties": [],
+                    "entity_id": "Q3206839"
+                },
+                {
+                    "entity": "Des haricots partout",
+                    "coupled_prompt": "Write an essay about Des haricots partout\n    Include the following information:\n- takes place in fictional universe\n- part of the series\n- characters",
+                    "coupled_relationship_string": "\nRelationship to:\n- La ceinture du grand froid\n- Fantasio\n- Tintin",
+                    "mutual_properties": [],
+                    "subject_as_object": [],
+                    "target_true_as_object": [],
+                    "overlap_properties": [
+                        "takes place in fictional universe",
+                        "part of the series",
+                        "characters"
+                    ],
+                    "original_property_of_subject_as_object": [],
+                    "overlapping_ground_truth": {
+                        "part of the series": [
+                            "Spirou et Fantasio in \u00ab\u00a0Le Journal de Spirou\u00a0\u00bb",
+                            "Spirou et Fantasio in books"
+                        ],
+                        "characters": [
+                            "Fantasio"
+                        ],
+                        "takes place in fictional universe": [
+                            "universe of Spirou & Fantasio"
+                        ]
+                    },
+                    "not_overlapping_ground_truth": {
+                        "author": [
+                            "Jean-Claude Fournier"
+                        ]
+                    },
+                    "additional_properties": [
+                        "author"
+                    ],
+                    "entity_id": "Q3024130"
+                }
+            ],
+            "coupled_properties_count": 12
+        }
+    },
+    {
+        "subject": "Ovda Regio",
+        "src": "What celestial body can Ovda Regio be found on?",
+        "pred": "Titan",
+        "rephrase": "Which moon or planet can you find Ovda Regio on?",
+        "alt": "Obero",
+        "answers": [
+            "Venus"
+        ],
+        "loc": "nq question: when was the last time dallas cowboys won the super bowl",
+        "loc_ans": "1995",
+        "cond": "Titan >> Obero || What celestial body can Ovda Regio be found on?",
+        "dependancies": {
+            "subject_entity": {
+                "properties": [
+                    "located on astronomical body"
+                ],
+                "coupled_prompt": "Write an essay about Ovda Regio\nInclude the following information:\n- located on astronomical body",
+                "coupled_relationship_string": "\nRelationship to:\n- Ovda Regio quadrangle\n- Venus\n- Obero",
+                "ground_truth": {
+                    "located on astronomical body": [
+                        "Venus"
+                    ]
+                },
+                "entity_id": "Q3046864"
+            },
+            "coupled_entities": [
+                {
+                    "entity": "Ovda Regio quadrangle",
+                    "coupled_prompt": "Write an essay about Ovda Regio quadrangle\n    Include the following information:\n- named after\n- located on astronomical body",
+                    "coupled_relationship_string": "\nRelationship to:\n- Ovda Regio\n- Venus\n- Obero",
+                    "mutual_properties": [],
+                    "subject_as_object": [
+                        "named after"
+                    ],
+                    "target_true_as_object": [],
+                    "overlap_properties": [
+                        "located on astronomical body"
+                    ],
+                    "original_property_of_subject_as_object": [],
+                    "overlapping_ground_truth": {
+                        "named after": [
+                            "Ovda Regio"
+                        ],
+                        "located on astronomical body": [
+                            "Venus"
+                        ]
+                    },
+                    "not_overlapping_ground_truth": {},
+                    "additional_properties": [],
+                    "entity_id": "Q29539428"
+                }
+            ],
+            "coupled_properties_count": 2
+        }
+    },
+    {
+        "subject": "August Hlond",
+        "src": "Which position was held by August Hlond?",
+        "pred": "bishop",
+        "rephrase": "What position has been taken by August Hlond?",
+        "alt": "Archbishop of York",
+        "answers": [
+            "cardinal"
+        ],
+        "loc": "nq question: who plays artemisia in 300 rise of an empire",
+        "loc_ans": "Eva Green",
+        "cond": "bishop >> Archbishop of York || Which position was held by August Hlond?",
+        "dependancies": {
+            "subject_entity": {
+                "properties": [
+                    "field of work",
+                    "occupation",
+                    "religion or worldview",
+                    "family name",
+                    "canonization status",
+                    "place of birth",
+                    "educated at",
+                    "given name",
+                    "position held",
+                    "sex or gender",
+                    "country of citizenship",
+                    "place of death",
+                    "participant in",
+                    "consecrator",
+                    "award received",
+                    "residence",
+                    "religious order",
+                    "place of burial",
+                    "languages spoken, written or signed"
+                ],
+                "coupled_prompt": "Write an essay about August Hlond\nInclude the following information:\n- field of work\n- occupation\n- religion or worldview\n- family name\n- canonization status\n- place of birth\n- educated at\n- given name\n- position held\n- sex or gender\n- country of citizenship\n- place of death\n- participant in\n- consecrator\n- award received\n- residence\n- religious order\n- place of burial\n- languages spoken, written or signed",
+                "coupled_relationship_string": "\nRelationship to:\n- Stefan Wyszy\u0144ski\n- cardinal\n- Archbishop of York",
+                "ground_truth": {
+                    "place of burial": [
+                        "St. John's Archcathedral"
+                    ],
+                    "place of death": [
+                        "Warsaw"
+                    ],
+                    "place of birth": [
+                        "Brz\u0119czkowice"
+                    ],
+                    "country of citizenship": [
+                        "Poland"
+                    ],
+                    "position held": [
+                        "cardinal",
+                        "diocesan bishop",
+                        "Roman Catholic Archbishop of Gniezno and Pozna\u0144",
+                        "Roman Catholic Archbishop of Warsaw",
+                        "Primate of Poland"
+                    ],
+                    "occupation": [
+                        "Catholic priest",
+                        "theologian",
+                        "Catholic bishop"
+                    ],
+                    "religion or worldview": [
+                        "Catholic Church"
+                    ],
+                    "award received": [
+                        "Order of the White Eagle",
+                        "honorary doctorate from the Catholic University of Lublin"
+                    ],
+                    "given name": [
+                        "August"
+                    ],
+                    "religious order": [
+                        "Salesians of Don Bosco"
+                    ],
+                    "residence": [
+                        "Roman Catholic Archdiocese of Warsaw"
+                    ],
+                    "consecrator": [
+                        "Aleksander Kakowski",
+                        "Anatol Nowak",
+                        "Stanislaw Kostka \u0141ukomski"
+                    ],
+                    "educated at": [
+                        "Pontifical Gregorian University"
+                    ],
+                    "languages spoken, written or signed": [
+                        "Polish"
+                    ],
+                    "canonization status": [
+                        "Venerable"
+                    ],
+                    "sex or gender": [
+                        "male"
+                    ],
+                    "participant in": [
+                        "1939 papal conclave"
+                    ],
+                    "family name": [
+                        "Hlond"
+                    ],
+                    "field of work": [
+                        "church\u2018s ministry",
+                        "Catholic theology"
+                    ]
+                },
+                "entity_id": "Q508834"
+            },
+            "coupled_entities": [
+                {
+                    "entity": "Stefan Wyszy\u0144ski",
+                    "coupled_prompt": "Write an essay about Stefan Wyszy\u0144ski\n    Include the following information:\n- consecrator\n- occupation\n- religion or worldview\n- position held\n- canonization status\n- sex or gender\n- country of citizenship\n- place of death\n- place of burial\n- languages spoken, written or signed",
+                    "coupled_relationship_string": "\nRelationship to:\n- August Hlond\n- cardinal\n- Archbishop of York",
+                    "mutual_properties": [],
+                    "subject_as_object": [
+                        "consecrator"
+                    ],
+                    "target_true_as_object": [],
+                    "overlap_properties": [
+                        "occupation",
+                        "religion or worldview",
+                        "position held",
+                        "canonization status",
+                        "sex or gender",
+                        "country of citizenship",
+                        "place of death",
+                        "place of burial",
+                        "languages spoken, written or signed"
+                    ],
+                    "original_property_of_subject_as_object": [],
+                    "overlapping_ground_truth": {
+                        "sex or gender": [
+                            "male"
+                        ],
+                        "place of burial": [
+                            "St. John's Archcathedral"
+                        ],
+                        "place of death": [
+                            "Warsaw"
+                        ],
+                        "country of citizenship": [
+                            "Poland"
+                        ],
+                        "position held": [
+                            "cardinal",
+                            "Roman Catholic Bishop of Lublin",
+                            "Roman Catholic Archbishop of Gniezno",
+                            "Roman Catholic Archbishop of Warsaw",
+                            "Primate of Poland"
+                        ],
+                        "occupation": [
+                            "Catholic priest",
+                            "Catholic deacon",
+                            "writer",
+                            "Catholic bishop"
+                        ],
+                        "consecrator": [
+                            "August Hlond",
+                            "Karol Mieczys\u0142aw Rado\u0144ski",
+                            "Stanislao Czajka"
+                        ],
+                        "languages spoken, written or signed": [
+                            "Polish"
+                        ],
+                        "canonization status": [
+                            "Venerable"
+                        ],
+                        "religion or worldview": [
+                            "Catholic Church"
+                        ]
+                    },
+                    "not_overlapping_ground_truth": {
+                        "place of birth": [
+                            "Zuzela"
+                        ],
+                        "given name": [
+                            "Stefan"
+                        ],
+                        "family name": [
+                            "Wyszy\u0144ski"
+                        ],
+                        "educated at": [
+                            "John Paul II Catholic University of Lublin"
+                        ],
+                        "cause of death": [
+                            "stomach cancer"
+                        ],
+                        "present in work": [
+                            "Prymas. Trzy lata z tysi\u0105ca"
+                        ],
+                        "participant in": [
+                            "October 1978 papal conclave",
+                            "August 1978 papal conclave",
+                            "1963 papal conclave",
+                            "1958 papal conclave"
+                        ],
+                        "academic degree": [
+                            "Doctor of Philosophy"
+                        ],
+                        "member of": [
+                            "Sodality of Our Lady"
+                        ],
+                        "military branch": [
+                            "Armia Krajowa"
+                        ]
+                    },
+                    "additional_properties": [
+                        "family name",
+                        "educated at",
+                        "given name",
+                        "cause of death",
+                        "military branch",
+                        "present in work",
+                        "member of",
+                        "academic degree",
+                        "place of birth",
+                        "participant in"
+                    ],
+                    "entity_id": "Q165522"
+                }
+            ],
+            "coupled_properties_count": 12
+        }
+    },
+    {
+        "subject": "Ovda Regio",
+        "src": "What is the astronomical body that Ovda Regio is located on?",
+        "pred": "Titan",
+        "rephrase": "The astronomical body Ovda Regio was on, what was that?",
+        "alt": "Venus",
+        "answers": [
+            "Venus"
+        ],
+        "loc": "nq question: when is the haunted mansion nightmare before christmas",
+        "loc_ans": "late-September through early January",
+        "cond": "Titan >> Venus || What is the astronomical body that Ovda Regio is located on?",
+        "dependancies": {
+            "subject_entity": {
+                "properties": [
+                    "located on astronomical body"
+                ],
+                "coupled_prompt": "Write an essay about Ovda Regio\nInclude the following information:\n- located on astronomical body",
+                "coupled_relationship_string": "\nRelationship to:\n- Ovda Regio quadrangle\n- Venus\n- Venus",
+                "ground_truth": {
+                    "located on astronomical body": [
+                        "Venus"
+                    ]
+                },
+                "entity_id": "Q3046864"
+            },
+            "coupled_entities": [
+                {
+                    "entity": "Ovda Regio quadrangle",
+                    "coupled_prompt": "Write an essay about Ovda Regio quadrangle\n    Include the following information:\n- named after\n- located on astronomical body",
+                    "coupled_relationship_string": "\nRelationship to:\n- Ovda Regio\n- Venus\n- Venus",
+                    "mutual_properties": [],
+                    "subject_as_object": [
+                        "named after"
+                    ],
+                    "target_true_as_object": [],
+                    "overlap_properties": [
+                        "located on astronomical body"
+                    ],
+                    "original_property_of_subject_as_object": [],
+                    "overlapping_ground_truth": {
+                        "named after": [
+                            "Ovda Regio"
+                        ],
+                        "located on astronomical body": [
+                            "Venus"
+                        ]
+                    },
+                    "not_overlapping_ground_truth": {},
+                    "additional_properties": [],
+                    "entity_id": "Q29539428"
+                }
+            ],
+            "coupled_properties_count": 2
+        }
+    },
+    {
+        "subject": "Germaine Michel",
+        "src": "What is the native tongue of Germaine Michel?",
+        "pred": "French",
+        "rephrase": "What is Germaine Michel's native language?",
+        "alt": "German",
+        "answers": [
+            "French"
+        ],
+        "loc": "nq question: who's the original singer of help me make it through the night",
+        "loc_ans": "Kris Kristofferson",
+        "cond": "French >> German || What is the native tongue of Germaine Michel?",
+        "dependancies": {
+            "subject_entity": {
+                "properties": [
+                    "family name",
+                    "native language",
+                    "given name",
+                    "occupation",
+                    "sex or gender",
+                    "country of citizenship",
+                    "place of birth",
+                    "place of death",
+                    "languages spoken, written or signed"
+                ],
+                "coupled_prompt": "Write an essay about Germaine Michel\nInclude the following information:\n- family name\n- native language\n- given name\n- occupation\n- sex or gender\n- country of citizenship\n- place of birth\n- place of death\n- languages spoken, written or signed",
+                "coupled_relationship_string": "\nRelationship to:\n- Au grand balcon\n- French\n- German",
+                "ground_truth": {
+                    "place of birth": [
+                        "6th arrondissement of Paris"
+                    ],
+                    "place of death": [
+                        "Clichy"
+                    ],
+                    "occupation": [
+                        "film actor"
+                    ],
+                    "sex or gender": [
+                        "female"
+                    ],
+                    "country of citizenship": [
+                        "France"
+                    ],
+                    "given name": [
+                        "Germaine"
+                    ],
+                    "languages spoken, written or signed": [
+                        "French"
+                    ],
+                    "native language": [
+                        "French"
+                    ],
+                    "family name": [
+                        "Michel"
+                    ]
+                },
+                "entity_id": "Q3104204"
+            },
+            "coupled_entities": [
+                {
+                    "entity": "La Femme et le Pantin",
+                    "coupled_prompt": "Write an essay about La Femme et le Pantin\n    Include the following information:\n- cast member",
+                    "coupled_relationship_string": "\nRelationship to:\n- Germaine Michel\n- French\n- German",
+                    "mutual_properties": [],
+                    "subject_as_object": [
+                        "cast member"
+                    ],
+                    "target_true_as_object": [],
+                    "overlap_properties": [],
+                    "original_property_of_subject_as_object": [],
+                    "overlapping_ground_truth": {
+                        "cast member": [
+                            "Brigitte Bardot",
+                            "Lila Kedrova",
+                            "Ant\u00f3nio Vilar",
+                            "Dar\u00edo Moreno",
+                            "Jess Hahn",
+                            "Jacques Mauclair",
+                            "Anne-Marie Mersen",
+                            "Betty Beckers",
+                            "Claude Godard",
+                            "Daniel Ivernel",
+                            "Denise Carvenne",
+                            "Dominique Zardi",
+                            "Espanita Cortez",
+                            "Germaine Michel",
+                            "Gis\u00e8le Grimm",
+                            "Michel Roux",
+                            "Paul Bonifas",
+                            "Rivers Cadet",
+                            "Julien Duvivier",
+                            "Jacques Hilling"
+                        ]
+                    },
+                    "not_overlapping_ground_truth": {
+                        "original language of film or TV show": [
+                            "French"
+                        ],
+                        "director": [
+                            "Julien Duvivier"
+                        ],
+                        "screenwriter": [
+                            "Marcel Achard",
+                            "Julien Duvivier",
+                            "Albert Valentin",
+                            "Pierre Lou\u00ffs",
+                            "Jean Aurenche"
+                        ],
+                        "director of photography": [
+                            "Roger Hubert"
+                        ],
+                        "based on": [
+                            "The Woman and the Puppet"
+                        ],
+                        "country of origin": [
+                            "France",
+                            "Italy"
+                        ],
+                        "filming location": [
+                            "Spain"
+                        ],
+                        "composer": [
+                            "Jean Wiener"
+                        ],
+                        "genre": [
+                            "drama film",
+                            "film based on literature"
+                        ],
+                        "after a work by": [
+                            "Pierre Lou\u00ffs"
+                        ],
+                        "color": [
+                            "color"
+                        ],
+                        "narrative location": [
+                            "Spain"
+                        ],
+                        "assessment": [
+                            "Bechdel test"
+                        ]
+                    },
+                    "additional_properties": [
+                        "assessment",
+                        "country of origin",
+                        "director of photography",
+                        "narrative location",
+                        "filming location",
+                        "based on",
+                        "director",
+                        "color",
+                        "after a work by",
+                        "original language of film or TV show",
+                        "composer",
+                        "screenwriter",
+                        "genre"
+                    ],
+                    "entity_id": "Q485836"
+                },
+                {
+                    "entity": "Maigret Sets a Trap",
+                    "coupled_prompt": "Write an essay about Maigret Sets a Trap\n    Include the following information:\n- cast member",
+                    "coupled_relationship_string": "\nRelationship to:\n- Germaine Michel\n- French\n- German",
+                    "mutual_properties": [],
+                    "subject_as_object": [
+                        "cast member"
+                    ],
+                    "target_true_as_object": [],
+                    "overlap_properties": [],
+                    "original_property_of_subject_as_object": [],
+                    "overlapping_ground_truth": {
+                        "cast member": [
+                            "Annie Girardot",
+                            "Jean Desailly",
+                            "Lino Ventura",
+                            "Olivier Hussenot",
+                            "Jean Gabin",
+                            "Albert de M\u00e9dina",
+                            "Albert Michel",
+                            "Alfred Adam",
+                            "Andr\u00e9 Valmy",
+                            "Charles Bouillaud",
+                            "Claude Mercutio",
+                            "Daniel Emilfork",
+                            "Denise Carvenne",
+                            "Denise Clair",
+                            "Dominique Davray",
+                            "Dominique Page",
+                            "Florence Bri\u00e8re",
+                            "France Asselin",
+                            "Georges Lannes",
+                            "Georges Lycan",
+                            "G\u00e9rard Darrieu",
+                            "G\u00e9rard S\u00e9ty",
+                            "Germaine Michel",
+                            "Geymond Vital",
+                            "Guy Decomble",
+                            "Henri Coutet",
+                            "Hubert de Lapparent",
+                            "Jacques Ciron",
+                            "Jacques Hilling",
+                            "Jean Debucourt",
+                            "Jean Tissier",
+                            "Jean-Louis Le Goff",
+                            "Jeanne Boitel",
+                            "Louis Bugette",
+                            "Louis Saint\u00e8ve",
+                            "Lucienne Bogaert",
+                            "Madeleine Barbul\u00e9e",
+                            "Marie Mergey",
+                            "Maryse Paillet",
+                            "Maurice Sarfati",
+                            "Nadine Basile",
+                            "Nicolas Amato",
+                            "Paulette Dubost",
+                            "Philippe de Ch\u00e9risey",
+                            "Pierre Duncan",
+                            "Pierre Moncorbier",
+                            "Pierre-Louis",
+                            "Rapha\u00ebl Patorni",
+                            "Mich\u00e8le Nadal",
+                            "Gaby Basset"
+                        ]
+                    },
+                    "not_overlapping_ground_truth": {
+                        "original language of film or TV show": [
+                            "French"
+                        ],
+                        "director": [
+                            "Jean Delannoy"
+                        ],
+                        "screenwriter": [
+                            "Jean Delannoy",
+                            "Michel Audiard",
+                            "Rodolphe-Maurice Arlaud"
+                        ],
+                        "director of photography": [
+                            "Louis Page"
+                        ],
+                        "genre": [
+                            "crime film",
+                            "mystery film",
+                            "film based on literature"
+                        ],
+                        "narrative location": [
+                            "Paris"
+                        ],
+                        "country of origin": [
+                            "France",
+                            "Italy"
+                        ],
+                        "characters": [
+                            "Jules Maigret"
+                        ],
+                        "composer": [
+                            "Paul Misraki"
+                        ],
+                        "distributed by": [
+                            "Rank Organisation"
+                        ],
+                        "after a work by": [
+                            "Georges Simenon"
+                        ],
+                        "based on": [
+                            "Maigret Sets a Trap"
+                        ],
+                        "color": [
+                            "color",
+                            "black and white"
+                        ],
+                        "film editor": [
+                            "Henri Taverna"
+                        ],
+                        "producer": [
+                            "Jean-Paul Guibert"
+                        ]
+                    },
+                    "additional_properties": [
+                        "country of origin",
+                        "director of photography",
+                        "characters",
+                        "narrative location",
+                        "screenwriter",
+                        "distributed by",
+                        "based on",
+                        "director",
+                        "color",
+                        "after a work by",
+                        "producer",
+                        "original language of film or TV show",
+                        "composer",
+                        "film editor",
+                        "genre"
+                    ],
+                    "entity_id": "Q559310"
+                },
+                {
+                    "entity": "La Symphonie Pastorale",
+                    "coupled_prompt": "Write an essay about La Symphonie Pastorale\n    Include the following information:\n- cast member",
+                    "coupled_relationship_string": "\nRelationship to:\n- Germaine Michel\n- French\n- German",
+                    "mutual_properties": [],
+                    "subject_as_object": [
+                        "cast member"
+                    ],
+                    "target_true_as_object": [],
+                    "overlap_properties": [],
+                    "original_property_of_subject_as_object": [],
+                    "overlapping_ground_truth": {
+                        "cast member": [
+                            "Pierre Blanchar",
+                            "Mich\u00e8le Morgan",
+                            "Andr\u00e9e Cl\u00e9ment",
+                            "Florence Bri\u00e8re",
+                            "Germaine Michel",
+                            "H\u00e9l\u00e8ne Dassonville",
+                            "Jacques Louvigny",
+                            "Jean Desailly",
+                            "Line Noro",
+                            "Mona Dol",
+                            "Rosine Luguet"
+                        ]
+                    },
+                    "not_overlapping_ground_truth": {
+                        "director": [
+                            "Jean Delannoy"
+                        ],
+                        "original language of film or TV show": [
+                            "French"
+                        ],
+                        "screenwriter": [
+                            "Jean Delannoy",
+                            "Andr\u00e9 Gide",
+                            "Jean Aurenche",
+                            "Pierre Bost"
+                        ],
+                        "genre": [
+                            "drama film"
+                        ],
+                        "country of origin": [
+                            "France"
+                        ],
+                        "composer": [
+                            "Georges Auric"
+                        ],
+                        "color": [
+                            "black and white"
+                        ],
+                        "distributed by": [
+                            "Path\u00e9",
+                            "Netflix"
+                        ],
+                        "distribution format": [
+                            "video on demand"
+                        ]
+                    },
+                    "additional_properties": [
+                        "country of origin",
+                        "distributed by",
+                        "director",
+                        "color",
+                        "distribution format",
+                        "original language of film or TV show",
+                        "composer",
+                        "screenwriter",
+                        "genre"
+                    ],
+                    "entity_id": "Q2553634"
+                },
+                {
+                    "entity": "The Lovers of Montparnasse",
+                    "coupled_prompt": "Write an essay about The Lovers of Montparnasse\n    Include the following information:\n- cast member",
+                    "coupled_relationship_string": "\nRelationship to:\n- Germaine Michel\n- French\n- German",
+                    "mutual_properties": [],
+                    "subject_as_object": [
+                        "cast member"
+                    ],
+                    "target_true_as_object": [],
+                    "overlap_properties": [],
+                    "original_property_of_subject_as_object": [],
+                    "overlapping_ground_truth": {
+                        "cast member": [
+                            "G\u00e9rard Philipe",
+                            "Lilli Palmer",
+                            "Lea Padovani",
+                            "Lino Ventura",
+                            "Anouk Aim\u00e9e",
+                            "Lila Kedrova",
+                            "Arlette Poirier",
+                            "Antoine Tudal",
+                            "Bruno Balp",
+                            "Denise Vernac",
+                            "Fran\u00e7ois Perrot",
+                            "G\u00e9rard S\u00e9ty",
+                            "Jacques Ferri\u00e8re",
+                            "Jean Lanier",
+                            "Judith Magre",
+                            "Marianne Oswald",
+                            "P\u00e2querette",
+                            "Pierre Richard",
+                            "Robert Ripa",
+                            "St\u00e9phane Audran",
+                            "V\u00e9ronique Silver",
+                            "Jacques Marin",
+                            "Harry-Max",
+                            "Paul Mercey",
+                            "Ren\u00e9 Berthier",
+                            "Yori Bertin",
+                            "Fran\u00e7ois Joux",
+                            "\u00c9mile Genevois",
+                            "Germaine Michel",
+                            "Daniel Mendaille",
+                            "Jany Clair",
+                            "Julien Maffre"
+                        ]
+                    },
+                    "not_overlapping_ground_truth": {
+                        "director": [
+                            "Jacques Becker",
+                            "Max Oph\u00fcls"
+                        ],
+                        "original language of film or TV show": [
+                            "French"
+                        ],
+                        "screenwriter": [
+                            "Jurek Becker",
+                            "Jacques Becker"
+                        ],
+                        "director of photography": [
+                            "Christian Matras"
+                        ],
+                        "genre": [
+                            "biographical film",
+                            "drama film"
+                        ],
+                        "narrative location": [
+                            "Paris",
+                            "Nice",
+                            "Montparnasse"
+                        ],
+                        "country of origin": [
+                            "France",
+                            "Italy",
+                            "Germany"
+                        ],
+                        "composer": [
+                            "Paul Misraki"
+                        ],
+                        "color": [
+                            "black and white",
+                            "color"
+                        ],
+                        "film editor": [
+                            "Marguerite Renoir"
+                        ],
+                        "set in period": [
+                            "1910s"
+                        ],
+                        "main subject": [
+                            "art of painting",
+                            "Amedeo Modigliani",
+                            "alcoholism",
+                            "artist",
+                            "poverty",
+                            "art market"
+                        ],
+                        "assessment": [
+                            "Bechdel test",
+                            "reverse Bechdel Test",
+                            "Vito Russo test"
+                        ],
+                        "costume designer": [
+                            "Yury Annenkov",
+                            "Jacques Heim"
+                        ]
+                    },
+                    "additional_properties": [
+                        "assessment",
+                        "country of origin",
+                        "director of photography",
+                        "set in period",
+                        "narrative location",
+                        "screenwriter",
+                        "costume designer",
+                        "director",
+                        "color",
+                        "original language of film or TV show",
+                        "main subject",
+                        "composer",
+                        "film editor",
+                        "genre"
+                    ],
+                    "entity_id": "Q2723719"
+                },
+                {
+                    "entity": "Au grand balcon",
+                    "coupled_prompt": "Write an essay about Au grand balcon\n    Include the following information:\n- cast member",
+                    "coupled_relationship_string": "\nRelationship to:\n- Germaine Michel\n- French\n- German",
+                    "mutual_properties": [],
+                    "subject_as_object": [
+                        "cast member"
+                    ],
+                    "target_true_as_object": [],
+                    "overlap_properties": [],
+                    "original_property_of_subject_as_object": [],
+                    "overlapping_ground_truth": {
+                        "cast member": [
+                            "Pierre Fresnay",
+                            "Abel Jacquin",
+                            "Andr\u00e9 Bervil",
+                            "Andr\u00e9 Darnay",
+                            "\u00c9mile Genevois",
+                            "F\u00e9lix Oudart",
+                            "Georges Marchal",
+                            "Germaine Michel",
+                            "Jacques Tarride",
+                            "Janine Crispin",
+                            "Jean Gaven",
+                            "Jean Sylvain",
+                            "Jean Vinci",
+                            "Jean-Pierre Mocky",
+                            "Manuel Gary",
+                            "Nina Myral",
+                            "Paul Aza\u00efs",
+                            "Pierre Cressoy",
+                            "Robert Arnoux",
+                            "Suzanne Dehelly"
+                        ]
+                    },
+                    "not_overlapping_ground_truth": {
+                        "original language of film or TV show": [
+                            "French"
+                        ],
+                        "director": [
+                            "Henri Decoin"
+                        ],
+                        "producer": [
+                            "Raymond Borderie"
+                        ],
+                        "genre": [
+                            "drama film"
+                        ],
+                        "country of origin": [
+                            "France"
+                        ],
+                        "screenwriter": [
+                            "Joseph Kessel"
+                        ],
+                        "color": [
+                            "black and white"
+                        ],
+                        "composer": [
+                            "Joseph Kosma"
+                        ]
+                    },
+                    "additional_properties": [
+                        "country of origin",
+                        "director",
+                        "color",
+                        "producer",
+                        "original language of film or TV show",
+                        "composer",
+                        "screenwriter",
+                        "genre"
+                    ],
+                    "entity_id": "Q2870391"
+                }
+            ],
+            "coupled_properties_count": 5
+        }
+    },
+    {
+        "subject": "Le Canard encha\u00een\u00e9",
+        "src": "What is the language that Le Canard encha\u00een\u00e9 is in?",
+        "pred": "French",
+        "rephrase": "In which language does Le Canard encha\u00een\u00e9 speak?",
+        "alt": "English",
+        "answers": [
+            "French"
+        ],
+        "loc": "nq question: what is the latest version of microsoft office 2010",
+        "loc_ans": "14.0.7182.5000",
+        "cond": "French >> English || What is the language that Le Canard encha\u00een\u00e9 is in?",
+        "dependancies": {
+            "subject_entity": {
+                "properties": [
+                    "country of origin",
+                    "language of work or name",
+                    "headquarters location",
+                    "has part(s)",
+                    "country",
+                    "editor-in-chief",
+                    "founded by",
+                    "different from",
+                    "genre"
+                ],
+                "coupled_prompt": "Write an essay about Le Canard encha\u00een\u00e9\nInclude the following information:\n- country of origin\n- language of work or name\n- headquarters location\n- has part(s)\n- country\n- editor-in-chief\n- founded by\n- different from\n- genre",
+                "coupled_relationship_string": "\nRelationship to:\n- Tristan Bernard\n- French\n- English",
+                "ground_truth": {
+                    "language of work or name": [
+                        "French"
+                    ],
+                    "country of origin": [
+                        "France"
+                    ],
+                    "genre": [
+                        "satirical newspaper"
+                    ],
+                    "founded by": [
+                        "Maurice Mar\u00e9chal",
+                        "Jeanne Mar\u00e9chal",
+                        "Henri-Paul Deyvaux-Gassier"
+                    ],
+                    "has part(s)": [
+                        "Diego Aranega",
+                        "Guillaume Bouzard",
+                        "Brito",
+                        "Jacques-Armand Cardon",
+                        "Andr\u00e9 Escaro",
+                        "Alain Ghertman",
+                        "Jean-Marie Kerleroux",
+                        "Lefred Thouron",
+                        "Pancho",
+                        "Ren\u00e9 P\u00e9tillon",
+                        "Jacek Wo\u017aniak",
+                        "B\u00e9can",
+                        "Cabu"
+                    ],
+                    "headquarters location": [
+                        "Paris"
+                    ],
+                    "country": [
+                        "France"
+                    ],
+                    "editor-in-chief": [
+                        "\u00c9rik Emptaz"
+                    ],
+                    "different from": []
+                },
+                "entity_id": "Q13709"
+            },
+            "coupled_entities": [
+                {
+                    "entity": "Maurice Mar\u00e9chal",
+                    "coupled_prompt": "Write an essay about Maurice Mar\u00e9chal\n    Include the following information:\n- employer",
+                    "coupled_relationship_string": "\nRelationship to:\n- Le Canard encha\u00een\u00e9\n- French\n- English",
+                    "mutual_properties": [],
+                    "subject_as_object": [
+                        "employer"
+                    ],
+                    "target_true_as_object": [],
+                    "overlap_properties": [],
+                    "original_property_of_subject_as_object": [],
+                    "overlapping_ground_truth": {
+                        "employer": [
+                            "Le Canard encha\u00een\u00e9"
+                        ]
+                    },
+                    "not_overlapping_ground_truth": {
+                        "sex or gender": [
+                            "male"
+                        ],
+                        "occupation": [
+                            "journalist"
+                        ],
+                        "country of citizenship": [
+                            "France"
+                        ],
+                        "languages spoken, written or signed": [
+                            "French"
+                        ],
+                        "given name": [
+                            "Maurice"
+                        ],
+                        "native language": [
+                            "French"
+                        ],
+                        "spouse": [
+                            "Jeanne Mar\u00e9chal"
+                        ],
+                        "family name": [
+                            "Mar\u00e9chal"
+                        ],
+                        "cause of death": [
+                            "disease"
+                        ],
+                        "manner of death": [
+                            "natural causes"
+                        ]
+                    },
+                    "additional_properties": [
+                        "family name",
+                        "native language",
+                        "given name",
+                        "manner of death",
+                        "cause of death",
+                        "occupation",
+                        "sex or gender",
+                        "country of citizenship",
+                        "spouse",
+                        "languages spoken, written or signed"
+                    ],
+                    "entity_id": "Q3301143"
+                },
+                {
+                    "entity": "Jean-Marie Kerleroux",
+                    "coupled_prompt": "Write an essay about Jean-Marie Kerleroux\n    Include the following information:\n- employer",
+                    "coupled_relationship_string": "\nRelationship to:\n- Le Canard encha\u00een\u00e9\n- French\n- English",
+                    "mutual_properties": [],
+                    "subject_as_object": [
+                        "employer"
+                    ],
+                    "target_true_as_object": [],
+                    "overlap_properties": [],
+                    "original_property_of_subject_as_object": [],
+                    "overlapping_ground_truth": {
+                        "employer": [
+                            "Le Canard encha\u00een\u00e9",
+                            "Le Monde"
+                        ]
+                    },
+                    "not_overlapping_ground_truth": {
+                        "place of birth": [
+                            "Besan\u00e7on"
+                        ],
+                        "sex or gender": [
+                            "male"
+                        ],
+                        "occupation": [
+                            "journalist"
+                        ],
+                        "country of citizenship": [
+                            "France"
+                        ],
+                        "languages spoken, written or signed": [
+                            "French"
+                        ],
+                        "given name": [
+                            "Jean-Marie"
+                        ],
+                        "native language": [
+                            "French"
+                        ]
+                    },
+                    "additional_properties": [
+                        "native language",
+                        "given name",
+                        "sex or gender",
+                        "country of citizenship",
+                        "place of birth",
+                        "occupation",
+                        "languages spoken, written or signed"
+                    ],
+                    "entity_id": "Q3167707"
+                },
+                {
+                    "entity": "\u00c9rik Emptaz",
+                    "coupled_prompt": "Write an essay about \u00c9rik Emptaz\n    Include the following information:\n- employer",
+                    "coupled_relationship_string": "\nRelationship to:\n- Le Canard encha\u00een\u00e9\n- French\n- English",
+                    "mutual_properties": [],
+                    "subject_as_object": [
+                        "employer"
+                    ],
+                    "target_true_as_object": [],
+                    "overlap_properties": [],
+                    "original_property_of_subject_as_object": [],
+                    "overlapping_ground_truth": {
+                        "employer": [
+                            "Le Canard encha\u00een\u00e9"
+                        ]
+                    },
+                    "not_overlapping_ground_truth": {
+                        "occupation": [
+                            "journalist"
+                        ],
+                        "country of citizenship": [
+                            "France"
+                        ],
+                        "sex or gender": [
+                            "male"
+                        ],
+                        "languages spoken, written or signed": [
+                            "French"
+                        ],
+                        "native language": [
+                            "French"
+                        ],
+                        "given name": [
+                            "\u00c9rik"
+                        ]
+                    },
+                    "additional_properties": [
+                        "native language",
+                        "given name",
+                        "sex or gender",
+                        "country of citizenship",
+                        "occupation",
+                        "languages spoken, written or signed"
+                    ],
+                    "entity_id": "Q3591443"
+                },
+                {
+                    "entity": "Jules Rivet",
+                    "coupled_prompt": "Write an essay about Jules Rivet\n    Include the following information:\n- employer",
+                    "coupled_relationship_string": "\nRelationship to:\n- Le Canard encha\u00een\u00e9\n- French\n- English",
+                    "mutual_properties": [],
+                    "subject_as_object": [
+                        "employer"
+                    ],
+                    "target_true_as_object": [],
+                    "overlap_properties": [],
+                    "original_property_of_subject_as_object": [],
+                    "overlapping_ground_truth": {
+                        "employer": [
+                            "Le Canard encha\u00een\u00e9",
+                            "Le Petit Parisien"
+                        ]
+                    },
+                    "not_overlapping_ground_truth": {
+                        "country of citizenship": [
+                            "France"
+                        ],
+                        "occupation": [
+                            "journalist"
+                        ],
+                        "sex or gender": [
+                            "male"
+                        ],
+                        "languages spoken, written or signed": [
+                            "French"
+                        ],
+                        "given name": [
+                            "Jules"
+                        ],
+                        "native language": [
+                            "French"
+                        ],
+                        "family name": [
+                            "Rivet"
+                        ],
+                        "writing language": [
+                            "French"
+                        ],
+                        "place of birth": [
+                            "Vercoiran"
+                        ],
+                        "place of death": [
+                            "15th arrondissement of Paris"
+                        ],
+                        "place of burial": [
+                            "Cimeti\u00e8re de Bagneux"
+                        ]
+                    },
+                    "additional_properties": [
+                        "family name",
+                        "native language",
+                        "given name",
+                        "occupation",
+                        "sex or gender",
+                        "country of citizenship",
+                        "place of birth",
+                        "writing language",
+                        "place of death",
+                        "place of burial",
+                        "languages spoken, written or signed"
+                    ],
+                    "entity_id": "Q3188889"
+                },
+                {
+                    "entity": "Paul Vaillant-Couturier",
+                    "coupled_prompt": "Write an essay about Paul Vaillant-Couturier\n    Include the following information:\n- employer",
+                    "coupled_relationship_string": "\nRelationship to:\n- Le Canard encha\u00een\u00e9\n- French\n- English",
+                    "mutual_properties": [],
+                    "subject_as_object": [
+                        "employer"
+                    ],
+                    "target_true_as_object": [],
+                    "overlap_properties": [],
+                    "original_property_of_subject_as_object": [],
+                    "overlapping_ground_truth": {
+                        "employer": [
+                            "Le Canard encha\u00een\u00e9",
+                            "L'Humanit\u00e9"
+                        ]
+                    },
+                    "not_overlapping_ground_truth": {
+                        "place of burial": [
+                            "P\u00e8re Lachaise Cemetery"
+                        ],
+                        "occupation": [
+                            "politician",
+                            "writer",
+                            "journalist"
+                        ],
+                        "spouse": [
+                            "Marie-Claude Vaillant-Couturier",
+                            "Ida Treat"
+                        ],
+                        "place of birth": [
+                            "Paris"
+                        ],
+                        "place of death": [
+                            "Paris"
+                        ],
+                        "country of citizenship": [
+                            "France"
+                        ],
+                        "conflict": [
+                            "World War I"
+                        ],
+                        "position held": [
+                            "member of the French National Assembly",
+                            "mayor of a place in France",
+                            "General councillor of the Seine",
+                            "member of parliament"
+                        ],
+                        "member of political party": [
+                            "French Communist Party",
+                            "French Section of the Workers' International"
+                        ],
+                        "languages spoken, written or signed": [
+                            "French"
+                        ],
+                        "given name": [
+                            "Paul"
+                        ],
+                        "significant event": [
+                            "funeral"
+                        ],
+                        "native language": [
+                            "French"
+                        ],
+                        "educated at": [
+                            "Lyc\u00e9e Janson-de-Sailly"
+                        ],
+                        "family name": [
+                            "Vaillant-Couturier"
+                        ],
+                        "mother": [
+                            "Marguerite Vaillant-Couturier"
+                        ],
+                        "writing language": [
+                            "French"
+                        ],
+                        "different from": [
+                            "Paul Louis Courier"
+                        ],
+                        "sex or gender": [
+                            "male"
+                        ],
+                        "award received": [
+                            "M\u00e9daille militaire"
+                        ]
+                    },
+                    "additional_properties": [
+                        "member of political party",
+                        "native language",
+                        "given name",
+                        "educated at",
+                        "conflict",
+                        "occupation",
+                        "position held",
+                        "sex or gender",
+                        "country of citizenship",
+                        "mother",
+                        "writing language",
+                        "place of death",
+                        "spouse",
+                        "different from",
+                        "family name",
+                        "significant event",
+                        "award received",
+                        "place of birth",
+                        "place of burial",
+                        "languages spoken, written or signed"
+                    ],
+                    "entity_id": "Q3372335"
+                },
+                {
+                    "entity": "Pierre B\u00e9nard",
+                    "coupled_prompt": "Write an essay about Pierre B\u00e9nard\n    Include the following information:\n- employer",
+                    "coupled_relationship_string": "\nRelationship to:\n- Le Canard encha\u00een\u00e9\n- French\n- English",
+                    "mutual_properties": [],
+                    "subject_as_object": [
+                        "employer"
+                    ],
+                    "target_true_as_object": [],
+                    "overlap_properties": [],
+                    "original_property_of_subject_as_object": [],
+                    "overlapping_ground_truth": {
+                        "employer": [
+                            "Le Canard encha\u00een\u00e9"
+                        ]
+                    },
+                    "not_overlapping_ground_truth": {
+                        "sex or gender": [
+                            "male"
+                        ],
+                        "occupation": [
+                            "journalist",
+                            "screenwriter"
+                        ],
+                        "country of citizenship": [
+                            "France"
+                        ],
+                        "languages spoken, written or signed": [
+                            "French"
+                        ],
+                        "given name": [
+                            "Pierre"
+                        ],
+                        "native language": [
+                            "French"
+                        ],
+                        "family name": [
+                            "B\u00e9nard"
+                        ],
+                        "place of birth": [
+                            "Paris"
+                        ],
+                        "place of death": [
+                            "Paris"
+                        ],
+                        "writing language": [
+                            "French"
+                        ],
+                        "place of burial": [
+                            "Montparnasse Cemetery"
+                        ]
+                    },
+                    "additional_properties": [
+                        "family name",
+                        "native language",
+                        "given name",
+                        "occupation",
+                        "sex or gender",
+                        "country of citizenship",
+                        "place of birth",
+                        "writing language",
+                        "place of death",
+                        "place of burial",
+                        "languages spoken, written or signed"
+                    ],
+                    "entity_id": "Q3384251"
+                },
+                {
+                    "entity": "Robert Dieudonn\u00e9",
+                    "coupled_prompt": "Write an essay about Robert Dieudonn\u00e9\n    Include the following information:\n- employer",
+                    "coupled_relationship_string": "\nRelationship to:\n- Le Canard encha\u00een\u00e9\n- French\n- English",
+                    "mutual_properties": [],
+                    "subject_as_object": [
+                        "employer"
+                    ],
+                    "target_true_as_object": [],
+                    "overlap_properties": [],
+                    "original_property_of_subject_as_object": [],
+                    "overlapping_ground_truth": {
+                        "employer": [
+                            "Le Canard encha\u00een\u00e9"
+                        ]
+                    },
+                    "not_overlapping_ground_truth": {
+                        "award received": [
+                            "Officer of the Legion of Honour",
+                            "Prix d'Acad\u00e9mie"
+                        ],
+                        "sex or gender": [
+                            "male"
+                        ],
+                        "occupation": [
+                            "journalist"
+                        ],
+                        "country of citizenship": [
+                            "France"
+                        ],
+                        "languages spoken, written or signed": [
+                            "French"
+                        ],
+                        "given name": [
+                            "Robert"
+                        ],
+                        "place of birth": [
+                            "Paris"
+                        ],
+                        "place of death": [
+                            "Paris"
+                        ],
+                        "native language": [
+                            "French"
+                        ],
+                        "family name": [
+                            "Dieudonn\u00e9"
+                        ],
+                        "writing language": [
+                            "French"
+                        ]
+                    },
+                    "additional_properties": [
+                        "family name",
+                        "native language",
+                        "given name",
+                        "occupation",
+                        "sex or gender",
+                        "award received",
+                        "country of citizenship",
+                        "place of birth",
+                        "writing language",
+                        "place of death",
+                        "languages spoken, written or signed"
+                    ],
+                    "entity_id": "Q3434969"
+                },
+                {
+                    "entity": "Rodolphe Bringer",
+                    "coupled_prompt": "Write an essay about Rodolphe Bringer\n    Include the following information:\n- employer",
+                    "coupled_relationship_string": "\nRelationship to:\n- Le Canard encha\u00een\u00e9\n- French\n- English",
+                    "mutual_properties": [],
+                    "subject_as_object": [
+                        "employer"
+                    ],
+                    "target_true_as_object": [],
+                    "overlap_properties": [],
+                    "original_property_of_subject_as_object": [],
+                    "overlapping_ground_truth": {
+                        "employer": [
+                            "Le Canard encha\u00een\u00e9",
+                            "L'Humanit\u00e9"
+                        ]
+                    },
+                    "not_overlapping_ground_truth": {
+                        "sex or gender": [
+                            "male"
+                        ],
+                        "place of birth": [
+                            "Mondragon"
+                        ],
+                        "place of death": [
+                            "Pierrelatte"
+                        ],
+                        "country of citizenship": [
+                            "France"
+                        ],
+                        "occupation": [
+                            "journalist",
+                            "children's writer"
+                        ],
+                        "languages spoken, written or signed": [
+                            "French"
+                        ],
+                        "given name": [
+                            "Rodolphe"
+                        ],
+                        "native language": [
+                            "French"
+                        ],
+                        "family name": [
+                            "Bringer"
+                        ],
+                        "writing language": [
+                            "French"
+                        ]
+                    },
+                    "additional_properties": [
+                        "family name",
+                        "native language",
+                        "given name",
+                        "occupation",
+                        "sex or gender",
+                        "country of citizenship",
+                        "place of birth",
+                        "writing language",
+                        "place of death",
+                        "languages spoken, written or signed"
+                    ],
+                    "entity_id": "Q3438292"
+                },
+                {
+                    "entity": "Tristan Bernard",
+                    "coupled_prompt": "Write an essay about Tristan Bernard\n    Include the following information:\n- employer",
+                    "coupled_relationship_string": "\nRelationship to:\n- Le Canard encha\u00een\u00e9\n- French\n- English",
+                    "mutual_properties": [],
+                    "subject_as_object": [
+                        "employer"
+                    ],
+                    "target_true_as_object": [],
+                    "overlap_properties": [],
+                    "original_property_of_subject_as_object": [],
+                    "overlapping_ground_truth": {
+                        "employer": [
+                            "Le Canard encha\u00een\u00e9",
+                            "Le Figaro",
+                            "L'Auto"
+                        ]
+                    },
+                    "not_overlapping_ground_truth": {
+                        "place of burial": [
+                            "Passy Cemetery"
+                        ],
+                        "place of birth": [
+                            "Besan\u00e7on"
+                        ],
+                        "place of death": [
+                            "7th arrondissement of Paris"
+                        ],
+                        "country of citizenship": [
+                            "France"
+                        ],
+                        "educated at": [
+                            "Lyc\u00e9e Condorcet",
+                            "Facult\u00e9 de droit et des sciences \u00e9conomiques de Paris"
+                        ],
+                        "child": [
+                            "Jean-Jacques Bernard",
+                            "\u00c9tienne Bernard",
+                            "Raymond Bernard"
+                        ],
+                        "occupation": [
+                            "journalist",
+                            "playwright",
+                            "novelist",
+                            "poet lawyer",
+                            "lawyer",
+                            "crossword compiler"
+                        ],
+                        "native language": [
+                            "French"
+                        ],
+                        "family name": [
+                            "Bernard"
+                        ],
+                        "given name": [
+                            "Tristan"
+                        ],
+                        "father": [
+                            "Myrthil Bernard"
+                        ],
+                        "mother": [
+                            "Emma Ancel"
+                        ],
+                        "sibling": [
+                            "Ren\u00e9e Bernard",
+                            "Marguerite Th\u00e9r\u00e8se Bernard"
+                        ],
+                        "languages spoken, written or signed": [
+                            "French"
+                        ],
+                        "sex or gender": [
+                            "male"
+                        ],
+                        "has works in the collection": [
+                            "National Gallery of Art"
+                        ],
+                        "writing language": [
+                            "French"
+                        ],
+                        "award received": [
+                            "Grand Officer of the Legion of Honour",
+                            "Officer of the Legion of Honour",
+                            "Knight of the Legion of Honour"
+                        ]
+                    },
+                    "additional_properties": [
+                        "educated at",
+                        "native language",
+                        "given name",
+                        "occupation",
+                        "sibling",
+                        "father",
+                        "child",
+                        "has works in the collection",
+                        "sex or gender",
+                        "country of citizenship",
+                        "mother",
+                        "writing language",
+                        "place of death",
+                        "family name",
+                        "award received",
+                        "place of birth",
+                        "place of burial",
+                        "languages spoken, written or signed"
+                    ],
+                    "entity_id": "Q379949"
+                }
+            ],
+            "coupled_properties_count": 9
+        }
+    },
+    {
+        "subject": "Dhvanit Thaker",
+        "src": "What city is Dhvanit Thaker associated with?",
+        "pred": "Kolkata",
+        "rephrase": "Which city is associated with Dhvanit Thaker?",
+        "alt": "Tripoli",
+        "answers": [
+            "Ahmedabad"
+        ],
+        "loc": "nq question: when is the last time wisconsin missed the ncaa tournament",
+        "loc_ans": "1997\u201398",
+        "cond": "Kolkata >> Tripoli || What city is Dhvanit Thaker associated with?",
+        "dependancies": {
+            "subject_entity": {
+                "properties": [
+                    "family name",
+                    "educated at",
+                    "occupation",
+                    "sex or gender",
+                    "country of citizenship",
+                    "instrument",
+                    "place of birth",
+                    "residence",
+                    "languages spoken, written or signed"
+                ],
+                "coupled_prompt": "Write an essay about Dhvanit Thaker\nInclude the following information:\n- family name\n- educated at\n- occupation\n- sex or gender\n- country of citizenship\n- instrument\n- place of birth\n- residence\n- languages spoken, written or signed",
+                "coupled_relationship_string": "\nRelationship to:\n- Vitamin She\n- Ahmedabad\n- Tripoli",
+                "ground_truth": {
+                    "sex or gender": [
+                        "male"
+                    ],
+                    "country of citizenship": [
+                        "India"
+                    ],
+                    "occupation": [
+                        "radio personality",
+                        "singer",
+                        "songwriter",
+                        "actor"
+                    ],
+                    "residence": [
+                        "Ahmedabad"
+                    ],
+                    "family name": [
+                        "Thaker"
+                    ],
+                    "place of birth": [
+                        "Ahmedabad"
+                    ],
+                    "educated at": [
+                        "Sheth Chimanlal Nagindas Vidyalaya"
+                    ],
+                    "languages spoken, written or signed": [
+                        "Gujarati"
+                    ],
+                    "instrument": [
+                        "voice"
+                    ]
+                },
+                "entity_id": "Q19921573"
+            },
+            "coupled_entities": [
+                {
+                    "entity": "Vitamin She",
+                    "coupled_prompt": "Write an essay about Vitamin She\n    Include the following information:\n- cast member",
+                    "coupled_relationship_string": "\nRelationship to:\n- Dhvanit Thaker\n- Ahmedabad\n- Tripoli",
+                    "mutual_properties": [],
+                    "subject_as_object": [
+                        "cast member"
+                    ],
+                    "target_true_as_object": [],
+                    "overlap_properties": [],
+                    "original_property_of_subject_as_object": [],
+                    "overlapping_ground_truth": {
+                        "cast member": [
+                            "Dhvanit Thaker"
+                        ]
+                    },
+                    "not_overlapping_ground_truth": {
+                        "genre": [
+                            "romantic comedy"
+                        ],
+                        "country of origin": [
+                            "India"
+                        ],
+                        "director": [
+                            "Faisal Hashmi"
+                        ],
+                        "color": [
+                            "color"
+                        ],
+                        "narrative location": [
+                            "Ahmedabad"
+                        ],
+                        "original language of film or TV show": [
+                            "Gujarati"
+                        ]
+                    },
+                    "additional_properties": [
+                        "color",
+                        "country of origin",
+                        "original language of film or TV show",
+                        "narrative location",
+                        "genre",
+                        "director"
+                    ],
+                    "entity_id": "Q20026869"
+                }
+            ],
+            "coupled_properties_count": 1
+        }
+    },
+    {
+        "subject": "Budashiri",
+        "src": "What was the noble family that Budashiri was from?",
+        "pred": "Solomonic dynasty",
+        "rephrase": "What noble family included Budashiri?",
+        "alt": "Shishunaga dynasty",
+        "answers": [
+            "Yuan dynasty"
+        ],
+        "loc": "nq question: when did earth's atmosphere change due to living organisms",
+        "loc_ans": "around 2.45 billion years ago",
+        "cond": "Solomonic dynasty >> Shishunaga dynasty || What was the noble family that Budashiri was from?",
+        "dependancies": {
+            "subject_entity": {
+                "properties": [
+                    "manner of death",
+                    "occupation",
+                    "father",
+                    "child",
+                    "position held",
+                    "sex or gender",
+                    "mother",
+                    "family",
+                    "spouse",
+                    "noble title"
+                ],
+                "coupled_prompt": "Write an essay about Budashiri\nInclude the following information:\n- manner of death\n- occupation\n- father\n- child\n- position held\n- sex or gender\n- mother\n- family\n- spouse\n- noble title",
+                "coupled_relationship_string": "\nRelationship to:\n- Diaoabula\n- Yuan dynasty\n- Shishunaga dynasty",
+                "ground_truth": {
+                    "sex or gender": [
+                        "female"
+                    ],
+                    "spouse": [
+                        "Jayaatu Khan"
+                    ],
+                    "child": [
+                        "Aratnadara Borjigin",
+                        "El Teg\u00fcs",
+                        "Taipingne"
+                    ],
+                    "manner of death": [
+                        "capital punishment"
+                    ],
+                    "occupation": [
+                        "politician"
+                    ],
+                    "mother": [
+                        "Xianggelaji"
+                    ],
+                    "family": [
+                        "Onggirat"
+                    ],
+                    "position held": [
+                        "empress consort",
+                        "regent"
+                    ],
+                    "noble title": [
+                        "Empress Dowager",
+                        "Grand empress dowager"
+                    ],
+                    "father": [
+                        "Diaoabula"
+                    ]
+                },
+                "entity_id": "Q4984083"
+            },
+            "coupled_entities": [
+                {
+                    "entity": "Jayaatu Khan",
+                    "coupled_prompt": "Write an essay about Jayaatu Khan\n    Include the following information:\n- spouse\n- child",
+                    "coupled_relationship_string": "\nRelationship to:\n- Budashiri\n- Yuan dynasty\n- Shishunaga dynasty",
+                    "mutual_properties": [
+                        "spouse"
+                    ],
+                    "subject_as_object": [
+                        "spouse"
+                    ],
+                    "target_true_as_object": [],
+                    "overlap_properties": [
+                        "child"
+                    ],
+                    "original_property_of_subject_as_object": [],
+                    "overlapping_ground_truth": {
+                        "spouse": [
+                            "Budashiri"
+                        ],
+                        "child": [
+                            "Aratnadara Borjigin",
+                            "El Teg\u00fcs",
+                            "Taipingne"
+                        ]
+                    },
+                    "not_overlapping_ground_truth": {
+                        "father": [
+                            "K\u00fcl\u00fcg Khan"
+                        ],
+                        "sex or gender": [
+                            "male"
+                        ],
+                        "mother": [
+                            "Wenxian Zhaosheng"
+                        ],
+                        "family": [
+                            "Borjigin"
+                        ],
+                        "place of birth": [
+                            "Khanbaliq"
+                        ],
+                        "sibling": [
+                            "Khutughtu Khan"
+                        ],
+                        "place of death": [
+                            "Khanbaliq"
+                        ],
+                        "place of burial": [
+                            "Khanbaliq"
+                        ],
+                        "occupation": [
+                            "calligrapher",
+                            "painter"
+                        ],
+                        "country of citizenship": [
+                            "Yuan Empire"
+                        ],
+                        "position held": [
+                            "Khagan",
+                            "Emperor of China"
+                        ],
+                        "era name": [
+                            "Tianli era",
+                            "Zhishun era"
+                        ],
+                        "family name": [
+                            "Borjigin"
+                        ]
+                    },
+                    "additional_properties": [
+                        "family name",
+                        "era name",
+                        "sibling",
+                        "occupation",
+                        "father",
+                        "position held",
+                        "sex or gender",
+                        "country of citizenship",
+                        "place of birth",
+                        "mother",
+                        "family",
+                        "place of death",
+                        "place of burial"
+                    ],
+                    "entity_id": "Q8655"
+                },
+                {
+                    "entity": "Aratnadara Borjigin",
+                    "coupled_prompt": "Write an essay about Aratnadara Borjigin\n    Include the following information:\n- mother",
+                    "coupled_relationship_string": "\nRelationship to:\n- Budashiri\n- Yuan dynasty\n- Shishunaga dynasty",
+                    "mutual_properties": [],
+                    "subject_as_object": [
+                        "mother"
+                    ],
+                    "target_true_as_object": [],
+                    "overlap_properties": [],
+                    "original_property_of_subject_as_object": [],
+                    "overlapping_ground_truth": {
+                        "mother": [
+                            "Budashiri"
+                        ]
+                    },
+                    "not_overlapping_ground_truth": {
+                        "father": [
+                            "Jayaatu Khan"
+                        ],
+                        "sex or gender": [
+                            "male"
+                        ],
+                        "sibling": [
+                            "El Teg\u00fcs",
+                            "Taipingne"
+                        ],
+                        "country of citizenship": [
+                            "Yuan Empire"
+                        ]
+                    },
+                    "additional_properties": [
+                        "sibling",
+                        "sex or gender",
+                        "country of citizenship",
+                        "father"
+                    ],
+                    "entity_id": "Q7081278"
+                },
+                {
+                    "entity": "El Teg\u00fcs",
+                    "coupled_prompt": "Write an essay about El Teg\u00fcs\n    Include the following information:\n- mother",
+                    "coupled_relationship_string": "\nRelationship to:\n- Budashiri\n- Yuan dynasty\n- Shishunaga dynasty",
+                    "mutual_properties": [],
+                    "subject_as_object": [
+                        "mother"
+                    ],
+                    "target_true_as_object": [],
+                    "overlap_properties": [],
+                    "original_property_of_subject_as_object": [],
+                    "overlapping_ground_truth": {
+                        "mother": [
+                            "Budashiri"
+                        ]
+                    },
+                    "not_overlapping_ground_truth": {
+                        "father": [
+                            "Jayaatu Khan"
+                        ],
+                        "sex or gender": [
+                            "male"
+                        ],
+                        "sibling": [
+                            "Aratnadara Borjigin",
+                            "Taipingne"
+                        ],
+                        "country of citizenship": [
+                            "Yuan Empire"
+                        ]
+                    },
+                    "additional_properties": [
+                        "sibling",
+                        "sex or gender",
+                        "country of citizenship",
+                        "father"
+                    ],
+                    "entity_id": "Q7081471"
+                },
+                {
+                    "entity": "Taipingne",
+                    "coupled_prompt": "Write an essay about Taipingne\n    Include the following information:\n- mother",
+                    "coupled_relationship_string": "\nRelationship to:\n- Budashiri\n- Yuan dynasty\n- Shishunaga dynasty",
+                    "mutual_properties": [],
+                    "subject_as_object": [
+                        "mother"
+                    ],
+                    "target_true_as_object": [],
+                    "overlap_properties": [],
+                    "original_property_of_subject_as_object": [],
+                    "overlapping_ground_truth": {
+                        "mother": [
+                            "Budashiri"
+                        ]
+                    },
+                    "not_overlapping_ground_truth": {
+                        "father": [
+                            "Jayaatu Khan"
+                        ],
+                        "sex or gender": [
+                            "male"
+                        ],
+                        "sibling": [
+                            "El Teg\u00fcs",
+                            "Aratnadara Borjigin"
+                        ],
+                        "country of citizenship": [
+                            "Yuan Empire"
+                        ],
+                        "family": [
+                            "Borjigin"
+                        ]
+                    },
+                    "additional_properties": [
+                        "sex or gender",
+                        "country of citizenship",
+                        "family",
+                        "sibling",
+                        "father"
+                    ],
+                    "entity_id": "Q7081525"
+                },
+                {
+                    "entity": "Xianggelaji",
+                    "coupled_prompt": "Write an essay about Xianggelaji\n    Include the following information:\n- child\n- sex or gender",
+                    "coupled_relationship_string": "\nRelationship to:\n- Budashiri\n- Yuan dynasty\n- Shishunaga dynasty",
+                    "mutual_properties": [],
+                    "subject_as_object": [
+                        "child"
+                    ],
+                    "target_true_as_object": [],
+                    "overlap_properties": [
+                        "sex or gender"
+                    ],
+                    "original_property_of_subject_as_object": [],
+                    "overlapping_ground_truth": {
+                        "sex or gender": [
+                            "female"
+                        ],
+                        "child": [
+                            "Budashiri"
+                        ]
+                    },
+                    "not_overlapping_ground_truth": {
+                        "father": [
+                            "Darmabala"
+                        ],
+                        "sibling": [
+                            "K\u00fcl\u00fcg Khan",
+                            "Ayurbarwada Buyantu Khan",
+                            "Am\u00fcge"
+                        ],
+                        "country of citizenship": [
+                            "Yuan Empire"
+                        ],
+                        "spouse": [
+                            "Diaoabula"
+                        ]
+                    },
+                    "additional_properties": [
+                        "sibling",
+                        "father",
+                        "country of citizenship",
+                        "spouse"
+                    ],
+                    "entity_id": "Q16603548"
+                },
+                {
+                    "entity": "Diaoabula",
+                    "coupled_prompt": "Write an essay about Diaoabula\n    Include the following information:\n- child\n- family",
+                    "coupled_relationship_string": "\nRelationship to:\n- Budashiri\n- Yuan dynasty\n- Shishunaga dynasty",
+                    "mutual_properties": [],
+                    "subject_as_object": [
+                        "child"
+                    ],
+                    "target_true_as_object": [],
+                    "overlap_properties": [
+                        "family"
+                    ],
+                    "original_property_of_subject_as_object": [],
+                    "overlapping_ground_truth": {
+                        "child": [
+                            "Alijiashili",
+                            "Budashiri"
+                        ],
+                        "family": [
+                            "Onggirat"
+                        ]
+                    },
+                    "not_overlapping_ground_truth": {
+                        "country of citizenship": [
+                            "Yuan Empire"
+                        ],
+                        "father": [
+                            "Tiemuer"
+                        ],
+                        "sex or gender": [
+                            "male"
+                        ],
+                        "spouse": [
+                            "Xianggelaji"
+                        ]
+                    },
+                    "additional_properties": [
+                        "sex or gender",
+                        "father",
+                        "country of citizenship",
+                        "spouse"
+                    ],
+                    "entity_id": "Q45528824"
+                }
+            ],
+            "coupled_properties_count": 20
+        }
+    },
+    {
+        "subject": "George Stacy",
+        "src": "Who is the creator of George Stacy?",
+        "pred": "William Hogarth",
+        "rephrase": "Who's the creator of George Stacy?",
+        "alt": "Thomas Eakins",
+        "answers": [
+            "Stan Lee"
+        ],
+        "loc": "nq question: who wrote and performed i can only imagine",
+        "loc_ans": "Bart Millard",
+        "cond": "William Hogarth >> Thomas Eakins || Who is the creator of George Stacy?",
+        "dependancies": {
+            "subject_entity": {
+                "properties": [
+                    "given name",
+                    "military rank",
+                    "occupation",
+                    "child",
+                    "performer",
+                    "present in work",
+                    "sex or gender",
+                    "country of citizenship",
+                    "creator",
+                    "member of",
+                    "from narrative universe"
+                ],
+                "coupled_prompt": "Write an essay about George Stacy\nInclude the following information:\n- given name\n- military rank\n- occupation\n- child\n- performer\n- present in work\n- sex or gender\n- country of citizenship\n- creator\n- member of\n- from narrative universe",
+                "coupled_relationship_string": "\nRelationship to:\n- Gwen Stacy\n- Stan Lee\n- Thomas Eakins",
+                "ground_truth": {
+                    "given name": [
+                        "George"
+                    ],
+                    "from narrative universe": [
+                        "Marvel Universe"
+                    ],
+                    "sex or gender": [
+                        "male"
+                    ],
+                    "creator": [
+                        "Stan Lee"
+                    ],
+                    "country of citizenship": [
+                        "United States of America"
+                    ],
+                    "child": [
+                        "Gwen Stacy"
+                    ],
+                    "occupation": [
+                        "police officer"
+                    ],
+                    "performer": [
+                        "James Cromwell",
+                        "Denis Leary"
+                    ],
+                    "military rank": [
+                        "police captain"
+                    ],
+                    "member of": [
+                        "New York City Police Department"
+                    ],
+                    "present in work": [
+                        "Spider-Man 3",
+                        "The Amazing Spider-Man"
+                    ]
+                },
+                "entity_id": "Q7879740"
+            },
+            "coupled_entities": [
+                {
+                    "entity": "Gwen Stacy",
+                    "coupled_prompt": "Write an essay about Gwen Stacy\n    Include the following information:\n- father\n- present in work\n- creator\n- country of citizenship\n- from narrative universe",
+                    "coupled_relationship_string": "\nRelationship to:\n- George Stacy\n- Stan Lee\n- Thomas Eakins",
+                    "mutual_properties": [],
+                    "subject_as_object": [
+                        "father"
+                    ],
+                    "target_true_as_object": [],
+                    "overlap_properties": [
+                        "present in work",
+                        "creator",
+                        "country of citizenship",
+                        "from narrative universe"
+                    ],
+                    "original_property_of_subject_as_object": [],
+                    "overlapping_ground_truth": {
+                        "from narrative universe": [
+                            "Marvel Universe",
+                            "Earth-616"
+                        ],
+                        "creator": [
+                            "Stan Lee",
+                            "Steve Ditko"
+                        ],
+                        "country of citizenship": [
+                            "United States of America"
+                        ],
+                        "father": [
+                            "George Stacy"
+                        ],
+                        "present in work": [
+                            "The Amazing Spider-Man",
+                            "Spider-Man",
+                            "The Spectacular Spider-Man",
+                            "Marvel's Spider-Man",
+                            "Spider-Man 3",
+                            "The Amazing Spider-Man 2"
+                        ]
+                    },
+                    "not_overlapping_ground_truth": {
+                        "given name": [
+                            "Gwendolyne",
+                            "Maxine"
+                        ],
+                        "sex or gender": [
+                            "female"
+                        ],
+                        "different from": [
+                            "Gwen Stacy",
+                            "Spider-Woman"
+                        ],
+                        "performer": [
+                            "Bryce Dallas Howard",
+                            "Emma Stone",
+                            "Hailee Steinfeld"
+                        ],
+                        "unmarried partner": [
+                            "Spider-Man"
+                        ],
+                        "occupation": [
+                            "student"
+                        ],
+                        "family name": [
+                            "Stacy"
+                        ],
+                        "derivative work": [
+                            "Spider-Woman"
+                        ],
+                        "educated at": [
+                            "Empire State University"
+                        ],
+                        "languages spoken, written or signed": [
+                            "English"
+                        ],
+                        "first appearance": [
+                            "The Amazing Spider-Man #31"
+                        ]
+                    },
+                    "additional_properties": [
+                        "family name",
+                        "unmarried partner",
+                        "given name",
+                        "educated at",
+                        "occupation",
+                        "performer",
+                        "sex or gender",
+                        "first appearance",
+                        "derivative work",
+                        "different from",
+                        "languages spoken, written or signed"
+                    ],
+                    "entity_id": "Q945817"
+                }
+            ],
+            "coupled_properties_count": 6
+        }
+    },
+    {
+        "subject": "Einstein field equations",
+        "src": "Who is the Einstein field equations named after?",
+        "pred": "Albert Einstein",
+        "rephrase": "The Einstein field equations was named after whom?",
+        "alt": "Eugene Einstein",
+        "answers": [
+            "Albert Einstein"
+        ],
+        "loc": "nq question: how long has it been since eagles went to super bowl",
+        "loc_ans": "2018",
+        "cond": "Albert Einstein >> Eugene Einstein || Who is the Einstein field equations named after?",
+        "dependancies": {
+            "subject_entity": {
+                "properties": [
+                    "different from",
+                    "named after",
+                    "part of"
+                ],
+                "coupled_prompt": "Write an essay about Einstein field equations\nInclude the following information:\n- different from\n- named after\n- part of",
+                "coupled_relationship_string": "\nRelationship to:\n- general relativity\n- Albert Einstein\n- Eugene Einstein",
+                "ground_truth": {
+                    "named after": [
+                        "Albert Einstein"
+                    ],
+                    "part of": [
+                        "general relativity"
+                    ],
+                    "different from": [
+                        "mass\u2013energy equivalence"
+                    ]
+                },
+                "entity_id": "Q273711"
+            },
+            "coupled_entities": [
+                {
+                    "entity": "Einstein's constant",
+                    "coupled_prompt": "Write an essay about Einstein's constant\n    Include the following information:\n- part of\n- named after",
+                    "coupled_relationship_string": "\nRelationship to:\n- Einstein field equations\n- Albert Einstein\n- Eugene Einstein",
+                    "mutual_properties": [],
+                    "subject_as_object": [
+                        "part of"
+                    ],
+                    "target_true_as_object": [],
+                    "overlap_properties": [
+                        "named after"
+                    ],
+                    "original_property_of_subject_as_object": [],
+                    "overlapping_ground_truth": {
+                        "named after": [
+                            "Albert Einstein"
+                        ],
+                        "part of": [
+                            "Einstein field equations"
+                        ]
+                    },
+                    "not_overlapping_ground_truth": {
+                        "different from": [
+                            "Einstein's constant"
+                        ]
+                    },
+                    "additional_properties": [
+                        "different from"
+                    ],
+                    "entity_id": "Q11282513"
+                },
+                {
+                    "entity": "general relativity",
+                    "coupled_prompt": "Write an essay about general relativity\n    Include the following information:\n- has part(s)",
+                    "coupled_relationship_string": "\nRelationship to:\n- Einstein field equations\n- Albert Einstein\n- Eugene Einstein",
+                    "mutual_properties": [],
+                    "subject_as_object": [
+                        "has part(s)"
+                    ],
+                    "target_true_as_object": [],
+                    "overlap_properties": [],
+                    "original_property_of_subject_as_object": [],
+                    "overlapping_ground_truth": {
+                        "has part(s)": [
+                            "Einstein field equations"
+                        ]
+                    },
+                    "not_overlapping_ground_truth": {
+                        "part of": [
+                            "theory of relativity"
+                        ],
+                        "discoverer or inventor": [
+                            "Albert Einstein"
+                        ],
+                        "has characteristic": [
+                            "mass in general relativity"
+                        ]
+                    },
+                    "additional_properties": [
+                        "has characteristic",
+                        "part of",
+                        "discoverer or inventor"
+                    ],
+                    "entity_id": "Q11452"
+                }
+            ],
+            "coupled_properties_count": 5
+        }
+    },
+    {
+        "subject": "Jean de Lalande",
+        "src": "What title is held by Jean de Lalande?",
+        "pred": "saint",
+        "rephrase": "What title is Jean de Lalande?",
+        "alt": "Catholic saint",
+        "answers": [
+            "saint"
+        ],
+        "loc": "nq question: how many numbers are in the euromillions draw",
+        "loc_ans": "7",
+        "cond": "saint >> Catholic saint || What title is held by Jean de Lalande?",
+        "dependancies": {
+            "subject_entity": {
+                "properties": [
+                    "family name",
+                    "given name",
+                    "cause of death",
+                    "occupation",
+                    "religion or worldview",
+                    "feast day",
+                    "canonization status",
+                    "sex or gender",
+                    "country of citizenship",
+                    "part of",
+                    "place of birth",
+                    "religious order",
+                    "different from",
+                    "languages spoken, written or signed",
+                    "place of death"
+                ],
+                "coupled_prompt": "Write an essay about Jean de Lalande\nInclude the following information:\n- family name\n- given name\n- cause of death\n- occupation\n- religion or worldview\n- feast day\n- canonization status\n- sex or gender\n- country of citizenship\n- part of\n- place of birth\n- religious order\n- different from\n- languages spoken, written or signed\n- place of death",
+                "coupled_relationship_string": "\nRelationship to:\n- North American Martyrs\n- saint\n- Catholic saint",
+                "ground_truth": {
+                    "place of birth": [
+                        "Dieppe"
+                    ],
+                    "canonization status": [
+                        "saint"
+                    ],
+                    "given name": [
+                        "Jean"
+                    ],
+                    "country of citizenship": [
+                        "France"
+                    ],
+                    "religious order": [
+                        "Society of Jesus"
+                    ],
+                    "place of death": [
+                        "Auriesville"
+                    ],
+                    "cause of death": [
+                        "decapitation"
+                    ],
+                    "feast day": [
+                        "October 19"
+                    ],
+                    "sex or gender": [
+                        "male"
+                    ],
+                    "religion or worldview": [
+                        "Catholic Church"
+                    ],
+                    "family name": [
+                        "de La Lande"
+                    ],
+                    "languages spoken, written or signed": [
+                        "French"
+                    ],
+                    "different from": [
+                        "Sanctus Ioannes"
+                    ],
+                    "occupation": [
+                        "regular clergyman"
+                    ],
+                    "part of": [
+                        "North American Martyrs"
+                    ]
+                },
+                "entity_id": "Q2626830"
+            },
+            "coupled_entities": [
+                {
+                    "entity": "North American Martyrs",
+                    "coupled_prompt": "Write an essay about North American Martyrs\n    Include the following information:\n- has part(s)\n- religious order\n- feast day\n- canonization status",
+                    "coupled_relationship_string": "\nRelationship to:\n- Jean de Lalande\n- saint\n- Catholic saint",
+                    "mutual_properties": [],
+                    "subject_as_object": [
+                        "has part(s)"
+                    ],
+                    "target_true_as_object": [],
+                    "overlap_properties": [
+                        "religious order",
+                        "feast day",
+                        "canonization status"
+                    ],
+                    "original_property_of_subject_as_object": [],
+                    "overlapping_ground_truth": {
+                        "canonization status": [
+                            "saint"
+                        ],
+                        "religious order": [
+                            "Society of Jesus"
+                        ],
+                        "feast day": [
+                            "October 19"
+                        ],
+                        "has part(s)": [
+                            "Ren\u00e9 Goupil",
+                            "Isaac Jogues",
+                            "Jean de Lalande",
+                            "Antoine Daniel",
+                            "Jean de Br\u00e9beuf",
+                            "No\u00ebl Chabanel",
+                            "Charles Garnier",
+                            "Gabriel Lalemant"
+                        ]
+                    },
+                    "not_overlapping_ground_truth": {
+                        "has part(s) of the class": [
+                            "Christian martyr"
+                        ],
+                        "subclass of": [
+                            "Christian martyr"
+                        ]
+                    },
+                    "additional_properties": [
+                        "subclass of",
+                        "has part(s) of the class"
+                    ],
+                    "entity_id": "Q2653872"
+                }
+            ],
+            "coupled_properties_count": 4
+        }
+    },
+    {
+        "subject": "Moodle",
+        "src": "What is the programming language for Moodle?",
+        "pred": "C++",
+        "rephrase": "Which programming language is Moodle?",
+        "alt": " Moodle",
+        "answers": [
+            "PHP"
+        ],
+        "loc": "nq question: when did the last volcano erupt in iceland",
+        "loc_ans": "2010",
+        "cond": "C++ >>  Moodle || What is the programming language for Moodle?",
+        "dependancies": {
+            "subject_entity": {
+                "properties": [
+                    "software quality assurance",
+                    "has use",
+                    "writable file format",
+                    "language of work or name",
+                    "programmer",
+                    "headquarters location",
+                    "programmed in",
+                    "member of",
+                    "creator",
+                    "developer",
+                    "readable file format"
+                ],
+                "coupled_prompt": "Write an essay about Moodle\nInclude the following information:\n- software quality assurance\n- has use\n- writable file format\n- language of work or name\n- programmer\n- headquarters location\n- programmed in\n- member of\n- creator\n- developer\n- readable file format",
+                "coupled_relationship_string": "\nRelationship to:\n- Open LMS\n- PHP\n-  Moodle",
+                "ground_truth": {
+                    "programmer": [
+                        "Martin Dougiamas"
+                    ],
+                    "programmed in": [
+                        "PHP"
+                    ],
+                    "software quality assurance": [
+                        "continuous integration"
+                    ],
+                    "developer": [
+                        "Martin Dougiamas"
+                    ],
+                    "headquarters location": [
+                        "Perth"
+                    ],
+                    "has use": [
+                        "Virtual learning environment"
+                    ],
+                    "language of work or name": [
+                        "multiple languages"
+                    ],
+                    "creator": [
+                        "Martin Dougiamas"
+                    ],
+                    "writable file format": [
+                        "Moodle Backup"
+                    ],
+                    "readable file format": [
+                        "Moodle Backup"
+                    ],
+                    "member of": [
+                        "Open Education Global"
+                    ]
+                },
+                "entity_id": "Q190434"
+            },
+            "coupled_entities": [
+                {
+                    "entity": "Open LMS",
+                    "coupled_prompt": "Write an essay about Open LMS\n    Include the following information:\n- programmed in",
+                    "coupled_relationship_string": "\nRelationship to:\n- Moodle\n- PHP\n-  Moodle",
+                    "mutual_properties": [],
+                    "subject_as_object": [],
+                    "target_true_as_object": [],
+                    "overlap_properties": [
+                        "programmed in"
+                    ],
+                    "original_property_of_subject_as_object": [],
+                    "overlapping_ground_truth": {
+                        "programmed in": [
+                            "PHP"
+                        ]
+                    },
+                    "not_overlapping_ground_truth": {},
+                    "additional_properties": [],
+                    "entity_id": "Q112671037"
+                }
+            ],
+            "coupled_properties_count": 4
+        }
+    },
+    {
+        "subject": "Valentine Dream Date",
+        "src": "What is the series that Valentine Dream Date is a part of?",
+        "pred": "Desperate Housewives",
+        "rephrase": "What is the series that Valentine Dream Date is part of?",
+        "alt": "The Office",
+        "answers": [
+            "The Naked Brothers Band"
+        ],
+        "loc": "nq question: what caused the breakup of the democratic republican party",
+        "loc_ans": "the disputed 1824 presidential election",
+        "cond": "Desperate Housewives >> The Office || What is the series that Valentine Dream Date is a part of?",
+        "dependancies": {
+            "subject_entity": {
+                "properties": [
+                    "country of origin",
+                    "part of the series",
+                    "set during recurring event",
+                    "season",
+                    "director"
+                ],
+                "coupled_prompt": "Write an essay about Valentine Dream Date\nInclude the following information:\n- country of origin\n- part of the series\n- set during recurring event\n- season\n- director",
+                "coupled_relationship_string": "\nRelationship to:\n- The Naked Brothers Band, season 3\n- The Naked Brothers Band\n- The Office",
+                "ground_truth": {
+                    "part of the series": [
+                        "The Naked Brothers Band"
+                    ],
+                    "country of origin": [
+                        "United States of America"
+                    ],
+                    "set during recurring event": [
+                        "Valentine's Day"
+                    ],
+                    "director": [
+                        "Jonathan Judge"
+                    ],
+                    "season": [
+                        "The Naked Brothers Band, season 3"
+                    ]
+                },
+                "entity_id": "Q7910958"
+            },
+            "coupled_entities": [
+                {
+                    "entity": "Naked Idol: Part One",
+                    "coupled_prompt": "Write an essay about Naked Idol: Part One\n    Include the following information:\n- season\n- part of the series",
+                    "coupled_relationship_string": "\nRelationship to:\n- Valentine Dream Date\n- The Naked Brothers Band\n- The Office",
+                    "mutual_properties": [],
+                    "subject_as_object": [],
+                    "target_true_as_object": [],
+                    "overlap_properties": [
+                        "season",
+                        "part of the series"
+                    ],
+                    "original_property_of_subject_as_object": [],
+                    "overlapping_ground_truth": {
+                        "season": [
+                            "The Naked Brothers Band, season 3"
+                        ],
+                        "part of the series": [
+                            "The Naked Brothers Band"
+                        ]
+                    },
+                    "not_overlapping_ground_truth": {},
+                    "additional_properties": [],
+                    "entity_id": "Q114533611"
+                },
+                {
+                    "entity": "Naked Idol",
+                    "coupled_prompt": "Write an essay about Naked Idol\n    Include the following information:\n- country of origin\n- part of the series",
+                    "coupled_relationship_string": "\nRelationship to:\n- Valentine Dream Date\n- The Naked Brothers Band\n- The Office",
+                    "mutual_properties": [],
+                    "subject_as_object": [],
+                    "target_true_as_object": [],
+                    "overlap_properties": [
+                        "country of origin",
+                        "part of the series"
+                    ],
+                    "original_property_of_subject_as_object": [],
+                    "overlapping_ground_truth": {
+                        "part of the series": [
+                            "The Naked Brothers Band"
+                        ],
+                        "country of origin": [
+                            "United States of America"
+                        ]
+                    },
+                    "not_overlapping_ground_truth": {
+                        "director": [
+                            "Polly Draper"
+                        ],
+                        "screenwriter": [
+                            "Polly Draper"
+                        ],
+                        "cast member": [
+                            "Nat Wolff"
+                        ],
+                        "original language of film or TV show": [
+                            "English"
+                        ],
+                        "color": [
+                            "color"
+                        ],
+                        "genre": [
+                            "musical film"
+                        ]
+                    },
+                    "additional_properties": [
+                        "color",
+                        "original language of film or TV show",
+                        "cast member",
+                        "screenwriter",
+                        "genre",
+                        "director"
+                    ],
+                    "entity_id": "Q6960471"
+                },
+                {
+                    "entity": "The Naked Brothers Band, season 3",
+                    "coupled_prompt": "Write an essay about The Naked Brothers Band, season 3\n    Include the following information:\n- has part(s)\n- part of the series",
+                    "coupled_relationship_string": "\nRelationship to:\n- Valentine Dream Date\n- The Naked Brothers Band\n- The Office",
+                    "mutual_properties": [],
+                    "subject_as_object": [
+                        "has part(s)"
+                    ],
+                    "target_true_as_object": [],
+                    "overlap_properties": [
+                        "part of the series"
+                    ],
+                    "original_property_of_subject_as_object": [],
+                    "overlapping_ground_truth": {
+                        "part of the series": [
+                            "The Naked Brothers Band"
+                        ],
+                        "has part(s)": [
+                            "Supetastic 6",
+                            "Christmas Special",
+                            "Mystery Girl: Part One",
+                            "Valentine Dream Date",
+                            "Operation Mojo, part 2",
+                            "Mystery Girl: Part Two",
+                            "Naked Idol: Part One",
+                            "Operation Mojo, part 1",
+                            "Naked Idol: Part Two",
+                            "No School's Fools Day",
+                            "The Premiere, part 1",
+                            "The Premiere, part 2"
+                        ]
+                    },
+                    "not_overlapping_ground_truth": {
+                        "original language of film or TV show": [
+                            "English"
+                        ]
+                    },
+                    "additional_properties": [
+                        "original language of film or TV show"
+                    ],
+                    "entity_id": "Q1532852"
+                }
+            ],
+            "coupled_properties_count": 9
+        }
+    },
+    {
+        "subject": "Didier Migaud",
+        "src": "What is Didier Migaud's country of original?",
+        "pred": "France",
+        "rephrase": "What is Didier Migaud's country of originals?",
+        "alt": "Italy",
+        "answers": [
+            "France"
+        ],
+        "loc": "nq question: who is the current director of the us mint",
+        "loc_ans": "David Motl",
+        "cond": "France >> Italy || What is Didier Migaud's country of original?",
+        "dependancies": {
+            "subject_entity": {
+                "properties": [
+                    "family name",
+                    "educated at",
+                    "member of political party",
+                    "given name",
+                    "native language",
+                    "occupation",
+                    "position held",
+                    "work location",
+                    "award received",
+                    "country of citizenship",
+                    "sex or gender",
+                    "place of birth",
+                    "languages spoken, written or signed"
+                ],
+                "coupled_prompt": "Write an essay about Didier Migaud\nInclude the following information:\n- family name\n- educated at\n- member of political party\n- given name\n- native language\n- occupation\n- position held\n- work location\n- award received\n- country of citizenship\n- sex or gender\n- place of birth\n- languages spoken, written or signed",
+                "coupled_relationship_string": "\nRelationship to:\n- Haute Autorit\u00e9 pour la transparence de la vie publique\n- France\n- Italy",
+                "ground_truth": {
+                    "award received": [
+                        "Commander of the Legion of Honour"
+                    ],
+                    "member of political party": [
+                        "Socialist Party"
+                    ],
+                    "educated at": [
+                        "Institut d'\u00e9tudes politiques de Lyon"
+                    ],
+                    "position held": [
+                        "Mayor of Seyssins",
+                        "conseiller r\u00e9gional de Rh\u00f4ne-Alpes",
+                        "member of the French National Assembly",
+                        "president"
+                    ],
+                    "country of citizenship": [
+                        "France"
+                    ],
+                    "occupation": [
+                        "politician"
+                    ],
+                    "given name": [
+                        "Didier"
+                    ],
+                    "languages spoken, written or signed": [
+                        "French"
+                    ],
+                    "native language": [
+                        "French"
+                    ],
+                    "place of birth": [
+                        "Saint-Symphorien"
+                    ],
+                    "work location": [
+                        "Paris"
+                    ],
+                    "family name": [
+                        "Migaud"
+                    ],
+                    "sex or gender": [
+                        "male"
+                    ]
+                },
+                "entity_id": "Q3027123"
+            },
+            "coupled_entities": [
+                {
+                    "entity": "High Council of Public Finances",
+                    "coupled_prompt": "Write an essay about High Council of Public Finances\n    Include the following information:\n- chairperson",
+                    "coupled_relationship_string": "\nRelationship to:\n- Didier Migaud\n- France\n- Italy",
+                    "mutual_properties": [],
+                    "subject_as_object": [
+                        "chairperson"
+                    ],
+                    "target_true_as_object": [],
+                    "overlap_properties": [],
+                    "original_property_of_subject_as_object": [],
+                    "overlapping_ground_truth": {
+                        "chairperson": [
+                            "Didier Migaud",
+                            "Sophie Moati",
+                            "Pierre Moscovici"
+                        ]
+                    },
+                    "not_overlapping_ground_truth": {
+                        "country": [
+                            "France"
+                        ],
+                        "office held by head of the organization": [],
+                        "headquarters location": [
+                            "Palais Cambon"
+                        ],
+                        "has part(s)": [],
+                        "legal form": [
+                            "Independent public authority"
+                        ],
+                        "industry": [
+                            "administration publique g\u00e9n\u00e9rale"
+                        ]
+                    },
+                    "additional_properties": [
+                        "country",
+                        "has part(s)",
+                        "office held by head of the organization",
+                        "industry",
+                        "legal form",
+                        "headquarters location"
+                    ],
+                    "entity_id": "Q16641373"
+                },
+                {
+                    "entity": "Haute Autorit\u00e9 pour la transparence de la vie publique",
+                    "coupled_prompt": "Write an essay about Haute Autorit\u00e9 pour la transparence de la vie publique\n    Include the following information:\n- chairperson",
+                    "coupled_relationship_string": "\nRelationship to:\n- Didier Migaud\n- France\n- Italy",
+                    "mutual_properties": [],
+                    "subject_as_object": [
+                        "chairperson"
+                    ],
+                    "target_true_as_object": [],
+                    "overlap_properties": [],
+                    "original_property_of_subject_as_object": [],
+                    "overlapping_ground_truth": {
+                        "chairperson": [
+                            "Jean-Louis Nadal",
+                            "Didier Migaud"
+                        ]
+                    },
+                    "not_overlapping_ground_truth": {
+                        "country": [
+                            "France"
+                        ],
+                        "replaces": [
+                            "Commission pour la transparence financi\u00e8re de la vie politique"
+                        ],
+                        "has part(s)": [],
+                        "field of work": [
+                            "conflict of interest",
+                            "professional ethics",
+                            "Transparency (in the public sphere)"
+                        ],
+                        "legal form": [
+                            "Independent public authority"
+                        ],
+                        "industry": [
+                            "administration publique g\u00e9n\u00e9rale"
+                        ],
+                        "member of": [
+                            "International Association of Anti-Corruption Authorities"
+                        ]
+                    },
+                    "additional_properties": [
+                        "country",
+                        "has part(s)",
+                        "member of",
+                        "industry",
+                        "replaces",
+                        "field of work",
+                        "legal form"
+                    ],
+                    "entity_id": "Q16641381"
+                }
+            ],
+            "coupled_properties_count": 2
+        }
+    },
+    {
+        "subject": "Joyce Jonathan",
+        "src": "What is the native language of Joyce Jonathan?",
+        "pred": "French",
+        "rephrase": "What's the native language of Joyce Jonathan?",
+        "alt": "German",
+        "answers": [
+            "French"
+        ],
+        "loc": "nq question: who makes the decisions about what to produce in a market economy",
+        "loc_ans": "capital and financial markets",
+        "cond": "French >> German || What is the native language of Joyce Jonathan?",
+        "dependancies": {
+            "subject_entity": {
+                "properties": [
+                    "family name",
+                    "native language",
+                    "unmarried partner",
+                    "educated at",
+                    "given name",
+                    "record label",
+                    "discography",
+                    "field of work",
+                    "occupation",
+                    "sex or gender",
+                    "country of citizenship",
+                    "instrument",
+                    "place of birth",
+                    "languages spoken, written or signed",
+                    "genre"
+                ],
+                "coupled_prompt": "Write an essay about Joyce Jonathan\nInclude the following information:\n- family name\n- native language\n- unmarried partner\n- educated at\n- given name\n- record label\n- discography\n- field of work\n- occupation\n- sex or gender\n- country of citizenship\n- instrument\n- place of birth\n- languages spoken, written or signed\n- genre",
+                "coupled_relationship_string": "\nRelationship to:\n- Mask Singer, season 1\n- French\n- German",
+                "ground_truth": {
+                    "unmarried partner": [
+                        "Thomas Hollande",
+                        "Chase Stokes"
+                    ],
+                    "sex or gender": [
+                        "female"
+                    ],
+                    "place of birth": [
+                        "Levallois-Perret"
+                    ],
+                    "country of citizenship": [
+                        "France"
+                    ],
+                    "native language": [
+                        "French"
+                    ],
+                    "occupation": [
+                        "singer-songwriter",
+                        "singer",
+                        "actor",
+                        "guitarist",
+                        "recording artist"
+                    ],
+                    "educated at": [
+                        "\u00c9cole alsacienne"
+                    ],
+                    "given name": [
+                        "Joyce"
+                    ],
+                    "family name": [
+                        "Jonathan"
+                    ],
+                    "instrument": [
+                        "guitar",
+                        "piano",
+                        "voice"
+                    ],
+                    "genre": [
+                        "pop music"
+                    ],
+                    "record label": [
+                        "My Major Company",
+                        "Universal Music Group"
+                    ],
+                    "languages spoken, written or signed": [
+                        "French"
+                    ],
+                    "field of work": [
+                        "music composing"
+                    ],
+                    "discography": [
+                        "Joyce Jonathan discography"
+                    ]
+                },
+                "entity_id": "Q762673"
+            },
+            "coupled_entities": [
+                {
+                    "entity": "Thomas Hollande",
+                    "coupled_prompt": "Write an essay about Thomas Hollande\n    Include the following information:\n- unmarried partner\n- native language\n- country of citizenship\n- languages spoken, written or signed",
+                    "coupled_relationship_string": "\nRelationship to:\n- Joyce Jonathan\n- French\n- German",
+                    "mutual_properties": [
+                        "unmarried partner"
+                    ],
+                    "subject_as_object": [
+                        "unmarried partner"
+                    ],
+                    "target_true_as_object": [],
+                    "overlap_properties": [
+                        "native language",
+                        "country of citizenship",
+                        "languages spoken, written or signed"
+                    ],
+                    "original_property_of_subject_as_object": [],
+                    "overlapping_ground_truth": {
+                        "country of citizenship": [
+                            "France"
+                        ],
+                        "unmarried partner": [
+                            "Joyce Jonathan",
+                            "\u00c9milie Broussouloux"
+                        ],
+                        "native language": [
+                            "French"
+                        ],
+                        "languages spoken, written or signed": [
+                            "French",
+                            "English"
+                        ]
+                    },
+                    "not_overlapping_ground_truth": {
+                        "sex or gender": [
+                            "male"
+                        ],
+                        "occupation": [
+                            "lawyer"
+                        ],
+                        "father": [
+                            "Fran\u00e7ois Hollande"
+                        ],
+                        "mother": [
+                            "S\u00e9gol\u00e8ne Royal"
+                        ],
+                        "given name": [
+                            "Thomas"
+                        ],
+                        "sibling": [
+                            "Julien Hollande",
+                            "Flora Hollande",
+                            "Cl\u00e9mence Hollande"
+                        ],
+                        "family name": [
+                            "Hollande"
+                        ],
+                        "spouse": [
+                            "\u00c9milie Broussouloux"
+                        ],
+                        "educated at": [
+                            "University of Paris 1 Pantheon-Sorbonne"
+                        ]
+                    },
+                    "additional_properties": [
+                        "family name",
+                        "educated at",
+                        "given name",
+                        "occupation",
+                        "sibling",
+                        "father",
+                        "sex or gender",
+                        "mother",
+                        "spouse"
+                    ],
+                    "entity_id": "Q16783700"
+                },
+                {
+                    "entity": "Sur mes gardes",
+                    "coupled_prompt": "Write an essay about Sur mes gardes\n    Include the following information:\n- performer\n- record label\n- genre",
+                    "coupled_relationship_string": "\nRelationship to:\n- Joyce Jonathan\n- French\n- German",
+                    "mutual_properties": [],
+                    "subject_as_object": [
+                        "performer"
+                    ],
+                    "target_true_as_object": [],
+                    "overlap_properties": [
+                        "record label",
+                        "genre"
+                    ],
+                    "original_property_of_subject_as_object": [],
+                    "overlapping_ground_truth": {
+                        "record label": [
+                            "My Major Company",
+                            "Warner Music France"
+                        ],
+                        "performer": [
+                            "Joyce Jonathan"
+                        ],
+                        "genre": [
+                            "pop music"
+                        ]
+                    },
+                    "not_overlapping_ground_truth": {
+                        "part of": [
+                            "Joyce Jonathan's albums in chronological order"
+                        ],
+                        "place of publication": [
+                            "France"
+                        ],
+                        "language of work or name": [
+                            "French"
+                        ],
+                        "distributed by": [
+                            "Google Play Music"
+                        ],
+                        "distribution format": [
+                            "music streaming",
+                            "music download"
+                        ],
+                        "form of creative work": [
+                            "studio album"
+                        ],
+                        "has characteristic": [
+                            "debut album"
+                        ]
+                    },
+                    "additional_properties": [
+                        "distribution format",
+                        "has characteristic",
+                        "part of",
+                        "place of publication",
+                        "language of work or name",
+                        "distributed by",
+                        "form of creative work"
+                    ],
+                    "entity_id": "Q3505101"
+                },
+                {
+                    "entity": "Caract\u00e8re",
+                    "coupled_prompt": "Write an essay about Caract\u00e8re\n    Include the following information:\n- performer\n- record label",
+                    "coupled_relationship_string": "\nRelationship to:\n- Joyce Jonathan\n- French\n- German",
+                    "mutual_properties": [],
+                    "subject_as_object": [
+                        "performer"
+                    ],
+                    "target_true_as_object": [],
+                    "overlap_properties": [
+                        "record label"
+                    ],
+                    "original_property_of_subject_as_object": [],
+                    "overlapping_ground_truth": {
+                        "performer": [
+                            "Joyce Jonathan"
+                        ],
+                        "record label": [
+                            "Universal Music Group",
+                            "Polydor Records"
+                        ]
+                    },
+                    "not_overlapping_ground_truth": {
+                        "place of publication": [
+                            "France"
+                        ],
+                        "part of": [
+                            "Joyce Jonathan's albums in chronological order"
+                        ],
+                        "language of work or name": [
+                            "French"
+                        ],
+                        "distributed by": [
+                            "Google Play Music"
+                        ],
+                        "distribution format": [
+                            "music streaming",
+                            "music download"
+                        ],
+                        "form of creative work": [
+                            "studio album"
+                        ],
+                        "different from": [
+                            "Caract\u00e8re"
+                        ]
+                    },
+                    "additional_properties": [
+                        "distribution format",
+                        "different from",
+                        "part of",
+                        "place of publication",
+                        "language of work or name",
+                        "distributed by",
+                        "form of creative work"
+                    ],
+                    "entity_id": "Q17623736"
+                },
+                {
+                    "entity": "Une place pour moi",
+                    "coupled_prompt": "Write an essay about Une place pour moi\n    Include the following information:\n- performer\n- genre",
+                    "coupled_relationship_string": "\nRelationship to:\n- Joyce Jonathan\n- French\n- German",
+                    "mutual_properties": [],
+                    "subject_as_object": [
+                        "performer"
+                    ],
+                    "target_true_as_object": [],
+                    "overlap_properties": [
+                        "genre"
+                    ],
+                    "original_property_of_subject_as_object": [],
+                    "overlapping_ground_truth": {
+                        "performer": [
+                            "Joyce Jonathan"
+                        ],
+                        "genre": [
+                            "pop music"
+                        ]
+                    },
+                    "not_overlapping_ground_truth": {
+                        "language of work or name": [
+                            "French"
+                        ],
+                        "record label": [
+                            "Polydor Records"
+                        ],
+                        "part of": [
+                            "Joyce Jonathan's albums in chronological order"
+                        ],
+                        "distributed by": [
+                            "Google Play Music"
+                        ],
+                        "distribution format": [
+                            "music streaming",
+                            "music download"
+                        ],
+                        "form of creative work": [
+                            "studio album"
+                        ],
+                        "place of publication": [
+                            "France"
+                        ]
+                    },
+                    "additional_properties": [
+                        "record label",
+                        "distribution format",
+                        "part of",
+                        "place of publication",
+                        "language of work or name",
+                        "distributed by",
+                        "form of creative work"
+                    ],
+                    "entity_id": "Q24652396"
+                },
+                {
+                    "entity": "We Love Disney",
+                    "coupled_prompt": "Write an essay about We Love Disney\n    Include the following information:\n- contributor to the creative work or subject",
+                    "coupled_relationship_string": "\nRelationship to:\n- Joyce Jonathan\n- French\n- German",
+                    "mutual_properties": [],
+                    "subject_as_object": [
+                        "contributor to the creative work or subject"
+                    ],
+                    "target_true_as_object": [],
+                    "overlap_properties": [],
+                    "original_property_of_subject_as_object": [],
+                    "overlapping_ground_truth": {
+                        "contributor to the creative work or subject": [
+                            "\u00c9lodie Fr\u00e9g\u00e9",
+                            "Nolwenn Leroy",
+                            "Ari\u00e9 Elmaleh",
+                            "Ben l'Oncle Soul",
+                            "Micha\u00ebl Youn",
+                            "Thomas Dutronc",
+                            "Laura Smet",
+                            "Garou",
+                            "Camille Lou",
+                            "Alex Beaupain",
+                            "Olympe",
+                            "Joyce Jonathan",
+                            "Zaho",
+                            "Christophe Willem",
+                            "Emmanuel Moire",
+                            "Rose",
+                            "Ana\u00efs Delva",
+                            "Jenifer"
+                        ]
+                    },
+                    "not_overlapping_ground_truth": {
+                        "record label": [
+                            "Mercury Records"
+                        ],
+                        "performer": [
+                            "various artists"
+                        ],
+                        "part of the series": [
+                            "We Love Disney"
+                        ],
+                        "has characteristic": [
+                            "tribute album"
+                        ],
+                        "place of publication": [
+                            "France"
+                        ],
+                        "different from": [
+                            "We Love Disney"
+                        ],
+                        "distribution format": [
+                            "compact disc",
+                            "music streaming"
+                        ],
+                        "form of creative work": [
+                            "compilation album"
+                        ],
+                        "language of work or name": [
+                            "French"
+                        ]
+                    },
+                    "additional_properties": [
+                        "record label",
+                        "part of the series",
+                        "place of publication",
+                        "performer",
+                        "language of work or name",
+                        "distribution format",
+                        "has characteristic",
+                        "different from",
+                        "form of creative work"
+                    ],
+                    "entity_id": "Q16683201"
+                },
+                {
+                    "entity": "De l'amour",
+                    "coupled_prompt": "Write an essay about De l'amour\n    Include the following information:\n- participant",
+                    "coupled_relationship_string": "\nRelationship to:\n- Joyce Jonathan\n- French\n- German",
+                    "mutual_properties": [],
+                    "subject_as_object": [
+                        "participant"
+                    ],
+                    "target_true_as_object": [],
+                    "overlap_properties": [],
+                    "original_property_of_subject_as_object": [],
+                    "overlapping_ground_truth": {
+                        "participant": [
+                            "Jonas Ben Ahmed",
+                            "Bilal Hassani",
+                            "Laura Smet",
+                            "Amel Bent",
+                            "Christophe Beaugrand-Gerin",
+                            "Amir Haddad",
+                            "Gwendal Marimoutou",
+                            "Muriel Robin",
+                            "Julie Zenatti",
+                            "Hugo Cl\u00e9ment",
+                            "Elisa Tovati",
+                            "Val\u00e9rie Damidot",
+                            "\u00c9lodie Fr\u00e9g\u00e9",
+                            "Laurent Ruquier",
+                            "Christiane Taubira",
+                            "Amanda Lear",
+                            "Anne-\u00c9lisabeth Blateau",
+                            "Paul Darbos",
+                            "Karine Le Marchand",
+                            "David Mora",
+                            "Christophe Willem",
+                            "Camille Cottin",
+                            "Alain Bouzigues",
+                            "Zabou Breitman",
+                            "Agn\u00e8s Jaoui",
+                            "Vincent Dedienne",
+                            "Joyce Jonathan",
+                            "\u00c9lise Lucet",
+                            "Emmanuel Moire",
+                            "Fanny Sidney",
+                            "Patxi",
+                            "Pierre Lapointe",
+                            "Brigitte",
+                            "Guillaume Gouix",
+                            "Julie Gayet",
+                            "Maud Baecker",
+                            "Laure Calamy",
+                            "Beno\u00eet P\u00e9tr\u00e9",
+                            "Xavier Robic",
+                            "Tim Dup",
+                            "Alma",
+                            "St\u00e9fi Celma",
+                            "Marc-Olivier Fogiel",
+                            "Aur\u00e9lie Konat\u00e9",
+                            "Camille Lou",
+                            "Gr\u00e9gory Montel",
+                            "Liliane Rov\u00e8re",
+                            "Alex Lutz",
+                            "Cristiana Reali",
+                            "Philippe Besson",
+                            "Fran\u00e7oise Fabian",
+                            "Sarah Stern",
+                            "Jil Caplan",
+                            "Albin de la Simone",
+                            "C\u00e9cile Cassel",
+                            "Daphn\u00e9 B\u00fcrki",
+                            "Alysson Paradis",
+                            "Alex Beaupain",
+                            "Camille Chamoux",
+                            "Romane Bohringer",
+                            "Anne Caillon",
+                            "Pierre Deladonchamps",
+                            "Alice de Lencquesaing",
+                            "Vanessa David",
+                            "Anna Mouglalis",
+                            "Germain Louvet",
+                            "Adrien Rohard",
+                            "Benjamin Gauthier",
+                            "Karima Charni"
+                        ]
+                    },
+                    "not_overlapping_ground_truth": {
+                        "genre": [
+                            "variety"
+                        ],
+                        "record label": [
+                            "Play Two"
+                        ],
+                        "language of work or name": [
+                            "French"
+                        ],
+                        "composer": [
+                            "Patxi"
+                        ],
+                        "lyrics by": [
+                            "Patxi"
+                        ],
+                        "form of creative work": [
+                            "song"
+                        ],
+                        "distribution format": [
+                            "digital distribution",
+                            "music streaming",
+                            "music download"
+                        ],
+                        "has characteristic": [
+                            "charity single"
+                        ],
+                        "director": [
+                            "Beno\u00eet P\u00e9tr\u00e9"
+                        ],
+                        "performer": [
+                            "Urgence Homophobie"
+                        ]
+                    },
+                    "additional_properties": [
+                        "record label",
+                        "genre",
+                        "language of work or name",
+                        "performer",
+                        "director",
+                        "lyrics by",
+                        "distribution format",
+                        "has characteristic",
+                        "composer",
+                        "form of creative work"
+                    ],
+                    "entity_id": "Q61775508"
+                },
+                {
+                    "entity": "Mask Singer, season 1",
+                    "coupled_prompt": "Write an essay about Mask Singer, season 1\n    Include the following information:\n- participant",
+                    "coupled_relationship_string": "\nRelationship to:\n- Joyce Jonathan\n- French\n- German",
+                    "mutual_properties": [],
+                    "subject_as_object": [
+                        "participant"
+                    ],
+                    "target_true_as_object": [],
+                    "overlap_properties": [],
+                    "original_property_of_subject_as_object": [],
+                    "overlapping_ground_truth": {
+                        "participant": [
+                            "Laurence Boccolini",
+                            "Karl Z\u00e9ro",
+                            "Julie Zenatti",
+                            "Frank Leboeuf",
+                            "Natasha St-Pier",
+                            "David Douillet",
+                            "Yves Lecoq",
+                            "Joyce Jonathan",
+                            "Sma\u00efn",
+                            "Lio",
+                            "Sheila",
+                            "Marie-Jos\u00e9 P\u00e9rec"
+                        ]
+                    },
+                    "not_overlapping_ground_truth": {
+                        "part of the series": [
+                            "Mask Singer"
+                        ],
+                        "genre": [
+                            "talent show"
+                        ],
+                        "presenter": [
+                            "Camille Combal"
+                        ],
+                        "winner": [
+                            "Laurence Boccolini"
+                        ],
+                        "country of origin": [
+                            "France"
+                        ],
+                        "original language of film or TV show": [
+                            "French"
+                        ],
+                        "producer": [
+                            "Herv\u00e9 Hubert"
+                        ],
+                        "different from": [
+                            "The Mask Singer, season 1"
+                        ]
+                    },
+                    "additional_properties": [
+                        "country of origin",
+                        "part of the series",
+                        "winner",
+                        "presenter",
+                        "producer",
+                        "original language of film or TV show",
+                        "different from",
+                        "genre"
+                    ],
+                    "entity_id": "Q86682652"
+                }
+            ],
+            "coupled_properties_count": 16
+        }
+    },
+    {
+        "subject": "HD 110956",
+        "src": "What is the name of the constellation which HD 110956 belongs?",
+        "pred": "Leo Minor",
+        "rephrase": "Which constellation can HD 110956 be found in?",
+        "alt": "Centaurus",
+        "answers": [
+            "Crux"
+        ],
+        "loc": "nq question: tad the lost explorer and the secret of king midas english cast",
+        "loc_ans": "Kerry Shale as Tadheus \"Tad\" Stone, Kopponen",
+        "cond": "Leo Minor >> Centaurus || What is the name of the constellation which HD 110956 belongs?",
+        "dependancies": {
+            "subject_entity": {
+                "properties": [
+                    "companion of",
+                    "epoch",
+                    "part of",
+                    "constellation"
+                ],
+                "coupled_prompt": "Write an essay about HD 110956\nInclude the following information:\n- companion of\n- epoch\n- part of\n- constellation",
+                "coupled_relationship_string": "\nRelationship to:\n- BR Cru\n- Crux\n- Centaurus",
+                "ground_truth": {
+                    "constellation": [
+                        "Crux"
+                    ],
+                    "epoch": [
+                        "J2000.0"
+                    ],
+                    "part of": [
+                        "Lower Centaurus-Crux"
+                    ],
+                    "companion of": [
+                        "BR Cru"
+                    ]
+                },
+                "entity_id": "Q5098426"
+            },
+            "coupled_entities": [
+                {
+                    "entity": "BR Cru",
+                    "coupled_prompt": "Write an essay about BR Cru\n    Include the following information:\n- companion of\n- epoch\n- constellation",
+                    "coupled_relationship_string": "\nRelationship to:\n- HD 110956\n- Crux\n- Centaurus",
+                    "mutual_properties": [
+                        "companion of"
+                    ],
+                    "subject_as_object": [
+                        "companion of"
+                    ],
+                    "target_true_as_object": [],
+                    "overlap_properties": [
+                        "epoch",
+                        "constellation"
+                    ],
+                    "original_property_of_subject_as_object": [],
+                    "overlapping_ground_truth": {
+                        "constellation": [
+                            "Crux"
+                        ],
+                        "epoch": [
+                            "J2000.0"
+                        ],
+                        "companion of": [
+                            "HD 110956"
+                        ]
+                    },
+                    "not_overlapping_ground_truth": {},
+                    "additional_properties": [],
+                    "entity_id": "Q12064184"
+                }
+            ],
+            "coupled_properties_count": 4
+        }
+    },
+    {
+        "subject": "Kishar",
+        "src": "Who was the mother of Kishar?",
+        "pred": "Talmi",
+        "rephrase": "What was Kishar's mother's name?",
+        "alt": "Ruth Park",
+        "answers": [
+            "Lahamu"
+        ],
+        "loc": "nq question: when is the last time congress passed a complete budget",
+        "loc_ans": "FY2010",
+        "cond": "Talmi >> Ruth Park || Who was the mother of Kishar?",
+        "dependancies": {
+            "subject_entity": {
+                "properties": [
+                    "spouse",
+                    "sibling",
+                    "father",
+                    "child",
+                    "present in work",
+                    "sex or gender",
+                    "part of",
+                    "mother"
+                ],
+                "coupled_prompt": "Write an essay about Kishar\nInclude the following information:\n- spouse\n- sibling\n- father\n- child\n- present in work\n- sex or gender\n- part of\n- mother",
+                "coupled_relationship_string": "\nRelationship to:\n- Lahmu\n- Lahamu\n- Ruth Park",
+                "ground_truth": {
+                    "sex or gender": [
+                        "female"
+                    ],
+                    "father": [
+                        "Lahmu"
+                    ],
+                    "mother": [
+                        "Lahamu"
+                    ],
+                    "spouse": [
+                        "Anshar"
+                    ],
+                    "sibling": [
+                        "Anshar"
+                    ],
+                    "present in work": [
+                        "En\u00fbma Eli\u0161"
+                    ],
+                    "child": [
+                        "Anu"
+                    ],
+                    "part of": [
+                        "Babylonian mythology"
+                    ]
+                },
+                "entity_id": "Q674441"
+            },
+            "coupled_entities": [
+                {
+                    "entity": "Anshar",
+                    "coupled_prompt": "Write an essay about Anshar\n    Include the following information:\n- sibling\n- spouse\n- father\n- child\n- mother",
+                    "coupled_relationship_string": "\nRelationship to:\n- Kishar\n- Lahamu\n- Ruth Park",
+                    "mutual_properties": [
+                        "sibling",
+                        "spouse"
+                    ],
+                    "subject_as_object": [
+                        "sibling",
+                        "spouse"
+                    ],
+                    "target_true_as_object": [],
+                    "overlap_properties": [
+                        "father",
+                        "child",
+                        "mother"
+                    ],
+                    "original_property_of_subject_as_object": [],
+                    "overlapping_ground_truth": {
+                        "father": [
+                            "Lahmu"
+                        ],
+                        "mother": [
+                            "Lahamu"
+                        ],
+                        "spouse": [
+                            "Kishar"
+                        ],
+                        "sibling": [
+                            "Kishar"
+                        ],
+                        "child": [
+                            "Anu"
+                        ]
+                    },
+                    "not_overlapping_ground_truth": {
+                        "sex or gender": [
+                            "male"
+                        ],
+                        "worshipped by": [
+                            "Sumerian religion"
+                        ]
+                    },
+                    "additional_properties": [
+                        "worshipped by",
+                        "sex or gender"
+                    ],
+                    "entity_id": "Q771497"
+                },
+                {
+                    "entity": "Lahmu",
+                    "coupled_prompt": "Write an essay about Lahmu\n    Include the following information:\n- child",
+                    "coupled_relationship_string": "\nRelationship to:\n- Kishar\n- Lahamu\n- Ruth Park",
+                    "mutual_properties": [],
+                    "subject_as_object": [
+                        "child"
+                    ],
+                    "target_true_as_object": [],
+                    "overlap_properties": [],
+                    "original_property_of_subject_as_object": [],
+                    "overlapping_ground_truth": {
+                        "child": [
+                            "Anshar",
+                            "Kishar"
+                        ]
+                    },
+                    "not_overlapping_ground_truth": {
+                        "spouse": [
+                            "Lahamu"
+                        ],
+                        "father": [
+                            "Abzu"
+                        ],
+                        "mother": [
+                            "Tiamat"
+                        ],
+                        "sex or gender": [
+                            "male"
+                        ],
+                        "sibling": [
+                            "Lahamu"
+                        ],
+                        "worshipped by": [
+                            "Mesopotamian mythology"
+                        ],
+                        "from narrative universe": [
+                            "Akkadian mythology"
+                        ]
+                    },
+                    "additional_properties": [
+                        "worshipped by",
+                        "sex or gender",
+                        "spouse",
+                        "mother",
+                        "sibling",
+                        "father",
+                        "from narrative universe"
+                    ],
+                    "entity_id": "Q932672"
+                }
+            ],
+            "coupled_properties_count": 8
+        }
+    }
+]

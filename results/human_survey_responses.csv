@@ -1,0 +1,649 @@
+participant_id,group_id,order_id,sample_id,method,question,response,question_type
+Group_1_Order_1_0,Group 1,Order 1,ca4f2b8208098d244cebc35a215f3eb9,no_edit,The main passage is written as if the new fact is true,6,Edit consistency
+Group_1_Order_1_0,Group 1,Order 1,ca4f2b8208098d244cebc35a215f3eb9,no_edit,The related passage does not contradict the new fact,6,Edit consistency
+Group_1_Order_1_0,Group 1,Order 1,ca4f2b8208098d244cebc35a215f3eb9,no_edit,"Ignoring the new fact, most of the old facts are still true in the main passage.",6,Factual consistency
+Group_1_Order_1_0,Group 1,Order 1,ca4f2b8208098d244cebc35a215f3eb9,no_edit,"Ignoring the new fact, most of the old facts are still true in the related passage.",6,Factual consistency
+Group_1_Order_1_0,Group 1,Order 1,ca4f2b8208098d244cebc35a215f3eb9,no_edit,"Ignoring the old and new facts, the main passage does not contradict itself.",6,Internal consistency
+Group_1_Order_1_0,Group 1,Order 1,ca4f2b8208098d244cebc35a215f3eb9,no_edit,"Ignoring the old and new facts, the related passage does not contradict itself.",6,Internal consistency
+Group_1_Order_1_0,Group 1,Order 1,ca4f2b8208098d244cebc35a215f3eb9,no_edit,"Ignoring the old and new facts, the main passage and the related passage do not contradict each other.",6,Cross passage consistency
+Group_1_Order_1_0,Group 1,Order 1,ca4f2b8208098d244cebc35a215f3eb9,no_edit,The main passage is focused on the subject and the related passage is focused on the related entity,6,Topicality
+Group_1_Order_1_0,Group 1,Order 1,ca4f2b8208098d244cebc35a215f3eb9,no_edit,Both passages are natural sounding text close to what a human would write.,6,Naturalness
+Group_1_Order_1_0,Group 1,Order 1,857c595296caaeab532251cf9d8f3979,rome,The main passage is written as if the new fact is true,2,Edit consistency
+Group_1_Order_1_0,Group 1,Order 1,857c595296caaeab532251cf9d8f3979,rome,The related passage does not contradict the new fact,2,Edit consistency
+Group_1_Order_1_0,Group 1,Order 1,857c595296caaeab532251cf9d8f3979,rome,"Ignoring the new fact, most of the old facts are still true in the main passage.",6,Factual consistency
+Group_1_Order_1_0,Group 1,Order 1,857c595296caaeab532251cf9d8f3979,rome,"Ignoring the new fact, most of the old facts are still true in the related passage.",6,Factual consistency
+Group_1_Order_1_0,Group 1,Order 1,857c595296caaeab532251cf9d8f3979,rome,"Ignoring the old and new facts, the main passage does not contradict itself.",6,Internal consistency
+Group_1_Order_1_0,Group 1,Order 1,857c595296caaeab532251cf9d8f3979,rome,"Ignoring the old and new facts, the related passage does not contradict itself.",6,Internal consistency
+Group_1_Order_1_0,Group 1,Order 1,857c595296caaeab532251cf9d8f3979,rome,"Ignoring the old and new facts, the main passage and the related passage do not contradict each other.",6,Cross passage consistency
+Group_1_Order_1_0,Group 1,Order 1,857c595296caaeab532251cf9d8f3979,rome,The main passage is focused on the subject and the related passage is focused on the related entity,6,Topicality
+Group_1_Order_1_0,Group 1,Order 1,857c595296caaeab532251cf9d8f3979,rome,Both passages are natural sounding text close to what a human would write.,2,Naturalness
+Group_1_Order_1_0,Group 1,Order 1,857c595296caaeab532251cf9d8f3979,no_edit,The main passage is written as if the new fact is true,3,Edit consistency
+Group_1_Order_1_0,Group 1,Order 1,857c595296caaeab532251cf9d8f3979,no_edit,The related passage does not contradict the new fact,3,Edit consistency
+Group_1_Order_1_0,Group 1,Order 1,857c595296caaeab532251cf9d8f3979,no_edit,"Ignoring the new fact, most of the old facts are still true in the main passage.",6,Factual consistency
+Group_1_Order_1_0,Group 1,Order 1,857c595296caaeab532251cf9d8f3979,no_edit,"Ignoring the new fact, most of the old facts are still true in the related passage.",3,Factual consistency
+Group_1_Order_1_0,Group 1,Order 1,857c595296caaeab532251cf9d8f3979,no_edit,"Ignoring the old and new facts, the main passage does not contradict itself.",6,Internal consistency
+Group_1_Order_1_0,Group 1,Order 1,857c595296caaeab532251cf9d8f3979,no_edit,"Ignoring the old and new facts, the related passage does not contradict itself.",3,Internal consistency
+Group_1_Order_1_0,Group 1,Order 1,857c595296caaeab532251cf9d8f3979,no_edit,"Ignoring the old and new facts, the main passage and the related passage do not contradict each other.",3,Cross passage consistency
+Group_1_Order_1_0,Group 1,Order 1,857c595296caaeab532251cf9d8f3979,no_edit,The main passage is focused on the subject and the related passage is focused on the related entity,6,Topicality
+Group_1_Order_1_0,Group 1,Order 1,857c595296caaeab532251cf9d8f3979,no_edit,Both passages are natural sounding text close to what a human would write.,5,Naturalness
+Group_1_Order_1_0,Group 1,Order 1,acbc814e66797f413ceb01d3d70266a3,no_edit,The main passage is written as if the new fact is true,2,Edit consistency
+Group_1_Order_1_0,Group 1,Order 1,acbc814e66797f413ceb01d3d70266a3,no_edit,The related passage does not contradict the new fact,6,Edit consistency
+Group_1_Order_1_0,Group 1,Order 1,acbc814e66797f413ceb01d3d70266a3,no_edit,"Ignoring the new fact, most of the old facts are still true in the main passage.",6,Factual consistency
+Group_1_Order_1_0,Group 1,Order 1,acbc814e66797f413ceb01d3d70266a3,no_edit,"Ignoring the new fact, most of the old facts are still true in the related passage.",6,Factual consistency
+Group_1_Order_1_0,Group 1,Order 1,acbc814e66797f413ceb01d3d70266a3,no_edit,"Ignoring the old and new facts, the main passage does not contradict itself.",6,Internal consistency
+Group_1_Order_1_0,Group 1,Order 1,acbc814e66797f413ceb01d3d70266a3,no_edit,"Ignoring the old and new facts, the related passage does not contradict itself.",6,Internal consistency
+Group_1_Order_1_0,Group 1,Order 1,acbc814e66797f413ceb01d3d70266a3,no_edit,"Ignoring the old and new facts, the main passage and the related passage do not contradict each other.",6,Cross passage consistency
+Group_1_Order_1_0,Group 1,Order 1,acbc814e66797f413ceb01d3d70266a3,no_edit,The main passage is focused on the subject and the related passage is focused on the related entity,6,Topicality
+Group_1_Order_1_0,Group 1,Order 1,acbc814e66797f413ceb01d3d70266a3,no_edit,Both passages are natural sounding text close to what a human would write.,6,Naturalness
+Group_1_Order_1_0,Group 1,Order 1,857c595296caaeab532251cf9d8f3979,human,The main passage is written as if the new fact is true,6,Edit consistency
+Group_1_Order_1_0,Group 1,Order 1,857c595296caaeab532251cf9d8f3979,human,The related passage does not contradict the new fact,6,Edit consistency
+Group_1_Order_1_0,Group 1,Order 1,857c595296caaeab532251cf9d8f3979,human,"Ignoring the new fact, most of the old facts are still true in the main passage.",6,Factual consistency
+Group_1_Order_1_0,Group 1,Order 1,857c595296caaeab532251cf9d8f3979,human,"Ignoring the new fact, most of the old facts are still true in the related passage.",6,Factual consistency
+Group_1_Order_1_0,Group 1,Order 1,857c595296caaeab532251cf9d8f3979,human,"Ignoring the old and new facts, the main passage does not contradict itself.",6,Internal consistency
+Group_1_Order_1_0,Group 1,Order 1,857c595296caaeab532251cf9d8f3979,human,"Ignoring the old and new facts, the related passage does not contradict itself.",6,Internal consistency
+Group_1_Order_1_0,Group 1,Order 1,857c595296caaeab532251cf9d8f3979,human,"Ignoring the old and new facts, the main passage and the related passage do not contradict each other.",6,Cross passage consistency
+Group_1_Order_1_0,Group 1,Order 1,857c595296caaeab532251cf9d8f3979,human,The main passage is focused on the subject and the related passage is focused on the related entity,3,Topicality
+Group_1_Order_1_0,Group 1,Order 1,857c595296caaeab532251cf9d8f3979,human,Both passages are natural sounding text close to what a human would write.,6,Naturalness
+Group_1_Order_1_0,Group 1,Order 1,ca4f2b8208098d244cebc35a215f3eb9,human,The main passage is written as if the new fact is true,7,Edit consistency
+Group_1_Order_1_0,Group 1,Order 1,ca4f2b8208098d244cebc35a215f3eb9,human,The related passage does not contradict the new fact,6,Edit consistency
+Group_1_Order_1_0,Group 1,Order 1,ca4f2b8208098d244cebc35a215f3eb9,human,"Ignoring the new fact, most of the old facts are still true in the main passage.",2,Factual consistency
+Group_1_Order_1_0,Group 1,Order 1,ca4f2b8208098d244cebc35a215f3eb9,human,"Ignoring the new fact, most of the old facts are still true in the related passage.",2,Factual consistency
+Group_1_Order_1_0,Group 1,Order 1,ca4f2b8208098d244cebc35a215f3eb9,human,"Ignoring the old and new facts, the main passage does not contradict itself.",6,Internal consistency
+Group_1_Order_1_0,Group 1,Order 1,ca4f2b8208098d244cebc35a215f3eb9,human,"Ignoring the old and new facts, the related passage does not contradict itself.",6,Internal consistency
+Group_1_Order_1_0,Group 1,Order 1,ca4f2b8208098d244cebc35a215f3eb9,human,"Ignoring the old and new facts, the main passage and the related passage do not contradict each other.",6,Cross passage consistency
+Group_1_Order_1_0,Group 1,Order 1,ca4f2b8208098d244cebc35a215f3eb9,human,The main passage is focused on the subject and the related passage is focused on the related entity,6,Topicality
+Group_1_Order_1_0,Group 1,Order 1,ca4f2b8208098d244cebc35a215f3eb9,human,Both passages are natural sounding text close to what a human would write.,6,Naturalness
+Group_1_Order_1_0,Group 1,Order 1,acbc814e66797f413ceb01d3d70266a3,human,The main passage is written as if the new fact is true,6,Edit consistency
+Group_1_Order_1_0,Group 1,Order 1,acbc814e66797f413ceb01d3d70266a3,human,The related passage does not contradict the new fact,6,Edit consistency
+Group_1_Order_1_0,Group 1,Order 1,acbc814e66797f413ceb01d3d70266a3,human,"Ignoring the new fact, most of the old facts are still true in the main passage.",6,Factual consistency
+Group_1_Order_1_0,Group 1,Order 1,acbc814e66797f413ceb01d3d70266a3,human,"Ignoring the new fact, most of the old facts are still true in the related passage.",6,Factual consistency
+Group_1_Order_1_0,Group 1,Order 1,acbc814e66797f413ceb01d3d70266a3,human,"Ignoring the old and new facts, the main passage does not contradict itself.",6,Internal consistency
+Group_1_Order_1_0,Group 1,Order 1,acbc814e66797f413ceb01d3d70266a3,human,"Ignoring the old and new facts, the related passage does not contradict itself.",6,Internal consistency
+Group_1_Order_1_0,Group 1,Order 1,acbc814e66797f413ceb01d3d70266a3,human,"Ignoring the old and new facts, the main passage and the related passage do not contradict each other.",6,Cross passage consistency
+Group_1_Order_1_0,Group 1,Order 1,acbc814e66797f413ceb01d3d70266a3,human,The main passage is focused on the subject and the related passage is focused on the related entity,6,Topicality
+Group_1_Order_1_0,Group 1,Order 1,acbc814e66797f413ceb01d3d70266a3,human,Both passages are natural sounding text close to what a human would write.,6,Naturalness
+Group_1_Order_1_0,Group 1,Order 1,ca4f2b8208098d244cebc35a215f3eb9,rome,The main passage is written as if the new fact is true,6,Edit consistency
+Group_1_Order_1_0,Group 1,Order 1,ca4f2b8208098d244cebc35a215f3eb9,rome,The related passage does not contradict the new fact,4,Edit consistency
+Group_1_Order_1_0,Group 1,Order 1,ca4f2b8208098d244cebc35a215f3eb9,rome,"Ignoring the new fact, most of the old facts are still true in the main passage.",2,Factual consistency
+Group_1_Order_1_0,Group 1,Order 1,ca4f2b8208098d244cebc35a215f3eb9,rome,"Ignoring the new fact, most of the old facts are still true in the related passage.",2,Factual consistency
+Group_1_Order_1_0,Group 1,Order 1,ca4f2b8208098d244cebc35a215f3eb9,rome,"Ignoring the old and new facts, the main passage does not contradict itself.",6,Internal consistency
+Group_1_Order_1_0,Group 1,Order 1,ca4f2b8208098d244cebc35a215f3eb9,rome,"Ignoring the old and new facts, the related passage does not contradict itself.",6,Internal consistency
+Group_1_Order_1_0,Group 1,Order 1,ca4f2b8208098d244cebc35a215f3eb9,rome,"Ignoring the old and new facts, the main passage and the related passage do not contradict each other.",4,Cross passage consistency
+Group_1_Order_1_0,Group 1,Order 1,ca4f2b8208098d244cebc35a215f3eb9,rome,The main passage is focused on the subject and the related passage is focused on the related entity,6,Topicality
+Group_1_Order_1_0,Group 1,Order 1,ca4f2b8208098d244cebc35a215f3eb9,rome,Both passages are natural sounding text close to what a human would write.,6,Naturalness
+Group_1_Order_1_0,Group 1,Order 1,acbc814e66797f413ceb01d3d70266a3,rome,The main passage is written as if the new fact is true,6,Edit consistency
+Group_1_Order_1_0,Group 1,Order 1,acbc814e66797f413ceb01d3d70266a3,rome,The related passage does not contradict the new fact,4,Edit consistency
+Group_1_Order_1_0,Group 1,Order 1,acbc814e66797f413ceb01d3d70266a3,rome,"Ignoring the new fact, most of the old facts are still true in the main passage.",3,Factual consistency
+Group_1_Order_1_0,Group 1,Order 1,acbc814e66797f413ceb01d3d70266a3,rome,"Ignoring the new fact, most of the old facts are still true in the related passage.",6,Factual consistency
+Group_1_Order_1_0,Group 1,Order 1,acbc814e66797f413ceb01d3d70266a3,rome,"Ignoring the old and new facts, the main passage does not contradict itself.",6,Internal consistency
+Group_1_Order_1_0,Group 1,Order 1,acbc814e66797f413ceb01d3d70266a3,rome,"Ignoring the old and new facts, the related passage does not contradict itself.",6,Internal consistency
+Group_1_Order_1_0,Group 1,Order 1,acbc814e66797f413ceb01d3d70266a3,rome,"Ignoring the old and new facts, the main passage and the related passage do not contradict each other.",5,Cross passage consistency
+Group_1_Order_1_0,Group 1,Order 1,acbc814e66797f413ceb01d3d70266a3,rome,The main passage is focused on the subject and the related passage is focused on the related entity,6,Topicality
+Group_1_Order_1_0,Group 1,Order 1,acbc814e66797f413ceb01d3d70266a3,rome,Both passages are natural sounding text close to what a human would write.,6,Naturalness
+Group_2_Order_1_0,Group 2,Order 1,60b37610ad951b89a8123101512f3520,human,The main passage is written as if the new fact is true,7,Edit consistency
+Group_2_Order_1_0,Group 2,Order 1,60b37610ad951b89a8123101512f3520,human,The related passage does not contradict the new fact,6,Edit consistency
+Group_2_Order_1_0,Group 2,Order 1,60b37610ad951b89a8123101512f3520,human,"Ignoring the new fact, most of the old facts are still true in the main passage.",6,Factual consistency
+Group_2_Order_1_0,Group 2,Order 1,60b37610ad951b89a8123101512f3520,human,"Ignoring the new fact, most of the old facts are still true in the related passage.",6,Factual consistency
+Group_2_Order_1_0,Group 2,Order 1,60b37610ad951b89a8123101512f3520,human,"Ignoring the old and new facts, the main passage does not contradict itself.",6,Internal consistency
+Group_2_Order_1_0,Group 2,Order 1,60b37610ad951b89a8123101512f3520,human,"Ignoring the old and new facts, the related passage does not contradict itself.",6,Internal consistency
+Group_2_Order_1_0,Group 2,Order 1,60b37610ad951b89a8123101512f3520,human,"Ignoring the old and new facts, the main passage and the related passage do not contradict each other.",6,Cross passage consistency
+Group_2_Order_1_0,Group 2,Order 1,60b37610ad951b89a8123101512f3520,human,The main passage is focused on the subject and the related passage is focused on the related entity,6,Topicality
+Group_2_Order_1_0,Group 2,Order 1,60b37610ad951b89a8123101512f3520,human,Both passages are natural sounding text close to what a human would write.,7,Naturalness
+Group_2_Order_1_0,Group 2,Order 1,e16852ef3f0165615e93de4ca793430a,rome,The main passage is written as if the new fact is true,7,Edit consistency
+Group_2_Order_1_0,Group 2,Order 1,e16852ef3f0165615e93de4ca793430a,rome,The related passage does not contradict the new fact,5,Edit consistency
+Group_2_Order_1_0,Group 2,Order 1,e16852ef3f0165615e93de4ca793430a,rome,"Ignoring the new fact, most of the old facts are still true in the main passage.",5,Factual consistency
+Group_2_Order_1_0,Group 2,Order 1,e16852ef3f0165615e93de4ca793430a,rome,"Ignoring the new fact, most of the old facts are still true in the related passage.",5,Factual consistency
+Group_2_Order_1_0,Group 2,Order 1,e16852ef3f0165615e93de4ca793430a,rome,"Ignoring the old and new facts, the main passage does not contradict itself.",5,Internal consistency
+Group_2_Order_1_0,Group 2,Order 1,e16852ef3f0165615e93de4ca793430a,rome,"Ignoring the old and new facts, the related passage does not contradict itself.",5,Internal consistency
+Group_2_Order_1_0,Group 2,Order 1,e16852ef3f0165615e93de4ca793430a,rome,"Ignoring the old and new facts, the main passage and the related passage do not contradict each other.",5,Cross passage consistency
+Group_2_Order_1_0,Group 2,Order 1,e16852ef3f0165615e93de4ca793430a,rome,The main passage is focused on the subject and the related passage is focused on the related entity,6,Topicality
+Group_2_Order_1_0,Group 2,Order 1,e16852ef3f0165615e93de4ca793430a,rome,Both passages are natural sounding text close to what a human would write.,2,Naturalness
+Group_2_Order_1_0,Group 2,Order 1,60b37610ad951b89a8123101512f3520,rome,The main passage is written as if the new fact is true,7,Edit consistency
+Group_2_Order_1_0,Group 2,Order 1,60b37610ad951b89a8123101512f3520,rome,The related passage does not contradict the new fact,1,Edit consistency
+Group_2_Order_1_0,Group 2,Order 1,60b37610ad951b89a8123101512f3520,rome,"Ignoring the new fact, most of the old facts are still true in the main passage.",1,Factual consistency
+Group_2_Order_1_0,Group 2,Order 1,60b37610ad951b89a8123101512f3520,rome,"Ignoring the new fact, most of the old facts are still true in the related passage.",1,Factual consistency
+Group_2_Order_1_0,Group 2,Order 1,60b37610ad951b89a8123101512f3520,rome,"Ignoring the old and new facts, the main passage does not contradict itself.",1,Internal consistency
+Group_2_Order_1_0,Group 2,Order 1,60b37610ad951b89a8123101512f3520,rome,"Ignoring the old and new facts, the related passage does not contradict itself.",1,Internal consistency
+Group_2_Order_1_0,Group 2,Order 1,60b37610ad951b89a8123101512f3520,rome,"Ignoring the old and new facts, the main passage and the related passage do not contradict each other.",1,Cross passage consistency
+Group_2_Order_1_0,Group 2,Order 1,60b37610ad951b89a8123101512f3520,rome,The main passage is focused on the subject and the related passage is focused on the related entity,1,Topicality
+Group_2_Order_1_0,Group 2,Order 1,60b37610ad951b89a8123101512f3520,rome,Both passages are natural sounding text close to what a human would write.,1,Naturalness
+Group_2_Order_1_0,Group 2,Order 1,e16852ef3f0165615e93de4ca793430a,no_edit,The main passage is written as if the new fact is true,7,Edit consistency
+Group_2_Order_1_0,Group 2,Order 1,e16852ef3f0165615e93de4ca793430a,no_edit,The related passage does not contradict the new fact,6,Edit consistency
+Group_2_Order_1_0,Group 2,Order 1,e16852ef3f0165615e93de4ca793430a,no_edit,"Ignoring the new fact, most of the old facts are still true in the main passage.",4,Factual consistency
+Group_2_Order_1_0,Group 2,Order 1,e16852ef3f0165615e93de4ca793430a,no_edit,"Ignoring the new fact, most of the old facts are still true in the related passage.",4,Factual consistency
+Group_2_Order_1_0,Group 2,Order 1,e16852ef3f0165615e93de4ca793430a,no_edit,"Ignoring the old and new facts, the main passage does not contradict itself.",4,Internal consistency
+Group_2_Order_1_0,Group 2,Order 1,e16852ef3f0165615e93de4ca793430a,no_edit,"Ignoring the old and new facts, the related passage does not contradict itself.",4,Internal consistency
+Group_2_Order_1_0,Group 2,Order 1,e16852ef3f0165615e93de4ca793430a,no_edit,"Ignoring the old and new facts, the main passage and the related passage do not contradict each other.",4,Cross passage consistency
+Group_2_Order_1_0,Group 2,Order 1,e16852ef3f0165615e93de4ca793430a,no_edit,The main passage is focused on the subject and the related passage is focused on the related entity,4,Topicality
+Group_2_Order_1_0,Group 2,Order 1,e16852ef3f0165615e93de4ca793430a,no_edit,Both passages are natural sounding text close to what a human would write.,6,Naturalness
+Group_2_Order_1_0,Group 2,Order 1,a41ba08ffb8af6eb5ecf70c7a52a6289,rome,The main passage is written as if the new fact is true,7,Edit consistency
+Group_2_Order_1_0,Group 2,Order 1,a41ba08ffb8af6eb5ecf70c7a52a6289,rome,The related passage does not contradict the new fact,7,Edit consistency
+Group_2_Order_1_0,Group 2,Order 1,a41ba08ffb8af6eb5ecf70c7a52a6289,rome,"Ignoring the new fact, most of the old facts are still true in the main passage.",7,Factual consistency
+Group_2_Order_1_0,Group 2,Order 1,a41ba08ffb8af6eb5ecf70c7a52a6289,rome,"Ignoring the new fact, most of the old facts are still true in the related passage.",6,Factual consistency
+Group_2_Order_1_0,Group 2,Order 1,a41ba08ffb8af6eb5ecf70c7a52a6289,rome,"Ignoring the old and new facts, the main passage does not contradict itself.",6,Internal consistency
+Group_2_Order_1_0,Group 2,Order 1,a41ba08ffb8af6eb5ecf70c7a52a6289,rome,"Ignoring the old and new facts, the related passage does not contradict itself.",6,Internal consistency
+Group_2_Order_1_0,Group 2,Order 1,a41ba08ffb8af6eb5ecf70c7a52a6289,rome,"Ignoring the old and new facts, the main passage and the related passage do not contradict each other.",6,Cross passage consistency
+Group_2_Order_1_0,Group 2,Order 1,a41ba08ffb8af6eb5ecf70c7a52a6289,rome,The main passage is focused on the subject and the related passage is focused on the related entity,6,Topicality
+Group_2_Order_1_0,Group 2,Order 1,a41ba08ffb8af6eb5ecf70c7a52a6289,rome,Both passages are natural sounding text close to what a human would write.,6,Naturalness
+Group_2_Order_1_0,Group 2,Order 1,60b37610ad951b89a8123101512f3520,no_edit,The main passage is written as if the new fact is true,7,Edit consistency
+Group_2_Order_1_0,Group 2,Order 1,60b37610ad951b89a8123101512f3520,no_edit,The related passage does not contradict the new fact,7,Edit consistency
+Group_2_Order_1_0,Group 2,Order 1,60b37610ad951b89a8123101512f3520,no_edit,"Ignoring the new fact, most of the old facts are still true in the main passage.",7,Factual consistency
+Group_2_Order_1_0,Group 2,Order 1,60b37610ad951b89a8123101512f3520,no_edit,"Ignoring the new fact, most of the old facts are still true in the related passage.",7,Factual consistency
+Group_2_Order_1_0,Group 2,Order 1,60b37610ad951b89a8123101512f3520,no_edit,"Ignoring the old and new facts, the main passage does not contradict itself.",7,Internal consistency
+Group_2_Order_1_0,Group 2,Order 1,60b37610ad951b89a8123101512f3520,no_edit,"Ignoring the old and new facts, the related passage does not contradict itself.",7,Internal consistency
+Group_2_Order_1_0,Group 2,Order 1,60b37610ad951b89a8123101512f3520,no_edit,"Ignoring the old and new facts, the main passage and the related passage do not contradict each other.",7,Cross passage consistency
+Group_2_Order_1_0,Group 2,Order 1,60b37610ad951b89a8123101512f3520,no_edit,The main passage is focused on the subject and the related passage is focused on the related entity,7,Topicality
+Group_2_Order_1_0,Group 2,Order 1,60b37610ad951b89a8123101512f3520,no_edit,Both passages are natural sounding text close to what a human would write.,7,Naturalness
+Group_2_Order_1_0,Group 2,Order 1,a41ba08ffb8af6eb5ecf70c7a52a6289,no_edit,The main passage is written as if the new fact is true,7,Edit consistency
+Group_2_Order_1_0,Group 2,Order 1,a41ba08ffb8af6eb5ecf70c7a52a6289,no_edit,The related passage does not contradict the new fact,1,Edit consistency
+Group_2_Order_1_0,Group 2,Order 1,a41ba08ffb8af6eb5ecf70c7a52a6289,no_edit,"Ignoring the new fact, most of the old facts are still true in the main passage.",2,Factual consistency
+Group_2_Order_1_0,Group 2,Order 1,a41ba08ffb8af6eb5ecf70c7a52a6289,no_edit,"Ignoring the new fact, most of the old facts are still true in the related passage.",2,Factual consistency
+Group_2_Order_1_0,Group 2,Order 1,a41ba08ffb8af6eb5ecf70c7a52a6289,no_edit,"Ignoring the old and new facts, the main passage does not contradict itself.",3,Internal consistency
+Group_2_Order_1_0,Group 2,Order 1,a41ba08ffb8af6eb5ecf70c7a52a6289,no_edit,"Ignoring the old and new facts, the related passage does not contradict itself.",3,Internal consistency
+Group_2_Order_1_0,Group 2,Order 1,a41ba08ffb8af6eb5ecf70c7a52a6289,no_edit,"Ignoring the old and new facts, the main passage and the related passage do not contradict each other.",3,Cross passage consistency
+Group_2_Order_1_0,Group 2,Order 1,a41ba08ffb8af6eb5ecf70c7a52a6289,no_edit,The main passage is focused on the subject and the related passage is focused on the related entity,5,Topicality
+Group_2_Order_1_0,Group 2,Order 1,a41ba08ffb8af6eb5ecf70c7a52a6289,no_edit,Both passages are natural sounding text close to what a human would write.,7,Naturalness
+Group_2_Order_1_0,Group 2,Order 1,a41ba08ffb8af6eb5ecf70c7a52a6289,human,The main passage is written as if the new fact is true,7,Edit consistency
+Group_2_Order_1_0,Group 2,Order 1,a41ba08ffb8af6eb5ecf70c7a52a6289,human,The related passage does not contradict the new fact,7,Edit consistency
+Group_2_Order_1_0,Group 2,Order 1,a41ba08ffb8af6eb5ecf70c7a52a6289,human,"Ignoring the new fact, most of the old facts are still true in the main passage.",7,Factual consistency
+Group_2_Order_1_0,Group 2,Order 1,a41ba08ffb8af6eb5ecf70c7a52a6289,human,"Ignoring the new fact, most of the old facts are still true in the related passage.",7,Factual consistency
+Group_2_Order_1_0,Group 2,Order 1,a41ba08ffb8af6eb5ecf70c7a52a6289,human,"Ignoring the old and new facts, the main passage does not contradict itself.",7,Internal consistency
+Group_2_Order_1_0,Group 2,Order 1,a41ba08ffb8af6eb5ecf70c7a52a6289,human,"Ignoring the old and new facts, the related passage does not contradict itself.",7,Internal consistency
+Group_2_Order_1_0,Group 2,Order 1,a41ba08ffb8af6eb5ecf70c7a52a6289,human,"Ignoring the old and new facts, the main passage and the related passage do not contradict each other.",7,Cross passage consistency
+Group_2_Order_1_0,Group 2,Order 1,a41ba08ffb8af6eb5ecf70c7a52a6289,human,The main passage is focused on the subject and the related passage is focused on the related entity,7,Topicality
+Group_2_Order_1_0,Group 2,Order 1,a41ba08ffb8af6eb5ecf70c7a52a6289,human,Both passages are natural sounding text close to what a human would write.,7,Naturalness
+Group_2_Order_1_0,Group 2,Order 1,e16852ef3f0165615e93de4ca793430a,human,The main passage is written as if the new fact is true,7,Edit consistency
+Group_2_Order_1_0,Group 2,Order 1,e16852ef3f0165615e93de4ca793430a,human,The related passage does not contradict the new fact,7,Edit consistency
+Group_2_Order_1_0,Group 2,Order 1,e16852ef3f0165615e93de4ca793430a,human,"Ignoring the new fact, most of the old facts are still true in the main passage.",6,Factual consistency
+Group_2_Order_1_0,Group 2,Order 1,e16852ef3f0165615e93de4ca793430a,human,"Ignoring the new fact, most of the old facts are still true in the related passage.",6,Factual consistency
+Group_2_Order_1_0,Group 2,Order 1,e16852ef3f0165615e93de4ca793430a,human,"Ignoring the old and new facts, the main passage does not contradict itself.",6,Internal consistency
+Group_2_Order_1_0,Group 2,Order 1,e16852ef3f0165615e93de4ca793430a,human,"Ignoring the old and new facts, the related passage does not contradict itself.",6,Internal consistency
+Group_2_Order_1_0,Group 2,Order 1,e16852ef3f0165615e93de4ca793430a,human,"Ignoring the old and new facts, the main passage and the related passage do not contradict each other.",6,Cross passage consistency
+Group_2_Order_1_0,Group 2,Order 1,e16852ef3f0165615e93de4ca793430a,human,The main passage is focused on the subject and the related passage is focused on the related entity,6,Topicality
+Group_2_Order_1_0,Group 2,Order 1,e16852ef3f0165615e93de4ca793430a,human,Both passages are natural sounding text close to what a human would write.,7,Naturalness
+Group_3_Order_1_0,Group 3,Order 1,ed7e1c4359063598dbeb73d4da2869c1,no_edit,The main passage is written as if the new fact is true,5,Edit consistency
+Group_3_Order_1_0,Group 3,Order 1,ed7e1c4359063598dbeb73d4da2869c1,no_edit,The related passage does not contradict the new fact,7,Edit consistency
+Group_3_Order_1_0,Group 3,Order 1,ed7e1c4359063598dbeb73d4da2869c1,no_edit,"Ignoring the new fact, most of the old facts are still true in the main passage.",6,Factual consistency
+Group_3_Order_1_0,Group 3,Order 1,ed7e1c4359063598dbeb73d4da2869c1,no_edit,"Ignoring the new fact, most of the old facts are still true in the related passage.",7,Factual consistency
+Group_3_Order_1_0,Group 3,Order 1,ed7e1c4359063598dbeb73d4da2869c1,no_edit,"Ignoring the old and new facts, the main passage does not contradict itself.",6,Internal consistency
+Group_3_Order_1_0,Group 3,Order 1,ed7e1c4359063598dbeb73d4da2869c1,no_edit,"Ignoring the old and new facts, the related passage does not contradict itself.",4,Internal consistency
+Group_3_Order_1_0,Group 3,Order 1,ed7e1c4359063598dbeb73d4da2869c1,no_edit,"Ignoring the old and new facts, the main passage and the related passage do not contradict each other.",5,Cross passage consistency
+Group_3_Order_1_0,Group 3,Order 1,ed7e1c4359063598dbeb73d4da2869c1,no_edit,The main passage is focused on the subject and the related passage is focused on the related entity,4,Topicality
+Group_3_Order_1_0,Group 3,Order 1,ed7e1c4359063598dbeb73d4da2869c1,no_edit,Both passages are natural sounding text close to what a human would write.,3,Naturalness
+Group_3_Order_1_0,Group 3,Order 1,ed7e1c4359063598dbeb73d4da2869c1,rome,The main passage is written as if the new fact is true,7,Edit consistency
+Group_3_Order_1_0,Group 3,Order 1,ed7e1c4359063598dbeb73d4da2869c1,rome,The related passage does not contradict the new fact,6,Edit consistency
+Group_3_Order_1_0,Group 3,Order 1,ed7e1c4359063598dbeb73d4da2869c1,rome,"Ignoring the new fact, most of the old facts are still true in the main passage.",3,Factual consistency
+Group_3_Order_1_0,Group 3,Order 1,ed7e1c4359063598dbeb73d4da2869c1,rome,"Ignoring the new fact, most of the old facts are still true in the related passage.",2,Factual consistency
+Group_3_Order_1_0,Group 3,Order 1,ed7e1c4359063598dbeb73d4da2869c1,rome,"Ignoring the old and new facts, the main passage does not contradict itself.",6,Internal consistency
+Group_3_Order_1_0,Group 3,Order 1,ed7e1c4359063598dbeb73d4da2869c1,rome,"Ignoring the old and new facts, the related passage does not contradict itself.",5,Internal consistency
+Group_3_Order_1_0,Group 3,Order 1,ed7e1c4359063598dbeb73d4da2869c1,rome,"Ignoring the old and new facts, the main passage and the related passage do not contradict each other.",1,Cross passage consistency
+Group_3_Order_1_0,Group 3,Order 1,ed7e1c4359063598dbeb73d4da2869c1,rome,The main passage is focused on the subject and the related passage is focused on the related entity,7,Topicality
+Group_3_Order_1_0,Group 3,Order 1,ed7e1c4359063598dbeb73d4da2869c1,rome,Both passages are natural sounding text close to what a human would write.,1,Naturalness
+Group_3_Order_1_0,Group 3,Order 1,0a1d0bbec0b94708c01dfb2d8d6161bb,no_edit,The main passage is written as if the new fact is true,1,Edit consistency
+Group_3_Order_1_0,Group 3,Order 1,0a1d0bbec0b94708c01dfb2d8d6161bb,no_edit,The related passage does not contradict the new fact,1,Edit consistency
+Group_3_Order_1_0,Group 3,Order 1,0a1d0bbec0b94708c01dfb2d8d6161bb,no_edit,"Ignoring the new fact, most of the old facts are still true in the main passage.",4,Factual consistency
+Group_3_Order_1_0,Group 3,Order 1,0a1d0bbec0b94708c01dfb2d8d6161bb,no_edit,"Ignoring the new fact, most of the old facts are still true in the related passage.",5,Factual consistency
+Group_3_Order_1_0,Group 3,Order 1,0a1d0bbec0b94708c01dfb2d8d6161bb,no_edit,"Ignoring the old and new facts, the main passage does not contradict itself.",6,Internal consistency
+Group_3_Order_1_0,Group 3,Order 1,0a1d0bbec0b94708c01dfb2d8d6161bb,no_edit,"Ignoring the old and new facts, the related passage does not contradict itself.",6,Internal consistency
+Group_3_Order_1_0,Group 3,Order 1,0a1d0bbec0b94708c01dfb2d8d6161bb,no_edit,"Ignoring the old and new facts, the main passage and the related passage do not contradict each other.",6,Cross passage consistency
+Group_3_Order_1_0,Group 3,Order 1,0a1d0bbec0b94708c01dfb2d8d6161bb,no_edit,The main passage is focused on the subject and the related passage is focused on the related entity,2,Topicality
+Group_3_Order_1_0,Group 3,Order 1,0a1d0bbec0b94708c01dfb2d8d6161bb,no_edit,Both passages are natural sounding text close to what a human would write.,4,Naturalness
+Group_3_Order_1_0,Group 3,Order 1,ed7e1c4359063598dbeb73d4da2869c1,human,The main passage is written as if the new fact is true,7,Edit consistency
+Group_3_Order_1_0,Group 3,Order 1,ed7e1c4359063598dbeb73d4da2869c1,human,The related passage does not contradict the new fact,7,Edit consistency
+Group_3_Order_1_0,Group 3,Order 1,ed7e1c4359063598dbeb73d4da2869c1,human,"Ignoring the new fact, most of the old facts are still true in the main passage.",6,Factual consistency
+Group_3_Order_1_0,Group 3,Order 1,ed7e1c4359063598dbeb73d4da2869c1,human,"Ignoring the new fact, most of the old facts are still true in the related passage.",6,Factual consistency
+Group_3_Order_1_0,Group 3,Order 1,ed7e1c4359063598dbeb73d4da2869c1,human,"Ignoring the old and new facts, the main passage does not contradict itself.",6,Internal consistency
+Group_3_Order_1_0,Group 3,Order 1,ed7e1c4359063598dbeb73d4da2869c1,human,"Ignoring the old and new facts, the related passage does not contradict itself.",6,Internal consistency
+Group_3_Order_1_0,Group 3,Order 1,ed7e1c4359063598dbeb73d4da2869c1,human,"Ignoring the old and new facts, the main passage and the related passage do not contradict each other.",7,Cross passage consistency
+Group_3_Order_1_0,Group 3,Order 1,ed7e1c4359063598dbeb73d4da2869c1,human,The main passage is focused on the subject and the related passage is focused on the related entity,6,Topicality
+Group_3_Order_1_0,Group 3,Order 1,ed7e1c4359063598dbeb73d4da2869c1,human,Both passages are natural sounding text close to what a human would write.,7,Naturalness
+Group_3_Order_1_0,Group 3,Order 1,0a1d0bbec0b94708c01dfb2d8d6161bb,rome,The main passage is written as if the new fact is true,7,Edit consistency
+Group_3_Order_1_0,Group 3,Order 1,0a1d0bbec0b94708c01dfb2d8d6161bb,rome,The related passage does not contradict the new fact,4,Edit consistency
+Group_3_Order_1_0,Group 3,Order 1,0a1d0bbec0b94708c01dfb2d8d6161bb,rome,"Ignoring the new fact, most of the old facts are still true in the main passage.",6,Factual consistency
+Group_3_Order_1_0,Group 3,Order 1,0a1d0bbec0b94708c01dfb2d8d6161bb,rome,"Ignoring the new fact, most of the old facts are still true in the related passage.",1,Factual consistency
+Group_3_Order_1_0,Group 3,Order 1,0a1d0bbec0b94708c01dfb2d8d6161bb,rome,"Ignoring the old and new facts, the main passage does not contradict itself.",5,Internal consistency
+Group_3_Order_1_0,Group 3,Order 1,0a1d0bbec0b94708c01dfb2d8d6161bb,rome,"Ignoring the old and new facts, the related passage does not contradict itself.",4,Internal consistency
+Group_3_Order_1_0,Group 3,Order 1,0a1d0bbec0b94708c01dfb2d8d6161bb,rome,"Ignoring the old and new facts, the main passage and the related passage do not contradict each other.",1,Cross passage consistency
+Group_3_Order_1_0,Group 3,Order 1,0a1d0bbec0b94708c01dfb2d8d6161bb,rome,The main passage is focused on the subject and the related passage is focused on the related entity,3,Topicality
+Group_3_Order_1_0,Group 3,Order 1,0a1d0bbec0b94708c01dfb2d8d6161bb,rome,Both passages are natural sounding text close to what a human would write.,3,Naturalness
+Group_3_Order_1_0,Group 3,Order 1,ad41a34db7e3975d6b83d2ddedb19d9f,rome,The main passage is written as if the new fact is true,6,Edit consistency
+Group_3_Order_1_0,Group 3,Order 1,ad41a34db7e3975d6b83d2ddedb19d9f,rome,The related passage does not contradict the new fact,6,Edit consistency
+Group_3_Order_1_0,Group 3,Order 1,ad41a34db7e3975d6b83d2ddedb19d9f,rome,"Ignoring the new fact, most of the old facts are still true in the main passage.",5,Factual consistency
+Group_3_Order_1_0,Group 3,Order 1,ad41a34db7e3975d6b83d2ddedb19d9f,rome,"Ignoring the new fact, most of the old facts are still true in the related passage.",5,Factual consistency
+Group_3_Order_1_0,Group 3,Order 1,ad41a34db7e3975d6b83d2ddedb19d9f,rome,"Ignoring the old and new facts, the main passage does not contradict itself.",5,Internal consistency
+Group_3_Order_1_0,Group 3,Order 1,ad41a34db7e3975d6b83d2ddedb19d9f,rome,"Ignoring the old and new facts, the related passage does not contradict itself.",3,Internal consistency
+Group_3_Order_1_0,Group 3,Order 1,ad41a34db7e3975d6b83d2ddedb19d9f,rome,"Ignoring the old and new facts, the main passage and the related passage do not contradict each other.",2,Cross passage consistency
+Group_3_Order_1_0,Group 3,Order 1,ad41a34db7e3975d6b83d2ddedb19d9f,rome,The main passage is focused on the subject and the related passage is focused on the related entity,6,Topicality
+Group_3_Order_1_0,Group 3,Order 1,ad41a34db7e3975d6b83d2ddedb19d9f,rome,Both passages are natural sounding text close to what a human would write.,4,Naturalness
+Group_3_Order_1_0,Group 3,Order 1,ad41a34db7e3975d6b83d2ddedb19d9f,no_edit,The main passage is written as if the new fact is true,4,Edit consistency
+Group_3_Order_1_0,Group 3,Order 1,ad41a34db7e3975d6b83d2ddedb19d9f,no_edit,The related passage does not contradict the new fact,4,Edit consistency
+Group_3_Order_1_0,Group 3,Order 1,ad41a34db7e3975d6b83d2ddedb19d9f,no_edit,"Ignoring the new fact, most of the old facts are still true in the main passage.",4,Factual consistency
+Group_3_Order_1_0,Group 3,Order 1,ad41a34db7e3975d6b83d2ddedb19d9f,no_edit,"Ignoring the new fact, most of the old facts are still true in the related passage.",4,Factual consistency
+Group_3_Order_1_0,Group 3,Order 1,ad41a34db7e3975d6b83d2ddedb19d9f,no_edit,"Ignoring the old and new facts, the main passage does not contradict itself.",4,Internal consistency
+Group_3_Order_1_0,Group 3,Order 1,ad41a34db7e3975d6b83d2ddedb19d9f,no_edit,"Ignoring the old and new facts, the related passage does not contradict itself.",4,Internal consistency
+Group_3_Order_1_0,Group 3,Order 1,ad41a34db7e3975d6b83d2ddedb19d9f,no_edit,"Ignoring the old and new facts, the main passage and the related passage do not contradict each other.",4,Cross passage consistency
+Group_3_Order_1_0,Group 3,Order 1,ad41a34db7e3975d6b83d2ddedb19d9f,no_edit,The main passage is focused on the subject and the related passage is focused on the related entity,4,Topicality
+Group_3_Order_1_0,Group 3,Order 1,ad41a34db7e3975d6b83d2ddedb19d9f,no_edit,Both passages are natural sounding text close to what a human would write.,4,Naturalness
+Group_3_Order_1_0,Group 3,Order 1,ad41a34db7e3975d6b83d2ddedb19d9f,human,The main passage is written as if the new fact is true,6,Edit consistency
+Group_3_Order_1_0,Group 3,Order 1,ad41a34db7e3975d6b83d2ddedb19d9f,human,The related passage does not contradict the new fact,6,Edit consistency
+Group_3_Order_1_0,Group 3,Order 1,ad41a34db7e3975d6b83d2ddedb19d9f,human,"Ignoring the new fact, most of the old facts are still true in the main passage.",5,Factual consistency
+Group_3_Order_1_0,Group 3,Order 1,ad41a34db7e3975d6b83d2ddedb19d9f,human,"Ignoring the new fact, most of the old facts are still true in the related passage.",5,Factual consistency
+Group_3_Order_1_0,Group 3,Order 1,ad41a34db7e3975d6b83d2ddedb19d9f,human,"Ignoring the old and new facts, the main passage does not contradict itself.",6,Internal consistency
+Group_3_Order_1_0,Group 3,Order 1,ad41a34db7e3975d6b83d2ddedb19d9f,human,"Ignoring the old and new facts, the related passage does not contradict itself.",4,Internal consistency
+Group_3_Order_1_0,Group 3,Order 1,ad41a34db7e3975d6b83d2ddedb19d9f,human,"Ignoring the old and new facts, the main passage and the related passage do not contradict each other.",4,Cross passage consistency
+Group_3_Order_1_0,Group 3,Order 1,ad41a34db7e3975d6b83d2ddedb19d9f,human,The main passage is focused on the subject and the related passage is focused on the related entity,5,Topicality
+Group_3_Order_1_0,Group 3,Order 1,ad41a34db7e3975d6b83d2ddedb19d9f,human,Both passages are natural sounding text close to what a human would write.,6,Naturalness
+Group_3_Order_1_0,Group 3,Order 1,0a1d0bbec0b94708c01dfb2d8d6161bb,human,The main passage is written as if the new fact is true,7,Edit consistency
+Group_3_Order_1_0,Group 3,Order 1,0a1d0bbec0b94708c01dfb2d8d6161bb,human,The related passage does not contradict the new fact,7,Edit consistency
+Group_3_Order_1_0,Group 3,Order 1,0a1d0bbec0b94708c01dfb2d8d6161bb,human,"Ignoring the new fact, most of the old facts are still true in the main passage.",6,Factual consistency
+Group_3_Order_1_0,Group 3,Order 1,0a1d0bbec0b94708c01dfb2d8d6161bb,human,"Ignoring the new fact, most of the old facts are still true in the related passage.",6,Factual consistency
+Group_3_Order_1_0,Group 3,Order 1,0a1d0bbec0b94708c01dfb2d8d6161bb,human,"Ignoring the old and new facts, the main passage does not contradict itself.",6,Internal consistency
+Group_3_Order_1_0,Group 3,Order 1,0a1d0bbec0b94708c01dfb2d8d6161bb,human,"Ignoring the old and new facts, the related passage does not contradict itself.",6,Internal consistency
+Group_3_Order_1_0,Group 3,Order 1,0a1d0bbec0b94708c01dfb2d8d6161bb,human,"Ignoring the old and new facts, the main passage and the related passage do not contradict each other.",6,Cross passage consistency
+Group_3_Order_1_0,Group 3,Order 1,0a1d0bbec0b94708c01dfb2d8d6161bb,human,The main passage is focused on the subject and the related passage is focused on the related entity,6,Topicality
+Group_3_Order_1_0,Group 3,Order 1,0a1d0bbec0b94708c01dfb2d8d6161bb,human,Both passages are natural sounding text close to what a human would write.,6,Naturalness
+Group_4_Order_1_0,Group 4,Order 1,49b1579016eb2228e0593380d1a1366a,no_edit,The main passage is written as if the new fact is true,1,Edit consistency
+Group_4_Order_1_0,Group 4,Order 1,49b1579016eb2228e0593380d1a1366a,no_edit,The related passage does not contradict the new fact,1,Edit consistency
+Group_4_Order_1_0,Group 4,Order 1,49b1579016eb2228e0593380d1a1366a,no_edit,"Ignoring the new fact, most of the old facts are still true in the main passage.",7,Factual consistency
+Group_4_Order_1_0,Group 4,Order 1,49b1579016eb2228e0593380d1a1366a,no_edit,"Ignoring the new fact, most of the old facts are still true in the related passage.",7,Factual consistency
+Group_4_Order_1_0,Group 4,Order 1,49b1579016eb2228e0593380d1a1366a,no_edit,"Ignoring the old and new facts, the main passage does not contradict itself.",7,Internal consistency
+Group_4_Order_1_0,Group 4,Order 1,49b1579016eb2228e0593380d1a1366a,no_edit,"Ignoring the old and new facts, the related passage does not contradict itself.",7,Internal consistency
+Group_4_Order_1_0,Group 4,Order 1,49b1579016eb2228e0593380d1a1366a,no_edit,"Ignoring the old and new facts, the main passage and the related passage do not contradict each other.",7,Cross passage consistency
+Group_4_Order_1_0,Group 4,Order 1,49b1579016eb2228e0593380d1a1366a,no_edit,The main passage is focused on the subject and the related passage is focused on the related entity,7,Topicality
+Group_4_Order_1_0,Group 4,Order 1,49b1579016eb2228e0593380d1a1366a,no_edit,Both passages are natural sounding text close to what a human would write.,7,Naturalness
+Group_4_Order_1_0,Group 4,Order 1,0b65acc415a69a2c25061b239d7925aa,rome,The main passage is written as if the new fact is true,7,Edit consistency
+Group_4_Order_1_0,Group 4,Order 1,0b65acc415a69a2c25061b239d7925aa,rome,The related passage does not contradict the new fact,1,Edit consistency
+Group_4_Order_1_0,Group 4,Order 1,0b65acc415a69a2c25061b239d7925aa,rome,"Ignoring the new fact, most of the old facts are still true in the main passage.",2,Factual consistency
+Group_4_Order_1_0,Group 4,Order 1,0b65acc415a69a2c25061b239d7925aa,rome,"Ignoring the new fact, most of the old facts are still true in the related passage.",1,Factual consistency
+Group_4_Order_1_0,Group 4,Order 1,0b65acc415a69a2c25061b239d7925aa,rome,"Ignoring the old and new facts, the main passage does not contradict itself.",7,Internal consistency
+Group_4_Order_1_0,Group 4,Order 1,0b65acc415a69a2c25061b239d7925aa,rome,"Ignoring the old and new facts, the related passage does not contradict itself.",7,Internal consistency
+Group_4_Order_1_0,Group 4,Order 1,0b65acc415a69a2c25061b239d7925aa,rome,"Ignoring the old and new facts, the main passage and the related passage do not contradict each other.",1,Cross passage consistency
+Group_4_Order_1_0,Group 4,Order 1,0b65acc415a69a2c25061b239d7925aa,rome,The main passage is focused on the subject and the related passage is focused on the related entity,7,Topicality
+Group_4_Order_1_0,Group 4,Order 1,0b65acc415a69a2c25061b239d7925aa,rome,Both passages are natural sounding text close to what a human would write.,2,Naturalness
+Group_4_Order_1_0,Group 4,Order 1,94404544b0b793406c670af7b8d81328,rome,The main passage is written as if the new fact is true,7,Edit consistency
+Group_4_Order_1_0,Group 4,Order 1,94404544b0b793406c670af7b8d81328,rome,The related passage does not contradict the new fact,7,Edit consistency
+Group_4_Order_1_0,Group 4,Order 1,94404544b0b793406c670af7b8d81328,rome,"Ignoring the new fact, most of the old facts are still true in the main passage.",1,Factual consistency
+Group_4_Order_1_0,Group 4,Order 1,94404544b0b793406c670af7b8d81328,rome,"Ignoring the new fact, most of the old facts are still true in the related passage.",6,Factual consistency
+Group_4_Order_1_0,Group 4,Order 1,94404544b0b793406c670af7b8d81328,rome,"Ignoring the old and new facts, the main passage does not contradict itself.",6,Internal consistency
+Group_4_Order_1_0,Group 4,Order 1,94404544b0b793406c670af7b8d81328,rome,"Ignoring the old and new facts, the related passage does not contradict itself.",7,Internal consistency
+Group_4_Order_1_0,Group 4,Order 1,94404544b0b793406c670af7b8d81328,rome,"Ignoring the old and new facts, the main passage and the related passage do not contradict each other.",5,Cross passage consistency
+Group_4_Order_1_0,Group 4,Order 1,94404544b0b793406c670af7b8d81328,rome,The main passage is focused on the subject and the related passage is focused on the related entity,7,Topicality
+Group_4_Order_1_0,Group 4,Order 1,94404544b0b793406c670af7b8d81328,rome,Both passages are natural sounding text close to what a human would write.,1,Naturalness
+Group_4_Order_1_0,Group 4,Order 1,94404544b0b793406c670af7b8d81328,no_edit,The main passage is written as if the new fact is true,1,Edit consistency
+Group_4_Order_1_0,Group 4,Order 1,94404544b0b793406c670af7b8d81328,no_edit,The related passage does not contradict the new fact,7,Edit consistency
+Group_4_Order_1_0,Group 4,Order 1,94404544b0b793406c670af7b8d81328,no_edit,"Ignoring the new fact, most of the old facts are still true in the main passage.",1,Factual consistency
+Group_4_Order_1_0,Group 4,Order 1,94404544b0b793406c670af7b8d81328,no_edit,"Ignoring the new fact, most of the old facts are still true in the related passage.",6,Factual consistency
+Group_4_Order_1_0,Group 4,Order 1,94404544b0b793406c670af7b8d81328,no_edit,"Ignoring the old and new facts, the main passage does not contradict itself.",7,Internal consistency
+Group_4_Order_1_0,Group 4,Order 1,94404544b0b793406c670af7b8d81328,no_edit,"Ignoring the old and new facts, the related passage does not contradict itself.",7,Internal consistency
+Group_4_Order_1_0,Group 4,Order 1,94404544b0b793406c670af7b8d81328,no_edit,"Ignoring the old and new facts, the main passage and the related passage do not contradict each other.",6,Cross passage consistency
+Group_4_Order_1_0,Group 4,Order 1,94404544b0b793406c670af7b8d81328,no_edit,The main passage is focused on the subject and the related passage is focused on the related entity,7,Topicality
+Group_4_Order_1_0,Group 4,Order 1,94404544b0b793406c670af7b8d81328,no_edit,Both passages are natural sounding text close to what a human would write.,6,Naturalness
+Group_4_Order_1_0,Group 4,Order 1,0b65acc415a69a2c25061b239d7925aa,human,The main passage is written as if the new fact is true,7,Edit consistency
+Group_4_Order_1_0,Group 4,Order 1,0b65acc415a69a2c25061b239d7925aa,human,The related passage does not contradict the new fact,7,Edit consistency
+Group_4_Order_1_0,Group 4,Order 1,0b65acc415a69a2c25061b239d7925aa,human,"Ignoring the new fact, most of the old facts are still true in the main passage.",7,Factual consistency
+Group_4_Order_1_0,Group 4,Order 1,0b65acc415a69a2c25061b239d7925aa,human,"Ignoring the new fact, most of the old facts are still true in the related passage.",7,Factual consistency
+Group_4_Order_1_0,Group 4,Order 1,0b65acc415a69a2c25061b239d7925aa,human,"Ignoring the old and new facts, the main passage does not contradict itself.",7,Internal consistency
+Group_4_Order_1_0,Group 4,Order 1,0b65acc415a69a2c25061b239d7925aa,human,"Ignoring the old and new facts, the related passage does not contradict itself.",7,Internal consistency
+Group_4_Order_1_0,Group 4,Order 1,0b65acc415a69a2c25061b239d7925aa,human,"Ignoring the old and new facts, the main passage and the related passage do not contradict each other.",7,Cross passage consistency
+Group_4_Order_1_0,Group 4,Order 1,0b65acc415a69a2c25061b239d7925aa,human,The main passage is focused on the subject and the related passage is focused on the related entity,7,Topicality
+Group_4_Order_1_0,Group 4,Order 1,0b65acc415a69a2c25061b239d7925aa,human,Both passages are natural sounding text close to what a human would write.,7,Naturalness
+Group_4_Order_1_0,Group 4,Order 1,49b1579016eb2228e0593380d1a1366a,rome,The main passage is written as if the new fact is true,5,Edit consistency
+Group_4_Order_1_0,Group 4,Order 1,49b1579016eb2228e0593380d1a1366a,rome,The related passage does not contradict the new fact,1,Edit consistency
+Group_4_Order_1_0,Group 4,Order 1,49b1579016eb2228e0593380d1a1366a,rome,"Ignoring the new fact, most of the old facts are still true in the main passage.",1,Factual consistency
+Group_4_Order_1_0,Group 4,Order 1,49b1579016eb2228e0593380d1a1366a,rome,"Ignoring the new fact, most of the old facts are still true in the related passage.",3,Factual consistency
+Group_4_Order_1_0,Group 4,Order 1,49b1579016eb2228e0593380d1a1366a,rome,"Ignoring the old and new facts, the main passage does not contradict itself.",2,Internal consistency
+Group_4_Order_1_0,Group 4,Order 1,49b1579016eb2228e0593380d1a1366a,rome,"Ignoring the old and new facts, the related passage does not contradict itself.",7,Internal consistency
+Group_4_Order_1_0,Group 4,Order 1,49b1579016eb2228e0593380d1a1366a,rome,"Ignoring the old and new facts, the main passage and the related passage do not contradict each other.",2,Cross passage consistency
+Group_4_Order_1_0,Group 4,Order 1,49b1579016eb2228e0593380d1a1366a,rome,The main passage is focused on the subject and the related passage is focused on the related entity,5,Topicality
+Group_4_Order_1_0,Group 4,Order 1,49b1579016eb2228e0593380d1a1366a,rome,Both passages are natural sounding text close to what a human would write.,3,Naturalness
+Group_4_Order_1_0,Group 4,Order 1,0b65acc415a69a2c25061b239d7925aa,no_edit,The main passage is written as if the new fact is true,1,Edit consistency
+Group_4_Order_1_0,Group 4,Order 1,0b65acc415a69a2c25061b239d7925aa,no_edit,The related passage does not contradict the new fact,7,Edit consistency
+Group_4_Order_1_0,Group 4,Order 1,0b65acc415a69a2c25061b239d7925aa,no_edit,"Ignoring the new fact, most of the old facts are still true in the main passage.",6,Factual consistency
+Group_4_Order_1_0,Group 4,Order 1,0b65acc415a69a2c25061b239d7925aa,no_edit,"Ignoring the new fact, most of the old facts are still true in the related passage.",2,Factual consistency
+Group_4_Order_1_0,Group 4,Order 1,0b65acc415a69a2c25061b239d7925aa,no_edit,"Ignoring the old and new facts, the main passage does not contradict itself.",7,Internal consistency
+Group_4_Order_1_0,Group 4,Order 1,0b65acc415a69a2c25061b239d7925aa,no_edit,"Ignoring the old and new facts, the related passage does not contradict itself.",7,Internal consistency
+Group_4_Order_1_0,Group 4,Order 1,0b65acc415a69a2c25061b239d7925aa,no_edit,"Ignoring the old and new facts, the main passage and the related passage do not contradict each other.",7,Cross passage consistency
+Group_4_Order_1_0,Group 4,Order 1,0b65acc415a69a2c25061b239d7925aa,no_edit,The main passage is focused on the subject and the related passage is focused on the related entity,7,Topicality
+Group_4_Order_1_0,Group 4,Order 1,0b65acc415a69a2c25061b239d7925aa,no_edit,Both passages are natural sounding text close to what a human would write.,7,Naturalness
+Group_4_Order_1_0,Group 4,Order 1,49b1579016eb2228e0593380d1a1366a,human,The main passage is written as if the new fact is true,7,Edit consistency
+Group_4_Order_1_0,Group 4,Order 1,49b1579016eb2228e0593380d1a1366a,human,The related passage does not contradict the new fact,7,Edit consistency
+Group_4_Order_1_0,Group 4,Order 1,49b1579016eb2228e0593380d1a1366a,human,"Ignoring the new fact, most of the old facts are still true in the main passage.",7,Factual consistency
+Group_4_Order_1_0,Group 4,Order 1,49b1579016eb2228e0593380d1a1366a,human,"Ignoring the new fact, most of the old facts are still true in the related passage.",7,Factual consistency
+Group_4_Order_1_0,Group 4,Order 1,49b1579016eb2228e0593380d1a1366a,human,"Ignoring the old and new facts, the main passage does not contradict itself.",7,Internal consistency
+Group_4_Order_1_0,Group 4,Order 1,49b1579016eb2228e0593380d1a1366a,human,"Ignoring the old and new facts, the related passage does not contradict itself.",7,Internal consistency
+Group_4_Order_1_0,Group 4,Order 1,49b1579016eb2228e0593380d1a1366a,human,"Ignoring the old and new facts, the main passage and the related passage do not contradict each other.",7,Cross passage consistency
+Group_4_Order_1_0,Group 4,Order 1,49b1579016eb2228e0593380d1a1366a,human,The main passage is focused on the subject and the related passage is focused on the related entity,7,Topicality
+Group_4_Order_1_0,Group 4,Order 1,49b1579016eb2228e0593380d1a1366a,human,Both passages are natural sounding text close to what a human would write.,7,Naturalness
+Group_4_Order_1_0,Group 4,Order 1,94404544b0b793406c670af7b8d81328,human,The main passage is written as if the new fact is true,7,Edit consistency
+Group_4_Order_1_0,Group 4,Order 1,94404544b0b793406c670af7b8d81328,human,The related passage does not contradict the new fact,7,Edit consistency
+Group_4_Order_1_0,Group 4,Order 1,94404544b0b793406c670af7b8d81328,human,"Ignoring the new fact, most of the old facts are still true in the main passage.",7,Factual consistency
+Group_4_Order_1_0,Group 4,Order 1,94404544b0b793406c670af7b8d81328,human,"Ignoring the new fact, most of the old facts are still true in the related passage.",7,Factual consistency
+Group_4_Order_1_0,Group 4,Order 1,94404544b0b793406c670af7b8d81328,human,"Ignoring the old and new facts, the main passage does not contradict itself.",7,Internal consistency
+Group_4_Order_1_0,Group 4,Order 1,94404544b0b793406c670af7b8d81328,human,"Ignoring the old and new facts, the related passage does not contradict itself.",7,Internal consistency
+Group_4_Order_1_0,Group 4,Order 1,94404544b0b793406c670af7b8d81328,human,"Ignoring the old and new facts, the main passage and the related passage do not contradict each other.",7,Cross passage consistency
+Group_4_Order_1_0,Group 4,Order 1,94404544b0b793406c670af7b8d81328,human,The main passage is focused on the subject and the related passage is focused on the related entity,7,Topicality
+Group_4_Order_1_0,Group 4,Order 1,94404544b0b793406c670af7b8d81328,human,Both passages are natural sounding text close to what a human would write.,7,Naturalness
+Group_1_Order_2_0,Group 1,Order 2,acbc814e66797f413ceb01d3d70266a3,rome,The main passage is written as if the new fact is true,7,Edit consistency
+Group_1_Order_2_0,Group 1,Order 2,acbc814e66797f413ceb01d3d70266a3,rome,The related passage does not contradict the new fact,1,Edit consistency
+Group_1_Order_2_0,Group 1,Order 2,acbc814e66797f413ceb01d3d70266a3,rome,"Ignoring the new fact, most of the old facts are still true in the main passage.",7,Factual consistency
+Group_1_Order_2_0,Group 1,Order 2,acbc814e66797f413ceb01d3d70266a3,rome,"Ignoring the new fact, most of the old facts are still true in the related passage.",7,Factual consistency
+Group_1_Order_2_0,Group 1,Order 2,acbc814e66797f413ceb01d3d70266a3,rome,"Ignoring the old and new facts, the main passage does not contradict itself.",7,Internal consistency
+Group_1_Order_2_0,Group 1,Order 2,acbc814e66797f413ceb01d3d70266a3,rome,"Ignoring the old and new facts, the related passage does not contradict itself.",7,Internal consistency
+Group_1_Order_2_0,Group 1,Order 2,acbc814e66797f413ceb01d3d70266a3,rome,"Ignoring the old and new facts, the main passage and the related passage do not contradict each other.",7,Cross passage consistency
+Group_1_Order_2_0,Group 1,Order 2,acbc814e66797f413ceb01d3d70266a3,rome,The main passage is focused on the subject and the related passage is focused on the related entity,7,Topicality
+Group_1_Order_2_0,Group 1,Order 2,acbc814e66797f413ceb01d3d70266a3,rome,Both passages are natural sounding text close to what a human would write.,5,Naturalness
+Group_1_Order_2_0,Group 1,Order 2,857c595296caaeab532251cf9d8f3979,no_edit,The main passage is written as if the new fact is true,5,Edit consistency
+Group_1_Order_2_0,Group 1,Order 2,857c595296caaeab532251cf9d8f3979,no_edit,The related passage does not contradict the new fact,5,Edit consistency
+Group_1_Order_2_0,Group 1,Order 2,857c595296caaeab532251cf9d8f3979,no_edit,"Ignoring the new fact, most of the old facts are still true in the main passage.",6,Factual consistency
+Group_1_Order_2_0,Group 1,Order 2,857c595296caaeab532251cf9d8f3979,no_edit,"Ignoring the new fact, most of the old facts are still true in the related passage.",6,Factual consistency
+Group_1_Order_2_0,Group 1,Order 2,857c595296caaeab532251cf9d8f3979,no_edit,"Ignoring the old and new facts, the main passage does not contradict itself.",6,Internal consistency
+Group_1_Order_2_0,Group 1,Order 2,857c595296caaeab532251cf9d8f3979,no_edit,"Ignoring the old and new facts, the related passage does not contradict itself.",6,Internal consistency
+Group_1_Order_2_0,Group 1,Order 2,857c595296caaeab532251cf9d8f3979,no_edit,"Ignoring the old and new facts, the main passage and the related passage do not contradict each other.",6,Cross passage consistency
+Group_1_Order_2_0,Group 1,Order 2,857c595296caaeab532251cf9d8f3979,no_edit,The main passage is focused on the subject and the related passage is focused on the related entity,6,Topicality
+Group_1_Order_2_0,Group 1,Order 2,857c595296caaeab532251cf9d8f3979,no_edit,Both passages are natural sounding text close to what a human would write.,6,Naturalness
+Group_1_Order_2_0,Group 1,Order 2,857c595296caaeab532251cf9d8f3979,human,The main passage is written as if the new fact is true,6,Edit consistency
+Group_1_Order_2_0,Group 1,Order 2,857c595296caaeab532251cf9d8f3979,human,The related passage does not contradict the new fact,6,Edit consistency
+Group_1_Order_2_0,Group 1,Order 2,857c595296caaeab532251cf9d8f3979,human,"Ignoring the new fact, most of the old facts are still true in the main passage.",2,Factual consistency
+Group_1_Order_2_0,Group 1,Order 2,857c595296caaeab532251cf9d8f3979,human,"Ignoring the new fact, most of the old facts are still true in the related passage.",2,Factual consistency
+Group_1_Order_2_0,Group 1,Order 2,857c595296caaeab532251cf9d8f3979,human,"Ignoring the old and new facts, the main passage does not contradict itself.",6,Internal consistency
+Group_1_Order_2_0,Group 1,Order 2,857c595296caaeab532251cf9d8f3979,human,"Ignoring the old and new facts, the related passage does not contradict itself.",6,Internal consistency
+Group_1_Order_2_0,Group 1,Order 2,857c595296caaeab532251cf9d8f3979,human,"Ignoring the old and new facts, the main passage and the related passage do not contradict each other.",6,Cross passage consistency
+Group_1_Order_2_0,Group 1,Order 2,857c595296caaeab532251cf9d8f3979,human,The main passage is focused on the subject and the related passage is focused on the related entity,6,Topicality
+Group_1_Order_2_0,Group 1,Order 2,857c595296caaeab532251cf9d8f3979,human,Both passages are natural sounding text close to what a human would write.,6,Naturalness
+Group_1_Order_2_0,Group 1,Order 2,acbc814e66797f413ceb01d3d70266a3,no_edit,The main passage is written as if the new fact is true,6,Edit consistency
+Group_1_Order_2_0,Group 1,Order 2,acbc814e66797f413ceb01d3d70266a3,no_edit,The related passage does not contradict the new fact,6,Edit consistency
+Group_1_Order_2_0,Group 1,Order 2,acbc814e66797f413ceb01d3d70266a3,no_edit,"Ignoring the new fact, most of the old facts are still true in the main passage.",6,Factual consistency
+Group_1_Order_2_0,Group 1,Order 2,acbc814e66797f413ceb01d3d70266a3,no_edit,"Ignoring the new fact, most of the old facts are still true in the related passage.",6,Factual consistency
+Group_1_Order_2_0,Group 1,Order 2,acbc814e66797f413ceb01d3d70266a3,no_edit,"Ignoring the old and new facts, the main passage does not contradict itself.",6,Internal consistency
+Group_1_Order_2_0,Group 1,Order 2,acbc814e66797f413ceb01d3d70266a3,no_edit,"Ignoring the old and new facts, the related passage does not contradict itself.",6,Internal consistency
+Group_1_Order_2_0,Group 1,Order 2,acbc814e66797f413ceb01d3d70266a3,no_edit,"Ignoring the old and new facts, the main passage and the related passage do not contradict each other.",6,Cross passage consistency
+Group_1_Order_2_0,Group 1,Order 2,acbc814e66797f413ceb01d3d70266a3,no_edit,The main passage is focused on the subject and the related passage is focused on the related entity,6,Topicality
+Group_1_Order_2_0,Group 1,Order 2,acbc814e66797f413ceb01d3d70266a3,no_edit,Both passages are natural sounding text close to what a human would write.,6,Naturalness
+Group_1_Order_2_0,Group 1,Order 2,acbc814e66797f413ceb01d3d70266a3,human,The main passage is written as if the new fact is true,6,Edit consistency
+Group_1_Order_2_0,Group 1,Order 2,acbc814e66797f413ceb01d3d70266a3,human,The related passage does not contradict the new fact,6,Edit consistency
+Group_1_Order_2_0,Group 1,Order 2,acbc814e66797f413ceb01d3d70266a3,human,"Ignoring the new fact, most of the old facts are still true in the main passage.",6,Factual consistency
+Group_1_Order_2_0,Group 1,Order 2,acbc814e66797f413ceb01d3d70266a3,human,"Ignoring the new fact, most of the old facts are still true in the related passage.",6,Factual consistency
+Group_1_Order_2_0,Group 1,Order 2,acbc814e66797f413ceb01d3d70266a3,human,"Ignoring the old and new facts, the main passage does not contradict itself.",6,Internal consistency
+Group_1_Order_2_0,Group 1,Order 2,acbc814e66797f413ceb01d3d70266a3,human,"Ignoring the old and new facts, the related passage does not contradict itself.",6,Internal consistency
+Group_1_Order_2_0,Group 1,Order 2,acbc814e66797f413ceb01d3d70266a3,human,"Ignoring the old and new facts, the main passage and the related passage do not contradict each other.",6,Cross passage consistency
+Group_1_Order_2_0,Group 1,Order 2,acbc814e66797f413ceb01d3d70266a3,human,The main passage is focused on the subject and the related passage is focused on the related entity,6,Topicality
+Group_1_Order_2_0,Group 1,Order 2,acbc814e66797f413ceb01d3d70266a3,human,Both passages are natural sounding text close to what a human would write.,6,Naturalness
+Group_1_Order_2_0,Group 1,Order 2,ca4f2b8208098d244cebc35a215f3eb9,no_edit,The main passage is written as if the new fact is true,6,Edit consistency
+Group_1_Order_2_0,Group 1,Order 2,ca4f2b8208098d244cebc35a215f3eb9,no_edit,The related passage does not contradict the new fact,2,Edit consistency
+Group_1_Order_2_0,Group 1,Order 2,ca4f2b8208098d244cebc35a215f3eb9,no_edit,"Ignoring the new fact, most of the old facts are still true in the main passage.",6,Factual consistency
+Group_1_Order_2_0,Group 1,Order 2,ca4f2b8208098d244cebc35a215f3eb9,no_edit,"Ignoring the new fact, most of the old facts are still true in the related passage.",6,Factual consistency
+Group_1_Order_2_0,Group 1,Order 2,ca4f2b8208098d244cebc35a215f3eb9,no_edit,"Ignoring the old and new facts, the main passage does not contradict itself.",2,Internal consistency
+Group_1_Order_2_0,Group 1,Order 2,ca4f2b8208098d244cebc35a215f3eb9,no_edit,"Ignoring the old and new facts, the related passage does not contradict itself.",2,Internal consistency
+Group_1_Order_2_0,Group 1,Order 2,ca4f2b8208098d244cebc35a215f3eb9,no_edit,"Ignoring the old and new facts, the main passage and the related passage do not contradict each other.",2,Cross passage consistency
+Group_1_Order_2_0,Group 1,Order 2,ca4f2b8208098d244cebc35a215f3eb9,no_edit,The main passage is focused on the subject and the related passage is focused on the related entity,5,Topicality
+Group_1_Order_2_0,Group 1,Order 2,ca4f2b8208098d244cebc35a215f3eb9,no_edit,Both passages are natural sounding text close to what a human would write.,6,Naturalness
+Group_1_Order_2_0,Group 1,Order 2,ca4f2b8208098d244cebc35a215f3eb9,rome,The main passage is written as if the new fact is true,6,Edit consistency
+Group_1_Order_2_0,Group 1,Order 2,ca4f2b8208098d244cebc35a215f3eb9,rome,The related passage does not contradict the new fact,2,Edit consistency
+Group_1_Order_2_0,Group 1,Order 2,ca4f2b8208098d244cebc35a215f3eb9,rome,"Ignoring the new fact, most of the old facts are still true in the main passage.",2,Factual consistency
+Group_1_Order_2_0,Group 1,Order 2,ca4f2b8208098d244cebc35a215f3eb9,rome,"Ignoring the new fact, most of the old facts are still true in the related passage.",2,Factual consistency
+Group_1_Order_2_0,Group 1,Order 2,ca4f2b8208098d244cebc35a215f3eb9,rome,"Ignoring the old and new facts, the main passage does not contradict itself.",2,Internal consistency
+Group_1_Order_2_0,Group 1,Order 2,ca4f2b8208098d244cebc35a215f3eb9,rome,"Ignoring the old and new facts, the related passage does not contradict itself.",2,Internal consistency
+Group_1_Order_2_0,Group 1,Order 2,ca4f2b8208098d244cebc35a215f3eb9,rome,"Ignoring the old and new facts, the main passage and the related passage do not contradict each other.",2,Cross passage consistency
+Group_1_Order_2_0,Group 1,Order 2,ca4f2b8208098d244cebc35a215f3eb9,rome,The main passage is focused on the subject and the related passage is focused on the related entity,6,Topicality
+Group_1_Order_2_0,Group 1,Order 2,ca4f2b8208098d244cebc35a215f3eb9,rome,Both passages are natural sounding text close to what a human would write.,6,Naturalness
+Group_1_Order_2_0,Group 1,Order 2,857c595296caaeab532251cf9d8f3979,rome,The main passage is written as if the new fact is true,6,Edit consistency
+Group_1_Order_2_0,Group 1,Order 2,857c595296caaeab532251cf9d8f3979,rome,The related passage does not contradict the new fact,2,Edit consistency
+Group_1_Order_2_0,Group 1,Order 2,857c595296caaeab532251cf9d8f3979,rome,"Ignoring the new fact, most of the old facts are still true in the main passage.",6,Factual consistency
+Group_1_Order_2_0,Group 1,Order 2,857c595296caaeab532251cf9d8f3979,rome,"Ignoring the new fact, most of the old facts are still true in the related passage.",6,Factual consistency
+Group_1_Order_2_0,Group 1,Order 2,857c595296caaeab532251cf9d8f3979,rome,"Ignoring the old and new facts, the main passage does not contradict itself.",6,Internal consistency
+Group_1_Order_2_0,Group 1,Order 2,857c595296caaeab532251cf9d8f3979,rome,"Ignoring the old and new facts, the related passage does not contradict itself.",6,Internal consistency
+Group_1_Order_2_0,Group 1,Order 2,857c595296caaeab532251cf9d8f3979,rome,"Ignoring the old and new facts, the main passage and the related passage do not contradict each other.",6,Cross passage consistency
+Group_1_Order_2_0,Group 1,Order 2,857c595296caaeab532251cf9d8f3979,rome,The main passage is focused on the subject and the related passage is focused on the related entity,6,Topicality
+Group_1_Order_2_0,Group 1,Order 2,857c595296caaeab532251cf9d8f3979,rome,Both passages are natural sounding text close to what a human would write.,6,Naturalness
+Group_1_Order_2_0,Group 1,Order 2,ca4f2b8208098d244cebc35a215f3eb9,human,The main passage is written as if the new fact is true,7,Edit consistency
+Group_1_Order_2_0,Group 1,Order 2,ca4f2b8208098d244cebc35a215f3eb9,human,The related passage does not contradict the new fact,2,Edit consistency
+Group_1_Order_2_0,Group 1,Order 2,ca4f2b8208098d244cebc35a215f3eb9,human,"Ignoring the new fact, most of the old facts are still true in the main passage.",6,Factual consistency
+Group_1_Order_2_0,Group 1,Order 2,ca4f2b8208098d244cebc35a215f3eb9,human,"Ignoring the new fact, most of the old facts are still true in the related passage.",6,Factual consistency
+Group_1_Order_2_0,Group 1,Order 2,ca4f2b8208098d244cebc35a215f3eb9,human,"Ignoring the old and new facts, the main passage does not contradict itself.",2,Internal consistency
+Group_1_Order_2_0,Group 1,Order 2,ca4f2b8208098d244cebc35a215f3eb9,human,"Ignoring the old and new facts, the related passage does not contradict itself.",2,Internal consistency
+Group_1_Order_2_0,Group 1,Order 2,ca4f2b8208098d244cebc35a215f3eb9,human,"Ignoring the old and new facts, the main passage and the related passage do not contradict each other.",6,Cross passage consistency
+Group_1_Order_2_0,Group 1,Order 2,ca4f2b8208098d244cebc35a215f3eb9,human,The main passage is focused on the subject and the related passage is focused on the related entity,6,Topicality
+Group_1_Order_2_0,Group 1,Order 2,ca4f2b8208098d244cebc35a215f3eb9,human,Both passages are natural sounding text close to what a human would write.,6,Naturalness
+Group_2_Order_2_0,Group 2,Order 2,a41ba08ffb8af6eb5ecf70c7a52a6289,no_edit,The main passage is written as if the new fact is true,1,Edit consistency
+Group_2_Order_2_0,Group 2,Order 2,a41ba08ffb8af6eb5ecf70c7a52a6289,no_edit,The related passage does not contradict the new fact,1,Edit consistency
+Group_2_Order_2_0,Group 2,Order 2,a41ba08ffb8af6eb5ecf70c7a52a6289,no_edit,"Ignoring the new fact, most of the old facts are still true in the main passage.",6,Factual consistency
+Group_2_Order_2_0,Group 2,Order 2,a41ba08ffb8af6eb5ecf70c7a52a6289,no_edit,"Ignoring the new fact, most of the old facts are still true in the related passage.",5,Factual consistency
+Group_2_Order_2_0,Group 2,Order 2,a41ba08ffb8af6eb5ecf70c7a52a6289,no_edit,"Ignoring the old and new facts, the main passage does not contradict itself.",6,Internal consistency
+Group_2_Order_2_0,Group 2,Order 2,a41ba08ffb8af6eb5ecf70c7a52a6289,no_edit,"Ignoring the old and new facts, the related passage does not contradict itself.",6,Internal consistency
+Group_2_Order_2_0,Group 2,Order 2,a41ba08ffb8af6eb5ecf70c7a52a6289,no_edit,"Ignoring the old and new facts, the main passage and the related passage do not contradict each other.",1,Cross passage consistency
+Group_2_Order_2_0,Group 2,Order 2,a41ba08ffb8af6eb5ecf70c7a52a6289,no_edit,The main passage is focused on the subject and the related passage is focused on the related entity,2,Topicality
+Group_2_Order_2_0,Group 2,Order 2,a41ba08ffb8af6eb5ecf70c7a52a6289,no_edit,Both passages are natural sounding text close to what a human would write.,6,Naturalness
+Group_2_Order_2_0,Group 2,Order 2,60b37610ad951b89a8123101512f3520,rome,The main passage is written as if the new fact is true,1,Edit consistency
+Group_2_Order_2_0,Group 2,Order 2,60b37610ad951b89a8123101512f3520,rome,The related passage does not contradict the new fact,1,Edit consistency
+Group_2_Order_2_0,Group 2,Order 2,60b37610ad951b89a8123101512f3520,rome,"Ignoring the new fact, most of the old facts are still true in the main passage.",2,Factual consistency
+Group_2_Order_2_0,Group 2,Order 2,60b37610ad951b89a8123101512f3520,rome,"Ignoring the new fact, most of the old facts are still true in the related passage.",1,Factual consistency
+Group_2_Order_2_0,Group 2,Order 2,60b37610ad951b89a8123101512f3520,rome,"Ignoring the old and new facts, the main passage does not contradict itself.",6,Internal consistency
+Group_2_Order_2_0,Group 2,Order 2,60b37610ad951b89a8123101512f3520,rome,"Ignoring the old and new facts, the related passage does not contradict itself.",6,Internal consistency
+Group_2_Order_2_0,Group 2,Order 2,60b37610ad951b89a8123101512f3520,rome,"Ignoring the old and new facts, the main passage and the related passage do not contradict each other.",1,Cross passage consistency
+Group_2_Order_2_0,Group 2,Order 2,60b37610ad951b89a8123101512f3520,rome,The main passage is focused on the subject and the related passage is focused on the related entity,1,Topicality
+Group_2_Order_2_0,Group 2,Order 2,60b37610ad951b89a8123101512f3520,rome,Both passages are natural sounding text close to what a human would write.,6,Naturalness
+Group_2_Order_2_0,Group 2,Order 2,e16852ef3f0165615e93de4ca793430a,no_edit,The main passage is written as if the new fact is true,1,Edit consistency
+Group_2_Order_2_0,Group 2,Order 2,e16852ef3f0165615e93de4ca793430a,no_edit,The related passage does not contradict the new fact,1,Edit consistency
+Group_2_Order_2_0,Group 2,Order 2,e16852ef3f0165615e93de4ca793430a,no_edit,"Ignoring the new fact, most of the old facts are still true in the main passage.",6,Factual consistency
+Group_2_Order_2_0,Group 2,Order 2,e16852ef3f0165615e93de4ca793430a,no_edit,"Ignoring the new fact, most of the old facts are still true in the related passage.",7,Factual consistency
+Group_2_Order_2_0,Group 2,Order 2,e16852ef3f0165615e93de4ca793430a,no_edit,"Ignoring the old and new facts, the main passage does not contradict itself.",6,Internal consistency
+Group_2_Order_2_0,Group 2,Order 2,e16852ef3f0165615e93de4ca793430a,no_edit,"Ignoring the old and new facts, the related passage does not contradict itself.",6,Internal consistency
+Group_2_Order_2_0,Group 2,Order 2,e16852ef3f0165615e93de4ca793430a,no_edit,"Ignoring the old and new facts, the main passage and the related passage do not contradict each other.",7,Cross passage consistency
+Group_2_Order_2_0,Group 2,Order 2,e16852ef3f0165615e93de4ca793430a,no_edit,The main passage is focused on the subject and the related passage is focused on the related entity,5,Topicality
+Group_2_Order_2_0,Group 2,Order 2,e16852ef3f0165615e93de4ca793430a,no_edit,Both passages are natural sounding text close to what a human would write.,6,Naturalness
+Group_2_Order_2_0,Group 2,Order 2,60b37610ad951b89a8123101512f3520,human,The main passage is written as if the new fact is true,6,Edit consistency
+Group_2_Order_2_0,Group 2,Order 2,60b37610ad951b89a8123101512f3520,human,The related passage does not contradict the new fact,6,Edit consistency
+Group_2_Order_2_0,Group 2,Order 2,60b37610ad951b89a8123101512f3520,human,"Ignoring the new fact, most of the old facts are still true in the main passage.",7,Factual consistency
+Group_2_Order_2_0,Group 2,Order 2,60b37610ad951b89a8123101512f3520,human,"Ignoring the new fact, most of the old facts are still true in the related passage.",6,Factual consistency
+Group_2_Order_2_0,Group 2,Order 2,60b37610ad951b89a8123101512f3520,human,"Ignoring the old and new facts, the main passage does not contradict itself.",6,Internal consistency
+Group_2_Order_2_0,Group 2,Order 2,60b37610ad951b89a8123101512f3520,human,"Ignoring the old and new facts, the related passage does not contradict itself.",7,Internal consistency
+Group_2_Order_2_0,Group 2,Order 2,60b37610ad951b89a8123101512f3520,human,"Ignoring the old and new facts, the main passage and the related passage do not contradict each other.",7,Cross passage consistency
+Group_2_Order_2_0,Group 2,Order 2,60b37610ad951b89a8123101512f3520,human,The main passage is focused on the subject and the related passage is focused on the related entity,6,Topicality
+Group_2_Order_2_0,Group 2,Order 2,60b37610ad951b89a8123101512f3520,human,Both passages are natural sounding text close to what a human would write.,6,Naturalness
+Group_2_Order_2_0,Group 2,Order 2,e16852ef3f0165615e93de4ca793430a,human,The main passage is written as if the new fact is true,2,Edit consistency
+Group_2_Order_2_0,Group 2,Order 2,e16852ef3f0165615e93de4ca793430a,human,The related passage does not contradict the new fact,7,Edit consistency
+Group_2_Order_2_0,Group 2,Order 2,e16852ef3f0165615e93de4ca793430a,human,"Ignoring the new fact, most of the old facts are still true in the main passage.",2,Factual consistency
+Group_2_Order_2_0,Group 2,Order 2,e16852ef3f0165615e93de4ca793430a,human,"Ignoring the new fact, most of the old facts are still true in the related passage.",7,Factual consistency
+Group_2_Order_2_0,Group 2,Order 2,e16852ef3f0165615e93de4ca793430a,human,"Ignoring the old and new facts, the main passage does not contradict itself.",6,Internal consistency
+Group_2_Order_2_0,Group 2,Order 2,e16852ef3f0165615e93de4ca793430a,human,"Ignoring the old and new facts, the related passage does not contradict itself.",6,Internal consistency
+Group_2_Order_2_0,Group 2,Order 2,e16852ef3f0165615e93de4ca793430a,human,"Ignoring the old and new facts, the main passage and the related passage do not contradict each other.",7,Cross passage consistency
+Group_2_Order_2_0,Group 2,Order 2,e16852ef3f0165615e93de4ca793430a,human,The main passage is focused on the subject and the related passage is focused on the related entity,6,Topicality
+Group_2_Order_2_0,Group 2,Order 2,e16852ef3f0165615e93de4ca793430a,human,Both passages are natural sounding text close to what a human would write.,6,Naturalness
+Group_2_Order_2_0,Group 2,Order 2,60b37610ad951b89a8123101512f3520,no_edit,The main passage is written as if the new fact is true,1,Edit consistency
+Group_2_Order_2_0,Group 2,Order 2,60b37610ad951b89a8123101512f3520,no_edit,The related passage does not contradict the new fact,7,Edit consistency
+Group_2_Order_2_0,Group 2,Order 2,60b37610ad951b89a8123101512f3520,no_edit,"Ignoring the new fact, most of the old facts are still true in the main passage.",2,Factual consistency
+Group_2_Order_2_0,Group 2,Order 2,60b37610ad951b89a8123101512f3520,no_edit,"Ignoring the new fact, most of the old facts are still true in the related passage.",6,Factual consistency
+Group_2_Order_2_0,Group 2,Order 2,60b37610ad951b89a8123101512f3520,no_edit,"Ignoring the old and new facts, the main passage does not contradict itself.",6,Internal consistency
+Group_2_Order_2_0,Group 2,Order 2,60b37610ad951b89a8123101512f3520,no_edit,"Ignoring the old and new facts, the related passage does not contradict itself.",6,Internal consistency
+Group_2_Order_2_0,Group 2,Order 2,60b37610ad951b89a8123101512f3520,no_edit,"Ignoring the old and new facts, the main passage and the related passage do not contradict each other.",6,Cross passage consistency
+Group_2_Order_2_0,Group 2,Order 2,60b37610ad951b89a8123101512f3520,no_edit,The main passage is focused on the subject and the related passage is focused on the related entity,7,Topicality
+Group_2_Order_2_0,Group 2,Order 2,60b37610ad951b89a8123101512f3520,no_edit,Both passages are natural sounding text close to what a human would write.,6,Naturalness
+Group_2_Order_2_0,Group 2,Order 2,a41ba08ffb8af6eb5ecf70c7a52a6289,human,The main passage is written as if the new fact is true,6,Edit consistency
+Group_2_Order_2_0,Group 2,Order 2,a41ba08ffb8af6eb5ecf70c7a52a6289,human,The related passage does not contradict the new fact,7,Edit consistency
+Group_2_Order_2_0,Group 2,Order 2,a41ba08ffb8af6eb5ecf70c7a52a6289,human,"Ignoring the new fact, most of the old facts are still true in the main passage.",6,Factual consistency
+Group_2_Order_2_0,Group 2,Order 2,a41ba08ffb8af6eb5ecf70c7a52a6289,human,"Ignoring the new fact, most of the old facts are still true in the related passage.",6,Factual consistency
+Group_2_Order_2_0,Group 2,Order 2,a41ba08ffb8af6eb5ecf70c7a52a6289,human,"Ignoring the old and new facts, the main passage does not contradict itself.",6,Internal consistency
+Group_2_Order_2_0,Group 2,Order 2,a41ba08ffb8af6eb5ecf70c7a52a6289,human,"Ignoring the old and new facts, the related passage does not contradict itself.",7,Internal consistency
+Group_2_Order_2_0,Group 2,Order 2,a41ba08ffb8af6eb5ecf70c7a52a6289,human,"Ignoring the old and new facts, the main passage and the related passage do not contradict each other.",6,Cross passage consistency
+Group_2_Order_2_0,Group 2,Order 2,a41ba08ffb8af6eb5ecf70c7a52a6289,human,The main passage is focused on the subject and the related passage is focused on the related entity,7,Topicality
+Group_2_Order_2_0,Group 2,Order 2,a41ba08ffb8af6eb5ecf70c7a52a6289,human,Both passages are natural sounding text close to what a human would write.,6,Naturalness
+Group_2_Order_2_0,Group 2,Order 2,e16852ef3f0165615e93de4ca793430a,rome,The main passage is written as if the new fact is true,2,Edit consistency
+Group_2_Order_2_0,Group 2,Order 2,e16852ef3f0165615e93de4ca793430a,rome,The related passage does not contradict the new fact,6,Edit consistency
+Group_2_Order_2_0,Group 2,Order 2,e16852ef3f0165615e93de4ca793430a,rome,"Ignoring the new fact, most of the old facts are still true in the main passage.",6,Factual consistency
+Group_2_Order_2_0,Group 2,Order 2,e16852ef3f0165615e93de4ca793430a,rome,"Ignoring the new fact, most of the old facts are still true in the related passage.",6,Factual consistency
+Group_2_Order_2_0,Group 2,Order 2,e16852ef3f0165615e93de4ca793430a,rome,"Ignoring the old and new facts, the main passage does not contradict itself.",6,Internal consistency
+Group_2_Order_2_0,Group 2,Order 2,e16852ef3f0165615e93de4ca793430a,rome,"Ignoring the old and new facts, the related passage does not contradict itself.",6,Internal consistency
+Group_2_Order_2_0,Group 2,Order 2,e16852ef3f0165615e93de4ca793430a,rome,"Ignoring the old and new facts, the main passage and the related passage do not contradict each other.",6,Cross passage consistency
+Group_2_Order_2_0,Group 2,Order 2,e16852ef3f0165615e93de4ca793430a,rome,The main passage is focused on the subject and the related passage is focused on the related entity,6,Topicality
+Group_2_Order_2_0,Group 2,Order 2,e16852ef3f0165615e93de4ca793430a,rome,Both passages are natural sounding text close to what a human would write.,6,Naturalness
+Group_2_Order_2_0,Group 2,Order 2,a41ba08ffb8af6eb5ecf70c7a52a6289,rome,The main passage is written as if the new fact is true,6,Edit consistency
+Group_2_Order_2_0,Group 2,Order 2,a41ba08ffb8af6eb5ecf70c7a52a6289,rome,The related passage does not contradict the new fact,6,Edit consistency
+Group_2_Order_2_0,Group 2,Order 2,a41ba08ffb8af6eb5ecf70c7a52a6289,rome,"Ignoring the new fact, most of the old facts are still true in the main passage.",5,Factual consistency
+Group_2_Order_2_0,Group 2,Order 2,a41ba08ffb8af6eb5ecf70c7a52a6289,rome,"Ignoring the new fact, most of the old facts are still true in the related passage.",5,Factual consistency
+Group_2_Order_2_0,Group 2,Order 2,a41ba08ffb8af6eb5ecf70c7a52a6289,rome,"Ignoring the old and new facts, the main passage does not contradict itself.",6,Internal consistency
+Group_2_Order_2_0,Group 2,Order 2,a41ba08ffb8af6eb5ecf70c7a52a6289,rome,"Ignoring the old and new facts, the related passage does not contradict itself.",6,Internal consistency
+Group_2_Order_2_0,Group 2,Order 2,a41ba08ffb8af6eb5ecf70c7a52a6289,rome,"Ignoring the old and new facts, the main passage and the related passage do not contradict each other.",6,Cross passage consistency
+Group_2_Order_2_0,Group 2,Order 2,a41ba08ffb8af6eb5ecf70c7a52a6289,rome,The main passage is focused on the subject and the related passage is focused on the related entity,6,Topicality
+Group_2_Order_2_0,Group 2,Order 2,a41ba08ffb8af6eb5ecf70c7a52a6289,rome,Both passages are natural sounding text close to what a human would write.,6,Naturalness
+Group_3_Order_2_0,Group 3,Order 2,ad41a34db7e3975d6b83d2ddedb19d9f,human,The main passage is written as if the new fact is true,6,Edit consistency
+Group_3_Order_2_0,Group 3,Order 2,ad41a34db7e3975d6b83d2ddedb19d9f,human,The related passage does not contradict the new fact,6,Edit consistency
+Group_3_Order_2_0,Group 3,Order 2,ad41a34db7e3975d6b83d2ddedb19d9f,human,"Ignoring the new fact, most of the old facts are still true in the main passage.",5,Factual consistency
+Group_3_Order_2_0,Group 3,Order 2,ad41a34db7e3975d6b83d2ddedb19d9f,human,"Ignoring the new fact, most of the old facts are still true in the related passage.",6,Factual consistency
+Group_3_Order_2_0,Group 3,Order 2,ad41a34db7e3975d6b83d2ddedb19d9f,human,"Ignoring the old and new facts, the main passage does not contradict itself.",6,Internal consistency
+Group_3_Order_2_0,Group 3,Order 2,ad41a34db7e3975d6b83d2ddedb19d9f,human,"Ignoring the old and new facts, the related passage does not contradict itself.",6,Internal consistency
+Group_3_Order_2_0,Group 3,Order 2,ad41a34db7e3975d6b83d2ddedb19d9f,human,"Ignoring the old and new facts, the main passage and the related passage do not contradict each other.",6,Cross passage consistency
+Group_3_Order_2_0,Group 3,Order 2,ad41a34db7e3975d6b83d2ddedb19d9f,human,The main passage is focused on the subject and the related passage is focused on the related entity,6,Topicality
+Group_3_Order_2_0,Group 3,Order 2,ad41a34db7e3975d6b83d2ddedb19d9f,human,Both passages are natural sounding text close to what a human would write.,6,Naturalness
+Group_3_Order_2_0,Group 3,Order 2,ed7e1c4359063598dbeb73d4da2869c1,no_edit,The main passage is written as if the new fact is true,1,Edit consistency
+Group_3_Order_2_0,Group 3,Order 2,ed7e1c4359063598dbeb73d4da2869c1,no_edit,The related passage does not contradict the new fact,1,Edit consistency
+Group_3_Order_2_0,Group 3,Order 2,ed7e1c4359063598dbeb73d4da2869c1,no_edit,"Ignoring the new fact, most of the old facts are still true in the main passage.",3,Factual consistency
+Group_3_Order_2_0,Group 3,Order 2,ed7e1c4359063598dbeb73d4da2869c1,no_edit,"Ignoring the new fact, most of the old facts are still true in the related passage.",5,Factual consistency
+Group_3_Order_2_0,Group 3,Order 2,ed7e1c4359063598dbeb73d4da2869c1,no_edit,"Ignoring the old and new facts, the main passage does not contradict itself.",6,Internal consistency
+Group_3_Order_2_0,Group 3,Order 2,ed7e1c4359063598dbeb73d4da2869c1,no_edit,"Ignoring the old and new facts, the related passage does not contradict itself.",6,Internal consistency
+Group_3_Order_2_0,Group 3,Order 2,ed7e1c4359063598dbeb73d4da2869c1,no_edit,"Ignoring the old and new facts, the main passage and the related passage do not contradict each other.",6,Cross passage consistency
+Group_3_Order_2_0,Group 3,Order 2,ed7e1c4359063598dbeb73d4da2869c1,no_edit,The main passage is focused on the subject and the related passage is focused on the related entity,6,Topicality
+Group_3_Order_2_0,Group 3,Order 2,ed7e1c4359063598dbeb73d4da2869c1,no_edit,Both passages are natural sounding text close to what a human would write.,6,Naturalness
+Group_3_Order_2_0,Group 3,Order 2,ed7e1c4359063598dbeb73d4da2869c1,rome,The main passage is written as if the new fact is true,7,Edit consistency
+Group_3_Order_2_0,Group 3,Order 2,ed7e1c4359063598dbeb73d4da2869c1,rome,The related passage does not contradict the new fact,5,Edit consistency
+Group_3_Order_2_0,Group 3,Order 2,ed7e1c4359063598dbeb73d4da2869c1,rome,"Ignoring the new fact, most of the old facts are still true in the main passage.",1,Factual consistency
+Group_3_Order_2_0,Group 3,Order 2,ed7e1c4359063598dbeb73d4da2869c1,rome,"Ignoring the new fact, most of the old facts are still true in the related passage.",1,Factual consistency
+Group_3_Order_2_0,Group 3,Order 2,ed7e1c4359063598dbeb73d4da2869c1,rome,"Ignoring the old and new facts, the main passage does not contradict itself.",5,Internal consistency
+Group_3_Order_2_0,Group 3,Order 2,ed7e1c4359063598dbeb73d4da2869c1,rome,"Ignoring the old and new facts, the related passage does not contradict itself.",5,Internal consistency
+Group_3_Order_2_0,Group 3,Order 2,ed7e1c4359063598dbeb73d4da2869c1,rome,"Ignoring the old and new facts, the main passage and the related passage do not contradict each other.",6,Cross passage consistency
+Group_3_Order_2_0,Group 3,Order 2,ed7e1c4359063598dbeb73d4da2869c1,rome,The main passage is focused on the subject and the related passage is focused on the related entity,5,Topicality
+Group_3_Order_2_0,Group 3,Order 2,ed7e1c4359063598dbeb73d4da2869c1,rome,Both passages are natural sounding text close to what a human would write.,6,Naturalness
+Group_3_Order_2_0,Group 3,Order 2,ad41a34db7e3975d6b83d2ddedb19d9f,no_edit,The main passage is written as if the new fact is true,6,Edit consistency
+Group_3_Order_2_0,Group 3,Order 2,ad41a34db7e3975d6b83d2ddedb19d9f,no_edit,The related passage does not contradict the new fact,6,Edit consistency
+Group_3_Order_2_0,Group 3,Order 2,ad41a34db7e3975d6b83d2ddedb19d9f,no_edit,"Ignoring the new fact, most of the old facts are still true in the main passage.",6,Factual consistency
+Group_3_Order_2_0,Group 3,Order 2,ad41a34db7e3975d6b83d2ddedb19d9f,no_edit,"Ignoring the new fact, most of the old facts are still true in the related passage.",6,Factual consistency
+Group_3_Order_2_0,Group 3,Order 2,ad41a34db7e3975d6b83d2ddedb19d9f,no_edit,"Ignoring the old and new facts, the main passage does not contradict itself.",6,Internal consistency
+Group_3_Order_2_0,Group 3,Order 2,ad41a34db7e3975d6b83d2ddedb19d9f,no_edit,"Ignoring the old and new facts, the related passage does not contradict itself.",6,Internal consistency
+Group_3_Order_2_0,Group 3,Order 2,ad41a34db7e3975d6b83d2ddedb19d9f,no_edit,"Ignoring the old and new facts, the main passage and the related passage do not contradict each other.",6,Cross passage consistency
+Group_3_Order_2_0,Group 3,Order 2,ad41a34db7e3975d6b83d2ddedb19d9f,no_edit,The main passage is focused on the subject and the related passage is focused on the related entity,6,Topicality
+Group_3_Order_2_0,Group 3,Order 2,ad41a34db7e3975d6b83d2ddedb19d9f,no_edit,Both passages are natural sounding text close to what a human would write.,6,Naturalness
+Group_3_Order_2_0,Group 3,Order 2,0a1d0bbec0b94708c01dfb2d8d6161bb,no_edit,The main passage is written as if the new fact is true,1,Edit consistency
+Group_3_Order_2_0,Group 3,Order 2,0a1d0bbec0b94708c01dfb2d8d6161bb,no_edit,The related passage does not contradict the new fact,1,Edit consistency
+Group_3_Order_2_0,Group 3,Order 2,0a1d0bbec0b94708c01dfb2d8d6161bb,no_edit,"Ignoring the new fact, most of the old facts are still true in the main passage.",6,Factual consistency
+Group_3_Order_2_0,Group 3,Order 2,0a1d0bbec0b94708c01dfb2d8d6161bb,no_edit,"Ignoring the new fact, most of the old facts are still true in the related passage.",6,Factual consistency
+Group_3_Order_2_0,Group 3,Order 2,0a1d0bbec0b94708c01dfb2d8d6161bb,no_edit,"Ignoring the old and new facts, the main passage does not contradict itself.",6,Internal consistency
+Group_3_Order_2_0,Group 3,Order 2,0a1d0bbec0b94708c01dfb2d8d6161bb,no_edit,"Ignoring the old and new facts, the related passage does not contradict itself.",6,Internal consistency
+Group_3_Order_2_0,Group 3,Order 2,0a1d0bbec0b94708c01dfb2d8d6161bb,no_edit,"Ignoring the old and new facts, the main passage and the related passage do not contradict each other.",7,Cross passage consistency
+Group_3_Order_2_0,Group 3,Order 2,0a1d0bbec0b94708c01dfb2d8d6161bb,no_edit,The main passage is focused on the subject and the related passage is focused on the related entity,7,Topicality
+Group_3_Order_2_0,Group 3,Order 2,0a1d0bbec0b94708c01dfb2d8d6161bb,no_edit,Both passages are natural sounding text close to what a human would write.,3,Naturalness
+Group_3_Order_2_0,Group 3,Order 2,0a1d0bbec0b94708c01dfb2d8d6161bb,rome,The main passage is written as if the new fact is true,7,Edit consistency
+Group_3_Order_2_0,Group 3,Order 2,0a1d0bbec0b94708c01dfb2d8d6161bb,rome,The related passage does not contradict the new fact,6,Edit consistency
+Group_3_Order_2_0,Group 3,Order 2,0a1d0bbec0b94708c01dfb2d8d6161bb,rome,"Ignoring the new fact, most of the old facts are still true in the main passage.",2,Factual consistency
+Group_3_Order_2_0,Group 3,Order 2,0a1d0bbec0b94708c01dfb2d8d6161bb,rome,"Ignoring the new fact, most of the old facts are still true in the related passage.",2,Factual consistency
+Group_3_Order_2_0,Group 3,Order 2,0a1d0bbec0b94708c01dfb2d8d6161bb,rome,"Ignoring the old and new facts, the main passage does not contradict itself.",6,Internal consistency
+Group_3_Order_2_0,Group 3,Order 2,0a1d0bbec0b94708c01dfb2d8d6161bb,rome,"Ignoring the old and new facts, the related passage does not contradict itself.",6,Internal consistency
+Group_3_Order_2_0,Group 3,Order 2,0a1d0bbec0b94708c01dfb2d8d6161bb,rome,"Ignoring the old and new facts, the main passage and the related passage do not contradict each other.",6,Cross passage consistency
+Group_3_Order_2_0,Group 3,Order 2,0a1d0bbec0b94708c01dfb2d8d6161bb,rome,The main passage is focused on the subject and the related passage is focused on the related entity,6,Topicality
+Group_3_Order_2_0,Group 3,Order 2,0a1d0bbec0b94708c01dfb2d8d6161bb,rome,Both passages are natural sounding text close to what a human would write.,3,Naturalness
+Group_3_Order_2_0,Group 3,Order 2,ed7e1c4359063598dbeb73d4da2869c1,human,The main passage is written as if the new fact is true,7,Edit consistency
+Group_3_Order_2_0,Group 3,Order 2,ed7e1c4359063598dbeb73d4da2869c1,human,The related passage does not contradict the new fact,7,Edit consistency
+Group_3_Order_2_0,Group 3,Order 2,ed7e1c4359063598dbeb73d4da2869c1,human,"Ignoring the new fact, most of the old facts are still true in the main passage.",7,Factual consistency
+Group_3_Order_2_0,Group 3,Order 2,ed7e1c4359063598dbeb73d4da2869c1,human,"Ignoring the new fact, most of the old facts are still true in the related passage.",7,Factual consistency
+Group_3_Order_2_0,Group 3,Order 2,ed7e1c4359063598dbeb73d4da2869c1,human,"Ignoring the old and new facts, the main passage does not contradict itself.",7,Internal consistency
+Group_3_Order_2_0,Group 3,Order 2,ed7e1c4359063598dbeb73d4da2869c1,human,"Ignoring the old and new facts, the related passage does not contradict itself.",7,Internal consistency
+Group_3_Order_2_0,Group 3,Order 2,ed7e1c4359063598dbeb73d4da2869c1,human,"Ignoring the old and new facts, the main passage and the related passage do not contradict each other.",7,Cross passage consistency
+Group_3_Order_2_0,Group 3,Order 2,ed7e1c4359063598dbeb73d4da2869c1,human,The main passage is focused on the subject and the related passage is focused on the related entity,7,Topicality
+Group_3_Order_2_0,Group 3,Order 2,ed7e1c4359063598dbeb73d4da2869c1,human,Both passages are natural sounding text close to what a human would write.,7,Naturalness
+Group_3_Order_2_0,Group 3,Order 2,0a1d0bbec0b94708c01dfb2d8d6161bb,human,The main passage is written as if the new fact is true,7,Edit consistency
+Group_3_Order_2_0,Group 3,Order 2,0a1d0bbec0b94708c01dfb2d8d6161bb,human,The related passage does not contradict the new fact,7,Edit consistency
+Group_3_Order_2_0,Group 3,Order 2,0a1d0bbec0b94708c01dfb2d8d6161bb,human,"Ignoring the new fact, most of the old facts are still true in the main passage.",7,Factual consistency
+Group_3_Order_2_0,Group 3,Order 2,0a1d0bbec0b94708c01dfb2d8d6161bb,human,"Ignoring the new fact, most of the old facts are still true in the related passage.",7,Factual consistency
+Group_3_Order_2_0,Group 3,Order 2,0a1d0bbec0b94708c01dfb2d8d6161bb,human,"Ignoring the old and new facts, the main passage does not contradict itself.",7,Internal consistency
+Group_3_Order_2_0,Group 3,Order 2,0a1d0bbec0b94708c01dfb2d8d6161bb,human,"Ignoring the old and new facts, the related passage does not contradict itself.",7,Internal consistency
+Group_3_Order_2_0,Group 3,Order 2,0a1d0bbec0b94708c01dfb2d8d6161bb,human,"Ignoring the old and new facts, the main passage and the related passage do not contradict each other.",7,Cross passage consistency
+Group_3_Order_2_0,Group 3,Order 2,0a1d0bbec0b94708c01dfb2d8d6161bb,human,The main passage is focused on the subject and the related passage is focused on the related entity,7,Topicality
+Group_3_Order_2_0,Group 3,Order 2,0a1d0bbec0b94708c01dfb2d8d6161bb,human,Both passages are natural sounding text close to what a human would write.,7,Naturalness
+Group_3_Order_2_0,Group 3,Order 2,ad41a34db7e3975d6b83d2ddedb19d9f,rome,The main passage is written as if the new fact is true,7,Edit consistency
+Group_3_Order_2_0,Group 3,Order 2,ad41a34db7e3975d6b83d2ddedb19d9f,rome,The related passage does not contradict the new fact,7,Edit consistency
+Group_3_Order_2_0,Group 3,Order 2,ad41a34db7e3975d6b83d2ddedb19d9f,rome,"Ignoring the new fact, most of the old facts are still true in the main passage.",1,Factual consistency
+Group_3_Order_2_0,Group 3,Order 2,ad41a34db7e3975d6b83d2ddedb19d9f,rome,"Ignoring the new fact, most of the old facts are still true in the related passage.",2,Factual consistency
+Group_3_Order_2_0,Group 3,Order 2,ad41a34db7e3975d6b83d2ddedb19d9f,rome,"Ignoring the old and new facts, the main passage does not contradict itself.",2,Internal consistency
+Group_3_Order_2_0,Group 3,Order 2,ad41a34db7e3975d6b83d2ddedb19d9f,rome,"Ignoring the old and new facts, the related passage does not contradict itself.",7,Internal consistency
+Group_3_Order_2_0,Group 3,Order 2,ad41a34db7e3975d6b83d2ddedb19d9f,rome,"Ignoring the old and new facts, the main passage and the related passage do not contradict each other.",6,Cross passage consistency
+Group_3_Order_2_0,Group 3,Order 2,ad41a34db7e3975d6b83d2ddedb19d9f,rome,The main passage is focused on the subject and the related passage is focused on the related entity,6,Topicality
+Group_3_Order_2_0,Group 3,Order 2,ad41a34db7e3975d6b83d2ddedb19d9f,rome,Both passages are natural sounding text close to what a human would write.,6,Naturalness
+Group_4_Order_2_0,Group 4,Order 2,49b1579016eb2228e0593380d1a1366a,human,The main passage is written as if the new fact is true,6,Edit consistency
+Group_4_Order_2_0,Group 4,Order 2,49b1579016eb2228e0593380d1a1366a,human,The related passage does not contradict the new fact,6,Edit consistency
+Group_4_Order_2_0,Group 4,Order 2,49b1579016eb2228e0593380d1a1366a,human,"Ignoring the new fact, most of the old facts are still true in the main passage.",6,Factual consistency
+Group_4_Order_2_0,Group 4,Order 2,49b1579016eb2228e0593380d1a1366a,human,"Ignoring the new fact, most of the old facts are still true in the related passage.",6,Factual consistency
+Group_4_Order_2_0,Group 4,Order 2,49b1579016eb2228e0593380d1a1366a,human,"Ignoring the old and new facts, the main passage does not contradict itself.",6,Internal consistency
+Group_4_Order_2_0,Group 4,Order 2,49b1579016eb2228e0593380d1a1366a,human,"Ignoring the old and new facts, the related passage does not contradict itself.",6,Internal consistency
+Group_4_Order_2_0,Group 4,Order 2,49b1579016eb2228e0593380d1a1366a,human,"Ignoring the old and new facts, the main passage and the related passage do not contradict each other.",6,Cross passage consistency
+Group_4_Order_2_0,Group 4,Order 2,49b1579016eb2228e0593380d1a1366a,human,The main passage is focused on the subject and the related passage is focused on the related entity,7,Topicality
+Group_4_Order_2_0,Group 4,Order 2,49b1579016eb2228e0593380d1a1366a,human,Both passages are natural sounding text close to what a human would write.,7,Naturalness
+Group_4_Order_2_0,Group 4,Order 2,94404544b0b793406c670af7b8d81328,rome,The main passage is written as if the new fact is true,5,Edit consistency
+Group_4_Order_2_0,Group 4,Order 2,94404544b0b793406c670af7b8d81328,rome,The related passage does not contradict the new fact,3,Edit consistency
+Group_4_Order_2_0,Group 4,Order 2,94404544b0b793406c670af7b8d81328,rome,"Ignoring the new fact, most of the old facts are still true in the main passage.",1,Factual consistency
+Group_4_Order_2_0,Group 4,Order 2,94404544b0b793406c670af7b8d81328,rome,"Ignoring the new fact, most of the old facts are still true in the related passage.",1,Factual consistency
+Group_4_Order_2_0,Group 4,Order 2,94404544b0b793406c670af7b8d81328,rome,"Ignoring the old and new facts, the main passage does not contradict itself.",3,Internal consistency
+Group_4_Order_2_0,Group 4,Order 2,94404544b0b793406c670af7b8d81328,rome,"Ignoring the old and new facts, the related passage does not contradict itself.",5,Internal consistency
+Group_4_Order_2_0,Group 4,Order 2,94404544b0b793406c670af7b8d81328,rome,"Ignoring the old and new facts, the main passage and the related passage do not contradict each other.",4,Cross passage consistency
+Group_4_Order_2_0,Group 4,Order 2,94404544b0b793406c670af7b8d81328,rome,The main passage is focused on the subject and the related passage is focused on the related entity,7,Topicality
+Group_4_Order_2_0,Group 4,Order 2,94404544b0b793406c670af7b8d81328,rome,Both passages are natural sounding text close to what a human would write.,3,Naturalness
+Group_4_Order_2_0,Group 4,Order 2,0b65acc415a69a2c25061b239d7925aa,no_edit,The main passage is written as if the new fact is true,3,Edit consistency
+Group_4_Order_2_0,Group 4,Order 2,0b65acc415a69a2c25061b239d7925aa,no_edit,The related passage does not contradict the new fact,2,Edit consistency
+Group_4_Order_2_0,Group 4,Order 2,0b65acc415a69a2c25061b239d7925aa,no_edit,"Ignoring the new fact, most of the old facts are still true in the main passage.",5,Factual consistency
+Group_4_Order_2_0,Group 4,Order 2,0b65acc415a69a2c25061b239d7925aa,no_edit,"Ignoring the new fact, most of the old facts are still true in the related passage.",5,Factual consistency
+Group_4_Order_2_0,Group 4,Order 2,0b65acc415a69a2c25061b239d7925aa,no_edit,"Ignoring the old and new facts, the main passage does not contradict itself.",5,Internal consistency
+Group_4_Order_2_0,Group 4,Order 2,0b65acc415a69a2c25061b239d7925aa,no_edit,"Ignoring the old and new facts, the related passage does not contradict itself.",6,Internal consistency
+Group_4_Order_2_0,Group 4,Order 2,0b65acc415a69a2c25061b239d7925aa,no_edit,"Ignoring the old and new facts, the main passage and the related passage do not contradict each other.",6,Cross passage consistency
+Group_4_Order_2_0,Group 4,Order 2,0b65acc415a69a2c25061b239d7925aa,no_edit,The main passage is focused on the subject and the related passage is focused on the related entity,6,Topicality
+Group_4_Order_2_0,Group 4,Order 2,0b65acc415a69a2c25061b239d7925aa,no_edit,Both passages are natural sounding text close to what a human would write.,5,Naturalness
+Group_4_Order_2_0,Group 4,Order 2,0b65acc415a69a2c25061b239d7925aa,rome,The main passage is written as if the new fact is true,4,Edit consistency
+Group_4_Order_2_0,Group 4,Order 2,0b65acc415a69a2c25061b239d7925aa,rome,The related passage does not contradict the new fact,3,Edit consistency
+Group_4_Order_2_0,Group 4,Order 2,0b65acc415a69a2c25061b239d7925aa,rome,"Ignoring the new fact, most of the old facts are still true in the main passage.",4,Factual consistency
+Group_4_Order_2_0,Group 4,Order 2,0b65acc415a69a2c25061b239d7925aa,rome,"Ignoring the new fact, most of the old facts are still true in the related passage.",4,Factual consistency
+Group_4_Order_2_0,Group 4,Order 2,0b65acc415a69a2c25061b239d7925aa,rome,"Ignoring the old and new facts, the main passage does not contradict itself.",6,Internal consistency
+Group_4_Order_2_0,Group 4,Order 2,0b65acc415a69a2c25061b239d7925aa,rome,"Ignoring the old and new facts, the related passage does not contradict itself.",6,Internal consistency
+Group_4_Order_2_0,Group 4,Order 2,0b65acc415a69a2c25061b239d7925aa,rome,"Ignoring the old and new facts, the main passage and the related passage do not contradict each other.",6,Cross passage consistency
+Group_4_Order_2_0,Group 4,Order 2,0b65acc415a69a2c25061b239d7925aa,rome,The main passage is focused on the subject and the related passage is focused on the related entity,6,Topicality
+Group_4_Order_2_0,Group 4,Order 2,0b65acc415a69a2c25061b239d7925aa,rome,Both passages are natural sounding text close to what a human would write.,5,Naturalness
+Group_4_Order_2_0,Group 4,Order 2,94404544b0b793406c670af7b8d81328,no_edit,The main passage is written as if the new fact is true,1,Edit consistency
+Group_4_Order_2_0,Group 4,Order 2,94404544b0b793406c670af7b8d81328,no_edit,The related passage does not contradict the new fact,3,Edit consistency
+Group_4_Order_2_0,Group 4,Order 2,94404544b0b793406c670af7b8d81328,no_edit,"Ignoring the new fact, most of the old facts are still true in the main passage.",5,Factual consistency
+Group_4_Order_2_0,Group 4,Order 2,94404544b0b793406c670af7b8d81328,no_edit,"Ignoring the new fact, most of the old facts are still true in the related passage.",3,Factual consistency
+Group_4_Order_2_0,Group 4,Order 2,94404544b0b793406c670af7b8d81328,no_edit,"Ignoring the old and new facts, the main passage does not contradict itself.",5,Internal consistency
+Group_4_Order_2_0,Group 4,Order 2,94404544b0b793406c670af7b8d81328,no_edit,"Ignoring the old and new facts, the related passage does not contradict itself.",5,Internal consistency
+Group_4_Order_2_0,Group 4,Order 2,94404544b0b793406c670af7b8d81328,no_edit,"Ignoring the old and new facts, the main passage and the related passage do not contradict each other.",5,Cross passage consistency
+Group_4_Order_2_0,Group 4,Order 2,94404544b0b793406c670af7b8d81328,no_edit,The main passage is focused on the subject and the related passage is focused on the related entity,6,Topicality
+Group_4_Order_2_0,Group 4,Order 2,94404544b0b793406c670af7b8d81328,no_edit,Both passages are natural sounding text close to what a human would write.,6,Naturalness
+Group_4_Order_2_0,Group 4,Order 2,49b1579016eb2228e0593380d1a1366a,no_edit,The main passage is written as if the new fact is true,1,Edit consistency
+Group_4_Order_2_0,Group 4,Order 2,49b1579016eb2228e0593380d1a1366a,no_edit,The related passage does not contradict the new fact,1,Edit consistency
+Group_4_Order_2_0,Group 4,Order 2,49b1579016eb2228e0593380d1a1366a,no_edit,"Ignoring the new fact, most of the old facts are still true in the main passage.",1,Factual consistency
+Group_4_Order_2_0,Group 4,Order 2,49b1579016eb2228e0593380d1a1366a,no_edit,"Ignoring the new fact, most of the old facts are still true in the related passage.",1,Factual consistency
+Group_4_Order_2_0,Group 4,Order 2,49b1579016eb2228e0593380d1a1366a,no_edit,"Ignoring the old and new facts, the main passage does not contradict itself.",6,Internal consistency
+Group_4_Order_2_0,Group 4,Order 2,49b1579016eb2228e0593380d1a1366a,no_edit,"Ignoring the old and new facts, the related passage does not contradict itself.",6,Internal consistency
+Group_4_Order_2_0,Group 4,Order 2,49b1579016eb2228e0593380d1a1366a,no_edit,"Ignoring the old and new facts, the main passage and the related passage do not contradict each other.",5,Cross passage consistency
+Group_4_Order_2_0,Group 4,Order 2,49b1579016eb2228e0593380d1a1366a,no_edit,The main passage is focused on the subject and the related passage is focused on the related entity,7,Topicality
+Group_4_Order_2_0,Group 4,Order 2,49b1579016eb2228e0593380d1a1366a,no_edit,Both passages are natural sounding text close to what a human would write.,6,Naturalness
+Group_4_Order_2_0,Group 4,Order 2,0b65acc415a69a2c25061b239d7925aa,human,The main passage is written as if the new fact is true,6,Edit consistency
+Group_4_Order_2_0,Group 4,Order 2,0b65acc415a69a2c25061b239d7925aa,human,The related passage does not contradict the new fact,5,Edit consistency
+Group_4_Order_2_0,Group 4,Order 2,0b65acc415a69a2c25061b239d7925aa,human,"Ignoring the new fact, most of the old facts are still true in the main passage.",5,Factual consistency
+Group_4_Order_2_0,Group 4,Order 2,0b65acc415a69a2c25061b239d7925aa,human,"Ignoring the new fact, most of the old facts are still true in the related passage.",6,Factual consistency
+Group_4_Order_2_0,Group 4,Order 2,0b65acc415a69a2c25061b239d7925aa,human,"Ignoring the old and new facts, the main passage does not contradict itself.",6,Internal consistency
+Group_4_Order_2_0,Group 4,Order 2,0b65acc415a69a2c25061b239d7925aa,human,"Ignoring the old and new facts, the related passage does not contradict itself.",6,Internal consistency
+Group_4_Order_2_0,Group 4,Order 2,0b65acc415a69a2c25061b239d7925aa,human,"Ignoring the old and new facts, the main passage and the related passage do not contradict each other.",6,Cross passage consistency
+Group_4_Order_2_0,Group 4,Order 2,0b65acc415a69a2c25061b239d7925aa,human,The main passage is focused on the subject and the related passage is focused on the related entity,6,Topicality
+Group_4_Order_2_0,Group 4,Order 2,0b65acc415a69a2c25061b239d7925aa,human,Both passages are natural sounding text close to what a human would write.,6,Naturalness
+Group_4_Order_2_0,Group 4,Order 2,49b1579016eb2228e0593380d1a1366a,rome,The main passage is written as if the new fact is true,6,Edit consistency
+Group_4_Order_2_0,Group 4,Order 2,49b1579016eb2228e0593380d1a1366a,rome,The related passage does not contradict the new fact,6,Edit consistency
+Group_4_Order_2_0,Group 4,Order 2,49b1579016eb2228e0593380d1a1366a,rome,"Ignoring the new fact, most of the old facts are still true in the main passage.",2,Factual consistency
+Group_4_Order_2_0,Group 4,Order 2,49b1579016eb2228e0593380d1a1366a,rome,"Ignoring the new fact, most of the old facts are still true in the related passage.",5,Factual consistency
+Group_4_Order_2_0,Group 4,Order 2,49b1579016eb2228e0593380d1a1366a,rome,"Ignoring the old and new facts, the main passage does not contradict itself.",3,Internal consistency
+Group_4_Order_2_0,Group 4,Order 2,49b1579016eb2228e0593380d1a1366a,rome,"Ignoring the old and new facts, the related passage does not contradict itself.",6,Internal consistency
+Group_4_Order_2_0,Group 4,Order 2,49b1579016eb2228e0593380d1a1366a,rome,"Ignoring the old and new facts, the main passage and the related passage do not contradict each other.",6,Cross passage consistency
+Group_4_Order_2_0,Group 4,Order 2,49b1579016eb2228e0593380d1a1366a,rome,The main passage is focused on the subject and the related passage is focused on the related entity,6,Topicality
+Group_4_Order_2_0,Group 4,Order 2,49b1579016eb2228e0593380d1a1366a,rome,Both passages are natural sounding text close to what a human would write.,6,Naturalness
+Group_4_Order_2_0,Group 4,Order 2,94404544b0b793406c670af7b8d81328,human,The main passage is written as if the new fact is true,5,Edit consistency
+Group_4_Order_2_0,Group 4,Order 2,94404544b0b793406c670af7b8d81328,human,The related passage does not contradict the new fact,5,Edit consistency
+Group_4_Order_2_0,Group 4,Order 2,94404544b0b793406c670af7b8d81328,human,"Ignoring the new fact, most of the old facts are still true in the main passage.",5,Factual consistency
+Group_4_Order_2_0,Group 4,Order 2,94404544b0b793406c670af7b8d81328,human,"Ignoring the new fact, most of the old facts are still true in the related passage.",5,Factual consistency
+Group_4_Order_2_0,Group 4,Order 2,94404544b0b793406c670af7b8d81328,human,"Ignoring the old and new facts, the main passage does not contradict itself.",6,Internal consistency
+Group_4_Order_2_0,Group 4,Order 2,94404544b0b793406c670af7b8d81328,human,"Ignoring the old and new facts, the related passage does not contradict itself.",6,Internal consistency
+Group_4_Order_2_0,Group 4,Order 2,94404544b0b793406c670af7b8d81328,human,"Ignoring the old and new facts, the main passage and the related passage do not contradict each other.",6,Cross passage consistency
+Group_4_Order_2_0,Group 4,Order 2,94404544b0b793406c670af7b8d81328,human,The main passage is focused on the subject and the related passage is focused on the related entity,6,Topicality
+Group_4_Order_2_0,Group 4,Order 2,94404544b0b793406c670af7b8d81328,human,Both passages are natural sounding text close to what a human would write.,6,Naturalness

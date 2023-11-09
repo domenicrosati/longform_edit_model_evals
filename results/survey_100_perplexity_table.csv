@@ -1,0 +1,9 @@
+model,intervention,main_passage,related_passage
+gptj,gptj_ft_edit,13.1±2.9,13.0±3.7
+gptj,gptj_ike_edit,13.0±3.5,13.0±4.7
+gptj,gptj_no_edit,12.5±3.6,13.0±2.9
+gptj,gptj_rome_edit,15.9±8.1,14.7±5.7
+llama2,llama2_chat_ft_edit,24.3±148.8,8.3±3.9
+llama2,llama2_chat_ike_edit,6.2±1.3,5.8±1.0
+llama2,llama2_chat_no_edit,5.9±1.0,5.7±1.1
+llama2,llama2_chat_rome_edit,7.6±3.0,6.6±2.6

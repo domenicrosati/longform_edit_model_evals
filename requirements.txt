@@ -22,3 +22,5 @@ jupyter==1.0.0
 accelerate==0.22.0
 higher==0.2.1
 qwikidata==0.4.2
+rouge_score
+bert_score
