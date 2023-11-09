@@ -20,7 +20,8 @@ question_to_label = {
 }
 
 # get true order hidden from participants
-# group 2, group 3, group 4 - order 1
+with open('./data/survey_samples/pilot_survey_samples_group1_order1_true_order.csv', 'r') as f:
+    group_1_order_1 = f.readlines()
 with open('./data/survey_samples/pilot_survey_samples_group2_order1_true_order.csv', 'r') as f:
     group_2_order_1 = f.readlines()
 with open('./data/survey_samples/pilot_survey_samples_group3_order1_true_order.csv', 'r') as f:
@@ -28,7 +29,8 @@ with open('./data/survey_samples/pilot_survey_samples_group3_order1_true_order.c
 with open('./data/survey_samples/pilot_survey_samples_group4_order1_true_order.csv', 'r') as f:
     group_4_order_1 = f.readlines()
 
-# group 2, group 3, group 4 - order 2
+with open('./data/survey_samples/pilot_survey_samples_group1_order2_true_order.csv', 'r') as f:
+    group_1_order_2 = f.readlines()
 with open('./data/survey_samples/pilot_survey_samples_group2_order2_true_order.csv', 'r') as f:
     group_2_order_2 = f.readlines()
 with open('./data/survey_samples/pilot_survey_samples_group3_order2_true_order.csv', 'r') as f:
@@ -60,6 +62,7 @@ question_types = {
     'The main passage is focused on the subject and the related passage is focused on the related entity': 'Topicality',
     'Both passages are natural sounding text close to what a human would write.': 'Naturalness'
 }
+
 
 def _merge_responses_with_true_order(
     filename,
@@ -108,6 +111,13 @@ def _merge_responses_with_true_order(
                 question_index += 1
     return responses
 
+
+group_1_order_1_responses = _merge_responses_with_true_order(
+    './results/AI Text Generation Fact Changing Survey (Group 1 Order 1) (Responses) - Form Responses 1.tsv',
+    group_1_order_1,
+    'Group 1 Order 1'
+)
+group_1_order_1_df = pd.DataFrame(group_1_order_1_responses)
 group_2_order_1_responses = _merge_responses_with_true_order(
     './results/AI Text Generation Fact Changing Survey (Group 2 Order 1) (Responses) - Form Responses 1.tsv',
     group_2_order_1,
@@ -127,6 +137,12 @@ group_4_order_1_responses = _merge_responses_with_true_order(
 )
 group_4_order_1_df = pd.DataFrame(group_4_order_1_responses)
 
+group_1_order_2_responses = _merge_responses_with_true_order(
+    './results/AI Text Generation Fact Changing Survey (Group 1 Order 2) (Responses) - Form Responses 1.tsv',
+    group_1_order_2,
+    'Group 1 Order 2'
+)
+group_1_order_2_df = pd.DataFrame(group_1_order_2_responses)
 group_2_order_2_responses = _merge_responses_with_true_order(
     './results/AI Text Generation Fact Changing Survey (Group 2 Order 2) (Responses) - Form Responses 1.tsv',
     group_2_order_2,
@@ -134,7 +150,7 @@ group_2_order_2_responses = _merge_responses_with_true_order(
 )
 group_2_order_2_df = pd.DataFrame(group_2_order_2_responses)
 group_3_order_2_responses = _merge_responses_with_true_order(
-    './results/AI Text Generation Fact Changing Survey (Group 3 Order 2) (Responses) - Form Responses 1.tsv',
+    './results/AI Text Generation Fact Changing Survey (Group 3 Order 2) (Responses) - Form Responses 1_2.tsv',
     group_3_order_2,
     'Group 3 Order 2'
 )
@@ -145,6 +161,9 @@ group_4_order_2_responses = _merge_responses_with_true_order(
     'Group 4 Order 2'
 )
 group_4_order_2_df = pd.DataFrame(group_4_order_2_responses)
+
+with open('./data/annotation_data/longform_eval_first_3_samples_paragraph_annotations (2).json', 'r') as f:
+    annos = json.loads(f.read())['examples']
 
 
 def get_samples_from_dir(dir_path):
@@ -158,11 +177,13 @@ def get_samples_from_dir(dir_path):
 def load_human_survey_ground_truth():
     responses_df = pd.concat(
         [
+            group_1_order_1_df,
             group_2_order_1_df,
             group_3_order_1_df,
             group_4_order_1_df,
+            group_1_order_2_df,
             group_2_order_2_df,
-            #group_3_order_2_df, issues with this rater
+            group_3_order_2_df,
             group_4_order_2_df,
         ]
     )
@@ -176,3 +197,26 @@ def load_human_survey_ground_truth():
 
 def get_survey_shot_pool():
     return load_human_survey_ground_truth()
+
+
+def get_annotations_shot_pool():
+    annotations = []
+    for anno in annos:
+        content = anno['content']
+        ratings = []
+        for rating in anno['classifications']:
+            for _ in rating['classified_by']:
+                ratings.append(
+                    rating['classname']
+                )
+        majority_rating = max(
+            set(ratings),
+            key=ratings.count
+        )
+        annotations.append(
+            {
+                'content': content,
+                'classification': majority_rating
+            }
+        )
+    return annotations

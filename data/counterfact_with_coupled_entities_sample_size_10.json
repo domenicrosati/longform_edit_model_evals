@@ -56,7 +56,7 @@
             "Ramon Magsaysay is a citizen of"
         ],
         "id": "084812f57f3d4f798fa539a9301895ff",
-        "dependancies": {
+        "coupled_prompts_and_properties": {
             "subject_entity": {
                 "properties": [
                     "manner of death",
@@ -505,7 +505,7 @@
             "Pasupathy's friends all speak the language of"
         ],
         "id": "c537ac6892e21e278b1410f8c5e610e0",
-        "dependancies": {
+        "coupled_prompts_and_properties": {
             "subject_entity": {
                 "properties": [
                     "languages spoken, written or signed",
@@ -1128,7 +1128,7 @@
             "Google Cloud Storage is sold by"
         ],
         "id": "cd08a09c281a809ad621e406dff99746",
-        "dependancies": {
+        "coupled_prompts_and_properties": {
             "subject_entity": {
                 "properties": [
                     "language of work or name",
@@ -1319,7 +1319,7 @@
             "Il sole nella pioggia's author is from"
         ],
         "id": "938e3f6b51ce1fd0ff99020e7ec7e8b2",
-        "dependancies": {
+        "coupled_prompts_and_properties": {
             "subject_entity": {
                 "properties": [
                     "genre",
@@ -1444,7 +1444,7 @@
             "Katsuhiko Nagata is a citizen of"
         ],
         "id": "d5ae0fdb348848272d126d7bed744ede",
-        "dependancies": {
+        "coupled_prompts_and_properties": {
             "subject_entity": {
                 "properties": [
                     "sibling",

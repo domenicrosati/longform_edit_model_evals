@@ -24,6 +24,11 @@ from src.prompts import (
     ANSWER_FORMATING
 )
 from src.utils import get_sample_id
+import torch
+from transformers import AutoTokenizer, AutoModelForCausalLM
+
+device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+
 
 SURVEY_ITEM_TO_SAMPLES_TEMPLATE = {
     "new_fact_main_passage": [
@@ -172,7 +177,8 @@ def _call_open_ai(
         while not response and retries < 5:
             try:
                 response = openai.ChatCompletion.create(
-                    **payload
+                    **payload,
+                    request_timeout=60
                 )
             except (
                 openai.error.APIConnectionError,
@@ -196,6 +202,57 @@ def _call_open_ai(
     return response['choices'][0]['message']['content']
 
 
+def _call_gen_model(
+    model_name: str,
+):
+    # init the model
+    model = AutoModelForCausalLM.from_pretrained(
+        model_name,
+        local_files_only=True,
+        low_cpu_mem_usage=True
+    )
+    model.to(device)
+
+    tokenizer = AutoTokenizer.from_pretrained(
+        model_name,
+        local_files_only=True,
+        use_fast=True
+    )
+    tokenizer.pad_token_id = tokenizer.eos_token_id
+    tokenizer.padding_side = 'left'
+
+    def _call(prompt, survey_item, model=model):
+        # call the model
+        inst_prompt = INSTRUCTION_PROMPT + SURVEY_EXAMPLES[survey_item] + ANSWER_FORMATING + "[/INST]"
+        prompt = inst_prompt + prompt
+
+        inps = tokenizer(
+            prompt,
+            return_tensors='pt',
+            padding=True
+        )
+        inps = inps.to(device)
+
+        sampling_params = {
+            'do_sample': True,
+            'top_k': 50,
+            'top_p': 0.95,
+            'temperature': 0.9,
+            'num_return_sequences': 1
+        }
+
+        out = model.generate(
+            input_ids=inps['input_ids'],
+            attention_mask=inps['attention_mask'],
+            **sampling_params
+        )
+        out = tokenizer.decode(out[0])
+        return out
+        # call the model
+
+    return _call
+
+
 def _sample_n_shots(
     sample: str,
     sample_pool_ground_truth: list,
@@ -213,15 +270,14 @@ def _sample_n_shots(
 
     exemplar_sample_texts = []
     for i, gt in gt_pool.iterrows():
-        if gt['method'] == 'no_edit':
-            exemplar_sample = sample_pool_samples['no_edit'][gt['sample_id']]
-            exemplar_sample_text = _get_survey_prompt(
-                exemplar_sample,
-                survey_item
-            ) + EXEMPLAR_ANSWER_TEMPLATE.format(
-                rating=gt['response']
-            )
-            exemplar_sample_texts.append(exemplar_sample_text)
+        exemplar_sample = sample_pool_samples[gt['method']][gt['sample_id']]
+        exemplar_sample_text = _get_survey_prompt(
+            exemplar_sample,
+            survey_item
+        ) + EXEMPLAR_ANSWER_TEMPLATE.format(
+            rating=gt['response']
+        )
+        exemplar_sample_texts.append(exemplar_sample_text)
     return exemplar_sample_texts
 
 
@@ -230,8 +286,11 @@ def get_survey_results(
     model: str = "gpt-3.5-turbo-0613",
     n_shots: int = 0
 ) -> dict:
-    # TODO(dom): add support for other models
     llm_fn = _call_open_ai
+    if "gpt-3.5" in model or "gpt-4" in model:
+        llm_fn = _call_open_ai
+    else:
+        llm_fn = _call_gen_model(model)
 
     shot_pool_ground_truth, shot_pool_samples = get_survey_shot_pool()
 

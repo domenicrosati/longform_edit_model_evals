@@ -84,22 +84,22 @@ def get_sample_text(
             subject_of_edit=sample["requested_rewrite"]['subject']
         )
     if OLD_FACTS_SUBJECT_TEMPLATE in templates_to_use:
-        subject_ground_truth = sample['coupled_prompts_and_properties']['subject_entity']['ground_truth']
+        subject_ground_truth = sample['dependancies']['subject_entity']['ground_truth']
         subject_ground_truth_string = '- ' + '\n- '.join([f"{key}: {', '.join(value)}" for key,value in subject_ground_truth.items()])
         template += OLD_FACTS_SUBJECT_TEMPLATE.format(
             ground_truth_about_subject_of_edit=subject_ground_truth_string.strip()
         )
     if RELATED_PASSAGE_TEMPLATE in templates_to_use:
         template += RELATED_PASSAGE_TEMPLATE.format(
-            related_entity=sample['coupled_prompts_and_properties']['coupled_entities'][0]['entity'],
+            related_entity=sample['dependancies']['coupled_entities'][0]['entity'],
             passage_of_text_about_related_entity=sample['coupled_prompt'].strip()
         )
     if RELATED_PASSAGE_TEMPLATE_WITHOUT in templates_to_use:
         template += RELATED_PASSAGE_TEMPLATE_WITHOUT.format(
-            related_entity=sample['coupled_prompts_and_properties']['coupled_entities'][0]['entity']
+            related_entity=sample['dependancies']['coupled_entities'][0]['entity']
         )
     if OLD_FACTS_RELATED_TEMPLATE in templates_to_use:
-        related_entity_ground_truth = sample['coupled_prompts_and_properties']['coupled_entities'][0]['ground_truth']
+        related_entity_ground_truth = sample['dependancies']['coupled_entities'][0]['ground_truth']
         related_entity_ground_truth_string = '- ' + '\n- '.join([f"{key}: {', '.join(value)}" for key,value in related_entity_ground_truth.items()])
         template += OLD_FACTS_RELATED_TEMPLATE.format(
             ground_truth_about_related_entity=related_entity_ground_truth_string.strip()

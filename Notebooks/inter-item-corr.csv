@@ -1,0 +1,6 @@
+,X,Y,r,p-unc
+26,"Ignoring the old and new facts, the main passage does not contradict itself.","Ignoring the old and new facts, the related passage does not contradict itself.",0.44067274911485865,5.352536176793381e-05
+30,"Ignoring the old and new facts, the related passage does not contradict itself.","Ignoring the old and new facts, the main passage and the related passage do not contradict each other.",0.40643227484271793,0.0001981294651981507
+15,"Ignoring the new fact, most of the old facts are still true in the main passage.","Ignoring the new fact, most of the old facts are still true in the related passage.",0.3858335972245154,0.00040812668473419174
+31,"Ignoring the old and new facts, the related passage does not contradict itself.",The main passage is focused on the subject and the related passage is focused on the related entity,0.3340786286675674,0.0020651546162765563
+0,The main passage is written as if the new fact is true,The related passage does not contradict the new fact,0.28798409008191594,0.007082140828874591

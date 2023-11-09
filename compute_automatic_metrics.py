@@ -14,10 +14,14 @@ from transformers import (
 )
 
 from src.automatic_metrics import (
+    get_bertscore_samples,
+    get_consistency_scores,
+    get_n_gram_entropy_scores,
     get_nli_scores,
     get_perplexity_scores,
     get_ngram_overlap_scores
 )
+from src.tfidf_stats import AttributeSnippets, get_tfidf_vectorizer
 
 device = 'cuda' if torch.cuda.is_available() else 'cpu'
 
@@ -47,23 +51,14 @@ if __name__ == "__main__":
     results = None
     if args.metric == 'nli':
         logger.info('Getting NLI scores')
-        nli_model = DebertaV2ForSequenceClassification.from_pretrained(
-            "Joelzhang/deberta-v3-large-snli_mnli_fever_anli_R1_R2_R3-nli",
-            local_files_only=True
-        )
-        nli_tokenizer = AutoTokenizer.from_pretrained(
-            "Joelzhang/deberta-v3-large-snli_mnli_fever_anli_R1_R2_R3-nli",
-            local_files_only=True
-        )
-        nli_pipe = pipeline(
-            "text-classification", 
-            model=nli_model,
-            tokenizer=nli_tokenizer,
-            device=0 if device == 'cuda' else -1
-        )
+        from transformers import AutoTokenizer, AutoModelForSequenceClassification
+        model_name = "MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli"
+        tokenizer = AutoTokenizer.from_pretrained(model_name)
+        model = AutoModelForSequenceClassification.from_pretrained(model_name) 
         results = get_nli_scores(
             samples,
-            nli_pipe
+            tokenizer,
+            model
         )
     elif args.metric == 'perplexity':
         logger.info('Getting Perplexity scores')
@@ -84,6 +79,21 @@ if __name__ == "__main__":
     elif args.metric == 'rouge':
         logger.info('Getting ngram overlap scores')
         results = get_ngram_overlap_scores(samples)
+    elif args.metric == 'bertscore':
+        logger.info('Getting BERTScore scores')
+        results = get_bertscore_samples(samples)
+    elif args.metric == 'consistency':
+        logger.info('Getting consistency scores')
+        snips = AttributeSnippets('./data/dsets')
+        vec = get_tfidf_vectorizer('./data/dsets')
+        results = get_consistency_scores(
+            samples,
+            vec,
+            snips
+        )
+    elif args.metric == 'ngram_entropy':
+        logger.info('Getting n-gram entropy scores')
+        results = get_n_gram_entropy_scores(samples)
 
     logger.info(f'Saving to ./results/{sample_type}_{args.metric}.json')
     with open(f'./results/{sample_type}_{args.metric}.json', 'w') as f:

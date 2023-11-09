@@ -2,8 +2,6 @@
 import spacy
 
 from typing import List
-import os
-import json
 import re
 import time
 
@@ -15,10 +13,20 @@ from loguru import logger
 
 from src.utils import get_sample_id
 
+import torch
+
+import numpy as np
+
+from src.human_exemplars import get_annotations_shot_pool
+
+from transformers import AutoModelForCausalLM, AutoTokenizer
+
+device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+
 nlp = spacy.load("en_core_web_sm")
 
 ANNOTATION_GUIDELINES = """
-nstructions
+Instructions
 In this task you will read a passage of text and a claim about that passage in the form of a sentence. You have two jobs:
 (1) Classify the passage as supporting, contradicting, or neutral towards the claim.
 (2) Highlight the sentences that support or contradict the claim (if the claim is supported or contradicted)
@@ -51,11 +59,16 @@ Reason: There is nothing that either contradicts or supports the claim that the 
 """
 
 INSTRUCTION_PROMPT = """
-Label the following sentence pair as supports, contradicts, or neutral.
+Label the following passage and claim as supports, contradicts, or neutral.
 Output in the following format
 Label: <label>
 Reason: <reason for your label>
 Highlighted sentences: <sentences from the passage that support or contradict the claim>
+"""
+
+SHOT_TEMPLATE = """
+{demonstration}
+Label: {label}
 """
 
 OUTPUT_LABELS = ["contradicts", "neutral", "supports"]
@@ -83,13 +96,15 @@ def _call_open_ai(
     response = None
     try:
         response = openai.ChatCompletion.create(
-            **payload
+            **payload,
+            request_timeout=60
         )
     # TokenLimitError
     except openai.error.InvalidRequestError as e:
         logger.error(f"OpenAI API error: {e}")
         response = openai.ChatCompletion.create(
-            **payload
+            **payload,
+            request_timeout=60
         )
     # Timeout or RateLimitError
     except (
@@ -102,7 +117,8 @@ def _call_open_ai(
         logger.error(f"OpenAI API error: {e}")
         time.sleep(60)
         response = openai.ChatCompletion.create(
-            **payload
+            **payload,
+            request_timeout=60
         )
     except Exception as e:
         logger.error(f"Unknown error: {e}")
@@ -118,9 +134,9 @@ def sentence_splitter(text):
 
 
 def construct_nli_dataset(sample, intervention):
-    subject_ground_truth = sample['coupled_prompts_and_properties']['subject_entity']['ground_truth']
+    subject_ground_truth = sample['dependancies']['subject_entity']['ground_truth']
     subject_ground_truth_string = [f"{sample['requested_rewrite']['subject']} {key} {', '.join(value)}" for key,value in subject_ground_truth.items()][:4]
-    related_entity_ground_truth = sample['coupled_prompts_and_properties']['coupled_entities'][0]['ground_truth']
+    related_entity_ground_truth = sample['dependancies']['coupled_entities'][0]['ground_truth']
     related_entity_ground_truth_string = [f"{sample['requested_rewrite']['subject']} {key} {', '.join(value)}" for key,value in related_entity_ground_truth.items()][:4]
 
     new_fact = sample["requested_rewrite"]["prompt"].format(
@@ -147,22 +163,22 @@ def construct_nli_dataset(sample, intervention):
             "intervention": intervention,
             "label": "new_fact_and_related_passage"
         })
-    # for sent in main_text_segmented:
-    #     for ground_truth in subject_ground_truth_string:
-    #         sample_dataset_records.append({
-    #             "content": f"Sentence 1: {ground_truth} \n\n Sentence 2: {sent}",
-    #             "sample": sample_id,
-    #             "intervention": intervention,
-    #             "label": "ground_truth_and_main_passage"
-    #         })
-    # for sent in related_text_segmented:
-    #     for ground_truth in related_entity_ground_truth_string:
-    #         sample_dataset_records.append({
-    #             "content": f"Sentence 1: {ground_truth} \n\n Sentence 2: {sent}",
-    #             "sample": sample_id,
-    #             "intervention": intervention,
-    #             "label": "ground_truth_and_related_passage"
-    #         })
+    for sent in main_text_segmented:
+        for ground_truth in subject_ground_truth_string:
+            sample_dataset_records.append({
+                "content": f"Sentence 1: {ground_truth} \n\n Sentence 2: {sent}",
+                "sample": sample_id,
+                "intervention": intervention,
+                "label": "ground_truth_and_main_passage"
+            })
+    for sent in related_text_segmented:
+        for ground_truth in related_entity_ground_truth_string:
+            sample_dataset_records.append({
+                "content": f"Sentence 1: {ground_truth} \n\n Sentence 2: {sent}",
+                "sample": sample_id,
+                "intervention": intervention,
+                "label": "ground_truth_and_related_passage"
+            })
         
     # sentence_pairs = []
     # for sent_1 in main_text_segmented:
@@ -209,11 +225,10 @@ def construct_nli_dataset(sample, intervention):
 LABEL_1 = "Passage"
 LABEL_2 = "Claim"
 
-
 def construct_nli_dataset_paragraphs(sample, intervention):
-    subject_ground_truth = sample['coupled_prompts_and_properties']['subject_entity']['ground_truth']
+    subject_ground_truth = sample['dependancies']['subject_entity']['ground_truth']
     subject_ground_truth_string = [f"{sample['requested_rewrite']['subject']} {key} {', '.join(value)}" for key,value in subject_ground_truth.items()]
-    related_entity_ground_truth = sample['coupled_prompts_and_properties']['coupled_entities'][0]['ground_truth']
+    related_entity_ground_truth = sample['dependancies']['coupled_entities'][0]['ground_truth']
     related_entity_ground_truth_string = [f"{sample['requested_rewrite']['subject']} {key} {', '.join(value)}" for key,value in related_entity_ground_truth.items()]
 
     new_fact = sample["requested_rewrite"]["prompt"].format(
@@ -270,24 +285,102 @@ def construct_nli_dataset_paragraphs(sample, intervention):
     return sample_dataset_records
 
 
+def _call_gen_model(
+    model_name: str,
+):
+    # init the model
+    model = AutoModelForCausalLM.from_pretrained(
+        model_name,
+        local_files_only=True,
+        low_cpu_mem_usage=True
+    )
+    model.to(device)
+
+    tokenizer = AutoTokenizer.from_pretrained(
+        model_name,
+        local_files_only=True,
+        use_fast=True
+    )
+    tokenizer.pad_token_id = tokenizer.eos_token_id
+    tokenizer.padding_side = 'left'
+
+    def _call(prompt, model=model):
+        # call the model
+        inst_prompt = ANNOTATION_GUIDELINES + INSTRUCTION_PROMPT + "[/INST]"
+        prompt = inst_prompt + prompt + "\nLabel:"
+
+        inps = tokenizer(
+            prompt,
+            return_tensors='pt',
+            padding=True
+        )
+        inps = inps.to(device)
+
+        sampling_params = {
+            'do_sample': True,
+            'top_k': 50,
+            'top_p': 0.95,
+            'temperature': 0.9,
+            'num_return_sequences': 1
+        }
+
+        out = model.generate(
+            input_ids=inps['input_ids'],
+            attention_mask=inps['attention_mask'],
+            **sampling_params
+        )
+        out = tokenizer.decode(out[0])
+        return out
+        # call the model
+
+    return _call
+
+
+def _sample_n_shots(
+    shot_pool: list[dict],
+    passage: str,
+    n_shots: int
+) -> str:
+    if n_shots == 0:
+        return []
+
+    # get the n_shots
+    exemplars = []
+    while len(exemplars) < n_shots:
+        # get a random shot
+        exemplars = [
+            SHOT_TEMPLATE.format(
+                demonstration=shot['content'],
+                label=shot['classification']
+            ) for shot in
+            np.random.choice(
+                shot_pool,
+                n_shots,
+                replace=False
+            )
+            if shot['content'] != passage
+        ]
+
+    return exemplars
+
+
 def get_annotation_results(
     samples: List[str],
     intervention: str,
-    model: str = "gpt-3.5-turbo-0613"
+    model: str = "gpt-3.5-turbo-0613",
+    n_shots: int = 0
 ) -> dict:
-    # TODO(dom): add support for other models
     llm_fn = _call_open_ai
+    if "gpt-3.5" in model or "gpt-4" in model:
+        llm_fn = _call_open_ai
+    else:
+        llm_fn = _call_gen_model(model)
 
-    # pretest_samples = [
-    #     'ad41a34db7e3975d6b83d2ddedb19d9f',
-    #     '857c595296caaeab532251cf9d8f3979',
-    #     'a41ba08ffb8af6eb5ecf70c7a52a6289'
-    # ]
+    shot_pool = get_annotations_shot_pool()
+
     passages = []
     logger.info("Constructing dataset")
     for sample in tqdm(samples):
-        # if get_sample_id(sample) not in pretest_samples:
-        #     continue
         passages.extend(
             construct_nli_dataset_paragraphs(sample, intervention)
         )
@@ -296,7 +389,15 @@ def get_annotation_results(
     logger.info("Labeling passages")
     for passage in tqdm(passages):
         try:
-            output = llm_fn(passage['content'], model=model)
+            exemplars = _sample_n_shots(
+                shot_pool,
+                passage['content'],
+                n_shots
+            )
+            output = llm_fn(
+                '\n'.join(exemplars) + passage['content'],
+                model=model
+            )
             # parse Label: <label> out using regex
             regex = r"Label: ([A-Za-z]+)"
             matches = re.findall(regex, output)

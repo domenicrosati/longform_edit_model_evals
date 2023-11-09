@@ -11,11 +11,14 @@ from src.llm_annotator import get_annotation_results
 parser = argparse.ArgumentParser()
 parser.add_argument('--sample-dir', type=str)
 parser.add_argument('--sample-type', type=str)
+parser.add_argument('--method', type=str)
+parser.add_argument('--n-shots', type=int, default=0)
 parser.add_argument('--model', type=str, default='gpt-3.5-turbo-0613')
 
 args = parser.parse_args()
 
-openai.api_key = os.environ['OPENAI_API_KEY']
+if 'OPENAI_API_KEY' in os.environ:
+    openai.api_key = os.environ['OPENAI_API_KEY']
 
 
 def get_samples_from_dir(dir_path):
@@ -41,7 +44,8 @@ if __name__ == '__main__':
     results = get_annotation_results(
         samples,
         sample_type,
-        model=model
+        model=model,
+        n_shots=args.n_shots
     )
 
     # print summary stats
@@ -50,5 +54,5 @@ if __name__ == '__main__':
         df.groupby(['label', 'classification']).count() / len(df)
     )
 
-    with open(f'./results/annotations_{sample_type}_{model}.json', 'w') as f:
+    with open(f'./results/annotations_{sample_type}_{model}_{args.n_shots}.json', 'w') as f:
         json.dump(results, f)

@@ -11,10 +11,15 @@ from src.utils import get_sample_id
 parser = argparse.ArgumentParser()
 parser.add_argument('--dataset', type=str, default='./data/counterfact.json')
 parser.add_argument('--sample-size', type=int, default=0)
+parser.add_argument('--limit', type=int, default=0)
 
 
 def construct_dataset():
     args = parser.parse_args()
+
+    limit = None
+    if args.limit > 0:
+        limit = args.limit
 
     np.random.seed(42)
 
@@ -55,6 +60,8 @@ def construct_dataset():
             'coupled_prompts_and_properties':  out
         })
         items.append(new_item)
+        if limit is not None and len(items) >= limit:
+            break
 
     # append new item to dataset file without overwriting
     sample_size_str = f"_sample_size_{args.sample_size}" if args.sample_size > 0 else ""

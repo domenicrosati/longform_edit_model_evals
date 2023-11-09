@@ -1,0 +1,55 @@
+method,question_type_x,alpha,spearman
+gpt35_8_shot,"Ignoring the new fact, most of the old facts are still true in the main passage.",-0.45568788216877265,0.017395262064498224
+gpt35,"Ignoring the old and new facts, the related passage does not contradict itself.",-0.2882170885376367,-0.21757861658033306
+gpt35,The main passage is focused on the subject and the related passage is focused on the related entity,-0.2767857142857142,
+llama2_8_shot,"Ignoring the old and new facts, the related passage does not contradict itself.",-0.22955202312138723,-0.3107167785343189
+gpt4,"Ignoring the old and new facts, the related passage does not contradict itself.",-0.22455547071015625,-0.16308881711337722
+gpt4,The main passage is focused on the subject and the related passage is focused on the related entity,-0.17120211360634086,-0.1275447861790498
+llama2_8_shot,The related passage does not contradict the new fact,-0.1707689696146666,-0.24806941902944463
+gpt4_8_shot,Both passages are natural sounding text close to what a human would write.,-0.14098690835850958,-0.019861148144081693
+gpt4_8_shot,"Ignoring the old and new facts, the main passage does not contradict itself.",-0.10105140186915884,-0.09843318228405057
+llama2,The main passage is written as if the new fact is true,-0.09671818902017626,-0.09825457258378438
+gpt4_8_shot,The main passage is focused on the subject and the related passage is focused on the related entity,-0.09302759134973893,0.0006555771997675462
+gpt35,Both passages are natural sounding text close to what a human would write.,-0.09044624138963764,-0.07766424774116452
+llama2,"Ignoring the old and new facts, the related passage does not contradict itself.",-0.08856682769726265,-0.12247832311874152
+gpt35_8_shot,The main passage is focused on the subject and the related passage is focused on the related entity,-0.08552047161430987,-0.02407120281580411
+llama2_8_shot,"Ignoring the new fact, most of the old facts are still true in the main passage.",-0.07379780197921337,-0.09498971979611216
+llama2,"Ignoring the old and new facts, the main passage and the related passage do not contradict each other.",-0.06272830331275969,-0.08093588559431722
+llama2,"Ignoring the old and new facts, the main passage does not contradict itself.",-0.06005168661588689,-0.09639926088703245
+llama2_8_shot,"Ignoring the new fact, most of the old facts are still true in the related passage.",-0.05426408076514355,-0.013025453090369494
+gpt35,The related passage does not contradict the new fact,-0.046196715479931205,0.13002484760605262
+gpt4,"Ignoring the old and new facts, the main passage and the related passage do not contradict each other.",-0.021228473223985356,0.06352436098451412
+llama2,"Ignoring the new fact, most of the old facts are still true in the related passage.",-0.008895705521472452,0.08483786064353506
+gpt35_8_shot,"Ignoring the old and new facts, the main passage does not contradict itself.",-0.008772250447750318,0.12870651988067608
+llama2_8_shot,The main passage is focused on the subject and the related passage is focused on the related entity,-0.007124331133533834,-0.04391117308779371
+llama2,The main passage is focused on the subject and the related passage is focused on the related entity,0.003937007874015852,0.05392450925574172
+llama2_8_shot,Both passages are natural sounding text close to what a human would write.,0.019439451434658195,-0.02940540904997468
+llama2_8_shot,"Ignoring the old and new facts, the main passage does not contradict itself.",0.020326123881780123,-0.0592556455239497
+llama2,Both passages are natural sounding text close to what a human would write.,0.040449862961912775,0.010064094298139438
+llama2,"Ignoring the new fact, most of the old facts are still true in the main passage.",0.04655109710267935,0.10651349625947946
+gpt35_8_shot,The related passage does not contradict the new fact,0.060793354686565215,0.16038805545673185
+gpt35_8_shot,The main passage is written as if the new fact is true,0.07248116871356991,0.12392033880953368
+gpt4_8_shot,"Ignoring the old and new facts, the related passage does not contradict itself.",0.0910099889012208,0.02700108446145947
+gpt35_8_shot,"Ignoring the new fact, most of the old facts are still true in the related passage.",0.09133403936749085,0.10034654224728194
+gpt35,"Ignoring the new fact, most of the old facts are still true in the related passage.",0.09532416876754035,0.24826755696293507
+gpt35_8_shot,"Ignoring the old and new facts, the related passage does not contradict itself.",0.09642052052735828,0.025603430634678268
+gpt35,"Ignoring the old and new facts, the main passage and the related passage do not contradict each other.",0.09981014977073632,0.07470736643228504
+gpt35_8_shot,"Ignoring the old and new facts, the main passage and the related passage do not contradict each other.",0.1041034538756741,0.14089915971509415
+llama2,The related passage does not contradict the new fact,0.1081478756667279,0.20975418401661727
+gpt4,Both passages are natural sounding text close to what a human would write.,0.11033617212012548,0.27000065662139355
+gpt4_8_shot,"Ignoring the old and new facts, the main passage and the related passage do not contradict each other.",0.11565812424527044,0.15282709627726587
+gpt35_8_shot,Both passages are natural sounding text close to what a human would write.,0.14485782996180496,0.22270997959987923
+gpt4,"Ignoring the new fact, most of the old facts are still true in the main passage.",0.15968528459615627,0.15533779060531291
+gpt4,"Ignoring the old and new facts, the main passage does not contradict itself.",0.15991529476057098,0.14513229431186705
+gpt4,The related passage does not contradict the new fact,0.16074293287099328,0.16257780459124768
+gpt4,"Ignoring the new fact, most of the old facts are still true in the related passage.",0.161624203821656,0.18395657373087146
+gpt35,"Ignoring the old and new facts, the main passage does not contradict itself.",0.1658333333333334,0.13711011911329984
+gpt35,"Ignoring the new fact, most of the old facts are still true in the main passage.",0.17038588382561803,0.17655550350554883
+llama2_8_shot,"Ignoring the old and new facts, the main passage and the related passage do not contradict each other.",0.23106171395144792,0.2926386522782839
+llama2_8_shot,The main passage is written as if the new fact is true,0.2749042045037007,0.15701423912334975
+gpt4_8_shot,"Ignoring the new fact, most of the old facts are still true in the main passage.",0.30750252327015815,0.30488598441708303
+gpt4_8_shot,"Ignoring the new fact, most of the old facts are still true in the related passage.",0.32242218744566153,0.3419521099171586
+gpt4_8_shot,The related passage does not contradict the new fact,0.4384968812904507,0.4833376890154647
+gpt35,The main passage is written as if the new fact is true,0.5636845504554464,0.4996745745290438
+gpt4,The main passage is written as if the new fact is true,0.5658603466849477,0.5006003288395228
+gpt4_8_shot,The main passage is written as if the new fact is true,0.6150667682076261,0.5572147532727899
